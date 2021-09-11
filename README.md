@@ -2,7 +2,7 @@
 
 ## Project Summary
 Our aim is to provide useful information for prospective travelers to National Parks.
-We will source the data and upload onto sql server, 
+We will source the data and upload onto sql server, then upload onto website with Flask/HTML/CSS/Javascript
 
 ## Data Sources
 * Find list of national parks and their locations: https://www.nps.gov/subjects/developer/api-documentation.htm
@@ -15,10 +15,11 @@ We will source the data and upload onto sql server,
 
 ## Project Outline
 1. Extract Data from API 
-2. Clean the data in jupyter notebook
-3. Load data onto Postgres 
-4. Create HTML pages (things to do, campgrounds, etc.) 
-5. Javascript - map visualization to show location of national parks and zoom in to show locations of nearby hotels 
+2. Create ERD for the fields we will need, and define primary keys
+3. Clean the data in jupyter notebook
+4. Load data onto Postgres 
+5. Create HTML pages (things to do, campgrounds, etc.) 
+6. Javascript - map visualization to show location of national parks and zoom in to show locations of nearby hotels 
 
 
 
