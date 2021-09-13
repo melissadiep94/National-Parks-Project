@@ -2,7 +2,7 @@
 
 ## Project Summary
 Our aim is to provide useful information for prospective travelers to National Parks.
-We will source the data and upload onto sql server, then upload onto website with Flask/HTML/CSS/Javascript
+We will source the data and upload onto Mongo database,  upload onto website with Flask server, and format website with HTML/CSS/Javascript
 
 ## Data Sources
 * Find list of national parks and their locations: https://www.nps.gov/subjects/developer/api-documentation.htm
