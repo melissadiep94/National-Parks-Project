@@ -9,6 +9,7 @@ We will source the data and upload onto Mongo database,  upload onto website wit
   * Names of all national parks and their parkCode
   * park description
   * long and latitude of each park
+  * address
   * link to each park website
   * hours of operation
   * image of each park
