@@ -16,11 +16,15 @@ We will source the data and upload onto sql server, then upload onto website wit
 ## Project Outline
 1. Extract Data from API 
 2. Create ERD for the fields we will need, and define primary keys
-3. Clean the data in jupyter notebook
-4. Load data onto Postgres 
+3. Clean the data in Flask app.py file
+4. Load data onto Mongo 
 5. Create HTML pages (things to do, campgrounds, etc.) 
 6. Javascript - map visualization to show location of national parks and zoom in to show locations of nearby hotels 
 
 
 
-Team Memebers: 
+## Team Members
+* Melissa Diep
+* Dasa Simo
+* Shuchi Khandelwal 
+* Megan Butler
