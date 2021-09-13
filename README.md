@@ -15,7 +15,6 @@ We will source the data and upload onto Mongo database,  upload onto website wit
   * weatherInfo
   * print out activities for each park
 * Hotels nearby: https://maps.googleapis.com/maps/api/place/nearbysearch/json 
-* Ratings of hotels: hotwire/tripadvisor ?
 
 ## Project Outline
 1. Extract Data from API  
