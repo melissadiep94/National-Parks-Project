@@ -1,6 +1,5 @@
 # import dependences
 from flask import Flask, render_template, redirect
-from natlparks import NatlParks
 import pymongo
 import park_scraper
 # Create an instance of Flask
@@ -17,15 +16,14 @@ db = client.parks_db
 collection = db.parks
 
 # Route to render index.html template using data from Mongo
-@app.route("/")
-def home():
+@app.route("/index")
+def index():
     parks = collection.find_one()
     return render_template("index.html", parks=parks)
 
 # scrape route to scrape
 @app.route('/parks')
 def parks():
-    parks.scrape()
     return redirect("/")
 
 @app.route("/hotels")
