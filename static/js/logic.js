@@ -22,6 +22,6 @@ var myMap = L.map("map", {
   for (var i = 0; i < park.length; i++) {
     var area = park[i];
     L.marker(area.location)
-      .bindPopup(`<h5><a href= "acad.html">${area.name}</a></h5> <hr> <b>Designation:</b> ${area.designation}`)
+      .bindPopup(`<h5><a href= "parks/acad">${area.name}</a></h5> <hr> <b>Designation:</b> ${area.designation}`)
       .addTo(myMap);
   }
