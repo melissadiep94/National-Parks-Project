@@ -12,11 +12,6 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/state.html")
-def state():
-    # states = mongo.travel.states.find_all()
-    return render_template("state.html") # states=states)
-
 
 @app.route("/name.html")
 def p_name():
@@ -41,7 +36,7 @@ def p_name():
 def park_detail(pCode):
    
     
-    #mongo.db.travel_info.find(parkCode=pCode) 
+    #park_info = mongo.db.travel_info.find(parkCode=pCode) 
     park_info = {
                 "fullName": "Abraham Lincoln Birthplace National Historical Park",
                 "parkCode": "abli",
@@ -93,6 +88,15 @@ def park_detail(pCode):
     return render_template("park_detail.html", park = park_info)
 
 
+@app.route("/hotels.html")
+def hotels():
+    return render_template("hotels.html")
+
+@app.route("/visitation.html")
+def visitation():
+    return render_template("visitation.html")
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)
-
