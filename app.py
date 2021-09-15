@@ -26,8 +26,8 @@ def index():
 def parks():
     return redirect("/")
 
-@app.route("/hotels")
-def hotels():
+@app.route("/hotel")
+def hotel():
 
 if __name__ == "__main__":
     app.run(debug=True)
