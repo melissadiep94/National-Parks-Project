@@ -2,6 +2,7 @@
 from flask import Flask, render_template, redirect
 import pymongo
 from natlparks import NatlParks
+import json
 # Create an instance of Flask
 app = Flask(__name__)
 
@@ -26,27 +27,24 @@ def index():
 def parks():
     
  results = list(client.parks_db.find())
- for result in results:
-   del(result['_id'])
- return json.dumps(results)
+ for parks in park:
+  return render_template("parks.html", names=names)
 
 # route to find visitation 
 @app.route("/visitation")
-def visitation():
+def visitation(): 
 
  results = list(client.parks_db.find())
- for result in results:
-   del(result['_id'])
- return json.dumps(results)
+ for visits in visitation:
+  return render_template("visitation.html", visit= visits)
 
 # route to find nearby hotels
-@app.route("/hotel")
-def hotel():
+#@app.route("/hotel")
+#def hotel():
 
-results = list(client.parks_db.find())
-for result in results:
-   del(result['_id'])
-return json.dumps(results)
+ #results = list(client.parks_db.find())
+ #for parks in park:
+ #return render_template("hotel.html", names=names)
 
 
 if __name__ == "__main__":
