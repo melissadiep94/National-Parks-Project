@@ -1,7 +1,7 @@
 # import dependences
 from flask import Flask, render_template, redirect
 import pymongo
-import park_scraper
+from natlparks import NatlParks
 # Create an instance of Flask
 app = Flask(__name__)
 
@@ -21,13 +21,33 @@ def index():
     parks = collection.find_one()
     return render_template("index.html", parks=parks)
 
-# scrape route to scrape
+# route to find parks by name
 @app.route('/parks')
 def parks():
-    return redirect("/")
+    
+ results = list(client.parks_db.find())
+ for result in results:
+   del(result['_id'])
+ return json.dumps(results)
 
+# route to find visitation 
+@app.route("/visitation")
+def visitation():
+
+ results = list(client.parks_db.find())
+ for result in results:
+   del(result['_id'])
+ return json.dumps(results)
+
+# route to find nearby hotels
 @app.route("/hotel")
 def hotel():
 
+results = list(client.parks_db.find())
+for result in results:
+   del(result['_id'])
+return json.dumps(results)
+
+
 if __name__ == "__main__":
-    app.run(debug=True)
+ app.run(debug=True)
