@@ -1,4 +1,10 @@
+var myMap;
+var parkData;
+var redMarker;
+var marker = 0;
+
 function createMap(data) {
+  parkData = data;
   
   // Add a tile layer.
    var streetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -13,15 +19,7 @@ function createMap(data) {
     "Street Map": streetmap,
     "Topographic Map": topo
   };
-
-  var park = [{
-    location: [44.409286, -68.247501],
-    name: "Belmont-Paul Women's Equality National Monument",
-    designation: "National Park",
-    other_info: "Anything from data found" 
-  },
-  ];
-  
+ 
   var allParks =[];
 
   // Looping through the parks, adding marker
@@ -32,38 +30,57 @@ function createMap(data) {
       .bindPopup(`<h5><a href= "parks/${area.parkCode}">${area.fullName}</a></h5> <hr> <b> ${area.designation}</b>`)
       );
   }//
+
   var allParksLayer = L.layerGroup(allParks);
   var overlayMaps = {
   "Parks Location": allParksLayer,
+
    };
   
   /// Create a map object.
-  var myMap = L.map("map", {
+  myMap = L.map("map", {
   center: [37.09, -95.71],
   zoom: 5,
   layers: [streetmap, topo, allParksLayer]
   });
 
+  marker = L.marker([data[0].latitude,data[0].longitude]).addTo(myMap);
+
   L.control.layers(baseMaps,  overlayMaps, {
   collapsed: false
   }).addTo(myMap);
+
+  redMarker = L.ExtraMarkers.icon({
+    icon: 'fa-coffee',
+    markerColor: 'red',
+    shape: 'square',
+    prefix: 'fa'
+  });
+
 }
 
 
   function getPark(name1) {
-    // d3.json("/static/data/data.json").then((data) => {
-     d3.json("/static/data/park_clean.json").then((data) => {
-        console.log(name1);
-        console.log(data);
-        createMap(data, name1);
-  }); 
+  
+    myMap.removeLayer(marker);
+    for (var i = 0; i < parkData.length; i++) {
+      var area = parkData[i];
+      if (name1 == area.fullName) {
+          marker = new L.marker([area.latitude, area.longitude],  {icon: redMarker, zIndexOffset:1000})
+        .bindPopup(`<h5><a href= "parks/${area.parkCode}">${area.fullName}</a></h5> <hr> <b> ${area.designation}</b>`).addTo(myMap);
+      }
+    }
+  }
+  // var marker;
+  // function newMarker() {
+  //  markerLayer = L.layerGroup();
+  //  marker = new L.marker( [12, 13],
+  //  {icon:greenMarker, clickable:true}).bindPopup("Hello Marker").addTo(markerLayer); 
+  
 
+  // };
 
-}
-
-//createMap("", "");
 
 d3.json("/static/data/park_clean.json").then((data) => {
-  console.log(data);
-  createMap(data);
+   createMap(data);
 });
