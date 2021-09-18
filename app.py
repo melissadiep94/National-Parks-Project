@@ -37,7 +37,7 @@ def park_detail(pCode):
    
     park_info_from_db = collection.find({"parkCode": pCode})[0]
         
-    string_to_list(park_info_from_db,"images_url") 
+    # string_to_list(park_info_from_db,"images_url") 
     
     return render_template("park_detail.html", park = park_info_from_db)
 
