@@ -6,8 +6,9 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("background-home-image2.jpg");
+  background-image: url("/static/img/background-home-image2.jpg");
   background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -20,9 +21,19 @@ h1 {
 
 h5 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold; 
+}
+
+a.navbar-brand {
+    font-family: 'Elianto', sans-serif;
+    }
+a.nav-link {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 14px;
   font-weight: bold; 
 
+}
 #map,
 
 html {
