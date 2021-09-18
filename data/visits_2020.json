@@ -1,0 +1,3041 @@
+[{
+  "_id": {
+    "$oid": "614575f380772fa3d72193c3"
+  },
+  "Park": "Blue Ridge PKWY",
+  "Rank": 1,
+  "Recreation Visits": 14099485,
+  "% of Total": 5.95
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193c4"
+  },
+  "Park": "Golden Gate NRA",
+  "Rank": 2,
+  "Recreation Visits": 12400045,
+  "% of Total": 5.23
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193c5"
+  },
+  "Park": "Great Smoky Mountains NP",
+  "Rank": 3,
+  "Recreation Visits": 12095720,
+  "% of Total": 5.1
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193c6"
+  },
+  "Park": "Gateway NRA",
+  "Rank": 4,
+  "Recreation Visits": 8404728,
+  "% of Total": 3.55
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193c7"
+  },
+  "Park": "Lake Mead NRA",
+  "Rank": 5,
+  "Recreation Visits": 8016510,
+  "% of Total": 3.38
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193c8"
+  },
+  "Park": "George Washington MEM PKWY",
+  "Rank": 6,
+  "Recreation Visits": 6237361,
+  "% of Total": 2.63
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193c9"
+  },
+  "Park": "Natchez Trace PKWY",
+  "Rank": 7,
+  "Recreation Visits": 6124808,
+  "% of Total": 2.58
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193ca"
+  },
+  "Park": "Chesapeake & Ohio Canal NHP",
+  "Rank": 8,
+  "Recreation Visits": 4888436,
+  "% of Total": 2.06
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193cb"
+  },
+  "Park": "Cape Cod NS",
+  "Rank": 9,
+  "Recreation Visits": 4083505,
+  "% of Total": 1.72
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193cc"
+  },
+  "Park": "Delaware Water Gap NRA",
+  "Rank": 10,
+  "Recreation Visits": 4068529,
+  "% of Total": 1.72
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193cd"
+  },
+  "Park": "Gulf Islands NS",
+  "Rank": 11,
+  "Recreation Visits": 4012129,
+  "% of Total": 1.69
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193ce"
+  },
+  "Park": "Yellowstone NP",
+  "Rank": 12,
+  "Recreation Visits": 3806306,
+  "% of Total": 1.61
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193cf"
+  },
+  "Park": "Zion NP",
+  "Rank": 13,
+  "Recreation Visits": 3591254,
+  "% of Total": 1.51
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193d0"
+  },
+  "Park": "Rocky Mountain NP",
+  "Rank": 14,
+  "Recreation Visits": 3305199,
+  "% of Total": 1.39
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193d1"
+  },
+  "Park": "Grand Teton NP",
+  "Rank": 15,
+  "Recreation Visits": 3289638,
+  "% of Total": 1.39
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193d2"
+  },
+  "Park": "Chattahoochee River NRA",
+  "Rank": 16,
+  "Recreation Visits": 3066877,
+  "% of Total": 1.29
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193d3"
+  },
+  "Park": "Lincoln Memorial",
+  "Rank": 17,
+  "Recreation Visits": 2980075,
+  "% of Total": 1.26
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193d4"
+  },
+  "Park": "Colonial NHP",
+  "Rank": 18,
+  "Recreation Visits": 2946594,
+  "% of Total": 1.24
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193d5"
+  },
+  "Park": "Grand Canyon NP",
+  "Rank": 19,
+  "Recreation Visits": 2897098,
+  "% of Total": 1.22
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193d6"
+  },
+  "Park": "Cuyahoga Valley NP",
+  "Rank": 20,
+  "Recreation Visits": 2755628,
+  "% of Total": 1.16
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193d7"
+  },
+  "Park": "Acadia NP",
+  "Rank": 21,
+  "Recreation Visits": 2669034,
+  "% of Total": 1.13
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193d8"
+  },
+  "Park": "Cape Hatteras NS",
+  "Rank": 22,
+  "Recreation Visits": 2648522,
+  "% of Total": 1.12
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193d9"
+  },
+  "Park": "Glen Canyon NRA",
+  "Rank": 23,
+  "Recreation Visits": 2553392,
+  "% of Total": 1.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193da"
+  },
+  "Park": "Olympic NP",
+  "Rank": 24,
+  "Recreation Visits": 2499177,
+  "% of Total": 1.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193db"
+  },
+  "Park": "Assateague Island NS",
+  "Rank": 25,
+  "Recreation Visits": 2481660,
+  "% of Total": 1.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193dc"
+  },
+  "Park": "Joshua Tree NP",
+  "Rank": 26,
+  "Recreation Visits": 2399542,
+  "% of Total": 1.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193dd"
+  },
+  "Park": "Kennesaw Mountain NBP",
+  "Rank": 27,
+  "Recreation Visits": 2356401,
+  "% of Total": 0.99
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193de"
+  },
+  "Park": "Indiana Dunes NP",
+  "Rank": 28,
+  "Recreation Visits": 2293106,
+  "% of Total": 0.97
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193df"
+  },
+  "Park": "Yosemite NP",
+  "Rank": 29,
+  "Recreation Visits": 2268313,
+  "% of Total": 0.96
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193e0"
+  },
+  "Park": "Point Reyes NS",
+  "Rank": 30,
+  "Recreation Visits": 2252424,
+  "% of Total": 0.95
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193e1"
+  },
+  "Park": "Mount Rushmore NMEM",
+  "Rank": 31,
+  "Recreation Visits": 2074986,
+  "% of Total": 0.88
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193e2"
+  },
+  "Park": "Valley Forge NHP",
+  "Rank": 32,
+  "Recreation Visits": 2012832,
+  "% of Total": 0.85
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193e3"
+  },
+  "Park": "San Francisco Maritime NHP",
+  "Rank": 33,
+  "Recreation Visits": 1936101,
+  "% of Total": 0.82
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193e4"
+  },
+  "Park": "World War II Memorial",
+  "Rank": 34,
+  "Recreation Visits": 1924128,
+  "% of Total": 0.81
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193e5"
+  },
+  "Park": "Rock Creek Park",
+  "Rank": 35,
+  "Recreation Visits": 1768152,
+  "% of Total": 0.75
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193e6"
+  },
+  "Park": "Sleeping Bear Dunes NL",
+  "Rank": 36,
+  "Recreation Visits": 1718696,
+  "% of Total": 0.72
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193e7"
+  },
+  "Park": "Glacier NP",
+  "Rank": 37,
+  "Recreation Visits": 1698864,
+  "% of Total": 0.72
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193e8"
+  },
+  "Park": "Shenandoah NP",
+  "Rank": 38,
+  "Recreation Visits": 1666265,
+  "% of Total": 0.7
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193e9"
+  },
+  "Park": "Lake Meredith NRA",
+  "Rank": 39,
+  "Recreation Visits": 1612784,
+  "% of Total": 0.68
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193ea"
+  },
+  "Park": "Vietnam Veterans MEM",
+  "Rank": 40,
+  "Recreation Visits": 1585525,
+  "% of Total": 0.67
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193eb"
+  },
+  "Park": "Lake Roosevelt NRA",
+  "Rank": 41,
+  "Recreation Visits": 1519403,
+  "% of Total": 0.64
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193ec"
+  },
+  "Park": "Buffalo NR",
+  "Rank": 42,
+  "Recreation Visits": 1478846,
+  "% of Total": 0.62
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193ed"
+  },
+  "Park": "Bryce Canyon NP",
+  "Rank": 43,
+  "Recreation Visits": 1464655,
+  "% of Total": 0.62
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193ee"
+  },
+  "Park": "Amistad NRA",
+  "Rank": 44,
+  "Recreation Visits": 1424139,
+  "% of Total": 0.6
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193ef"
+  },
+  "Park": "John D. Rockefeller, Jr. MEM PKWY",
+  "Rank": 45,
+  "Recreation Visits": 1373817,
+  "% of Total": 0.58
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193f0"
+  },
+  "Park": "Korean War Veterans Memorial",
+  "Rank": 46,
+  "Recreation Visits": 1363714,
+  "% of Total": 0.58
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193f1"
+  },
+  "Park": "Hot Springs NP",
+  "Rank": 47,
+  "Recreation Visits": 1348215,
+  "% of Total": 0.57
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193f2"
+  },
+  "Park": "Chickasaw NRA",
+  "Rank": 48,
+  "Recreation Visits": 1348122,
+  "% of Total": 0.57
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193f3"
+  },
+  "Park": "Ozark NSR",
+  "Rank": 49,
+  "Recreation Visits": 1316795,
+  "% of Total": 0.56
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193f4"
+  },
+  "Park": "Arches NP",
+  "Rank": 50,
+  "Recreation Visits": 1238083,
+  "% of Total": 0.52
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193f5"
+  },
+  "Park": "Pictured Rocks NL",
+  "Rank": 51,
+  "Recreation Visits": 1212251,
+  "% of Total": 0.51
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193f6"
+  },
+  "Park": "Big Cypress NPRES",
+  "Rank": 52,
+  "Recreation Visits": 1181930,
+  "% of Total": 0.5
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193f7"
+  },
+  "Park": "Canaveral NS",
+  "Rank": 53,
+  "Recreation Visits": 1162950,
+  "% of Total": 0.49
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193f8"
+  },
+  "Park": "Mount Rainier NP",
+  "Rank": 54,
+  "Recreation Visits": 1160754,
+  "% of Total": 0.49
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193f9"
+  },
+  "Park": "San Antonio Missions NHP",
+  "Rank": 55,
+  "Recreation Visits": 1141353,
+  "% of Total": 0.48
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193fa"
+  },
+  "Park": "Minute Man NHP",
+  "Rank": 56,
+  "Recreation Visits": 1083973,
+  "% of Total": 0.46
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193fb"
+  },
+  "Park": "Martin Luther King, Jr. Memorial",
+  "Rank": 57,
+  "Recreation Visits": 1083671,
+  "% of Total": 0.46
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193fc"
+  },
+  "Park": "New River Gorge NP & PRES",
+  "Rank": 58,
+  "Recreation Visits": 1054374,
+  "% of Total": 0.44
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193fd"
+  },
+  "Park": "Timucuan EHP",
+  "Rank": 59,
+  "Recreation Visits": 1017373,
+  "% of Total": 0.43
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193fe"
+  },
+  "Park": "Franklin Delano Roosevelt MEM",
+  "Rank": 60,
+  "Recreation Visits": 1010986,
+  "% of Total": 0.43
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72193ff"
+  },
+  "Park": "Capitol Reef NP",
+  "Rank": 61,
+  "Recreation Visits": 981038,
+  "% of Total": 0.41
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219400"
+  },
+  "Park": "Curecanti NRA",
+  "Rank": 62,
+  "Recreation Visits": 921584,
+  "% of Total": 0.39
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219401"
+  },
+  "Park": "Ross Lake NRA",
+  "Rank": 63,
+  "Recreation Visits": 920526,
+  "% of Total": 0.39
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219402"
+  },
+  "Park": "Badlands NP",
+  "Rank": 64,
+  "Recreation Visits": 916932,
+  "% of Total": 0.39
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219403"
+  },
+  "Park": "Independence NHP",
+  "Rank": 65,
+  "Recreation Visits": 907090,
+  "% of Total": 0.38
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219404"
+  },
+  "Park": "National Capital Parks East",
+  "Rank": 66,
+  "Recreation Visits": 893421,
+  "% of Total": 0.38
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219405"
+  },
+  "Park": "Fort Point NHS",
+  "Rank": 67,
+  "Recreation Visits": 884538,
+  "% of Total": 0.37
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219406"
+  },
+  "Park": "Thomas Jefferson MEM",
+  "Rank": 68,
+  "Recreation Visits": 852626,
+  "% of Total": 0.36
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219407"
+  },
+  "Park": "Cedar Breaks NM",
+  "Rank": 69,
+  "Recreation Visits": 845867,
+  "% of Total": 0.36
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219408"
+  },
+  "Park": "Fredericksburg & Spotsylvania NMP",
+  "Rank": 70,
+  "Recreation Visits": 838835,
+  "% of Total": 0.35
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219409"
+  },
+  "Park": "Death Valley NP",
+  "Rank": 71,
+  "Recreation Visits": 820023,
+  "% of Total": 0.35
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721940a"
+  },
+  "Park": "Whiskeytown NRA",
+  "Rank": 72,
+  "Recreation Visits": 805295,
+  "% of Total": 0.34
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721940b"
+  },
+  "Park": "Little River Canyon NPRES",
+  "Rank": 73,
+  "Recreation Visits": 802375,
+  "% of Total": 0.34
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721940c"
+  },
+  "Park": "Saint Croix NSR",
+  "Rank": 74,
+  "Recreation Visits": 798622,
+  "% of Total": 0.34
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721940d"
+  },
+  "Park": "Sequoia NP",
+  "Rank": 75,
+  "Recreation Visits": 796086,
+  "% of Total": 0.34
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721940e"
+  },
+  "Park": "Big South Fork NRRA",
+  "Rank": 76,
+  "Recreation Visits": 772625,
+  "% of Total": 0.33
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721940f"
+  },
+  "Park": "Saguaro NP",
+  "Rank": 77,
+  "Recreation Visits": 762226,
+  "% of Total": 0.32
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219410"
+  },
+  "Park": "Cumberland Gap NHP",
+  "Rank": 78,
+  "Recreation Visits": 735447,
+  "% of Total": 0.31
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219411"
+  },
+  "Park": "Santa Monica Mountains NRA",
+  "Rank": 79,
+  "Recreation Visits": 733576,
+  "% of Total": 0.31
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219412"
+  },
+  "Park": "Everglades NP",
+  "Rank": 80,
+  "Recreation Visits": 702319,
+  "% of Total": 0.3
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219413"
+  },
+  "Park": "Chickamauga & Chattanooga NMP",
+  "Rank": 81,
+  "Recreation Visits": 678414,
+  "% of Total": 0.29
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219414"
+  },
+  "Park": "Crater Lake NP",
+  "Rank": 82,
+  "Recreation Visits": 670500,
+  "% of Total": 0.28
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219415"
+  },
+  "Park": "Fort Vancouver NHS",
+  "Rank": 83,
+  "Recreation Visits": 670111,
+  "% of Total": 0.28
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219416"
+  },
+  "Park": "National Capital Parks Central",
+  "Rank": 84,
+  "Recreation Visits": 665650,
+  "% of Total": 0.28
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219417"
+  },
+  "Park": "Castle Clinton NM",
+  "Rank": 85,
+  "Recreation Visits": 633793,
+  "% of Total": 0.27
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219418"
+  },
+  "Park": "Padre Island NS",
+  "Rank": 86,
+  "Recreation Visits": 617704,
+  "% of Total": 0.26
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219419"
+  },
+  "Park": "Mojave NPRES",
+  "Rank": 87,
+  "Recreation Visits": 608633,
+  "% of Total": 0.26
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721941a"
+  },
+  "Park": "Hawaii Volcanoes NP",
+  "Rank": 88,
+  "Recreation Visits": 589775,
+  "% of Total": 0.25
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721941b"
+  },
+  "Park": "Statue of Liberty NM",
+  "Rank": 89,
+  "Recreation Visits": 576396,
+  "% of Total": 0.24
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721941c"
+  },
+  "Park": "Manassas NBP",
+  "Rank": 90,
+  "Recreation Visits": 558036,
+  "% of Total": 0.24
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721941d"
+  },
+  "Park": "Theodore Roosevelt NP",
+  "Rank": 91,
+  "Recreation Visits": 551303,
+  "% of Total": 0.23
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721941e"
+  },
+  "Park": "Fort Matanzas NM",
+  "Rank": 92,
+  "Recreation Visits": 543590,
+  "% of Total": 0.23
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721941f"
+  },
+  "Park": "Lassen Volcanic NP",
+  "Rank": 93,
+  "Recreation Visits": 542274,
+  "% of Total": 0.23
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219420"
+  },
+  "Park": "Catoctin Mountain Park",
+  "Rank": 94,
+  "Recreation Visits": 539983,
+  "% of Total": 0.23
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219421"
+  },
+  "Park": "Gettysburg NMP",
+  "Rank": 95,
+  "Recreation Visits": 536553,
+  "% of Total": 0.23
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219422"
+  },
+  "Park": "Cabrillo NM",
+  "Rank": 96,
+  "Recreation Visits": 523878,
+  "% of Total": 0.22
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219423"
+  },
+  "Park": "Canyonlands NP",
+  "Rank": 97,
+  "Recreation Visits": 493914,
+  "% of Total": 0.21
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219424"
+  },
+  "Park": "Cape Lookout NS",
+  "Rank": 98,
+  "Recreation Visits": 488331,
+  "% of Total": 0.21
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219425"
+  },
+  "Park": "Gateway Arch NP",
+  "Rank": 99,
+  "Recreation Visits": 486021,
+  "% of Total": 0.21
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219426"
+  },
+  "Park": "Great Sand Dunes NP & PRES",
+  "Rank": 100,
+  "Recreation Visits": 461532,
+  "% of Total": 0.19
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219427"
+  },
+  "Park": "Wind Cave NP",
+  "Rank": 101,
+  "Recreation Visits": 448405,
+  "% of Total": 0.19
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219428"
+  },
+  "Park": "Colorado NM",
+  "Rank": 102,
+  "Recreation Visits": 435625,
+  "% of Total": 0.18
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219429"
+  },
+  "Park": "San Juan Island NHP",
+  "Rank": 103,
+  "Recreation Visits": 426335,
+  "% of Total": 0.18
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721942a"
+  },
+  "Park": "Devils Tower NM",
+  "Rank": 104,
+  "Recreation Visits": 423997,
+  "% of Total": 0.18
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721942b"
+  },
+  "Park": "Pearl Harbor NMEM",
+  "Rank": 105,
+  "Recreation Visits": 415542,
+  "% of Total": 0.18
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721942c"
+  },
+  "Park": "White Sands NP",
+  "Rank": 106,
+  "Recreation Visits": 415383,
+  "% of Total": 0.18
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721942d"
+  },
+  "Park": "Kings Canyon NP",
+  "Rank": 107,
+  "Recreation Visits": 415077,
+  "% of Total": 0.18
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721942e"
+  },
+  "Park": "Fort Caroline NMEM",
+  "Rank": 108,
+  "Recreation Visits": 404476,
+  "% of Total": 0.17
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721942f"
+  },
+  "Park": "Biscayne NP",
+  "Rank": 109,
+  "Recreation Visits": 402770,
+  "% of Total": 0.17
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219430"
+  },
+  "Park": "Big Bend NP",
+  "Rank": 110,
+  "Recreation Visits": 393907,
+  "% of Total": 0.17
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219431"
+  },
+  "Park": "Shiloh NMP",
+  "Rank": 111,
+  "Recreation Visits": 386883,
+  "% of Total": 0.16
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219432"
+  },
+  "Park": "Petrified Forest NP",
+  "Rank": 112,
+  "Recreation Visits": 384483,
+  "% of Total": 0.16
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219433"
+  },
+  "Park": "President's Park",
+  "Rank": 113,
+  "Recreation Visits": 369533,
+  "% of Total": 0.16
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219434"
+  },
+  "Park": "Fort Sumter and Fort Moultrie NHP",
+  "Rank": 114,
+  "Recreation Visits": 365133,
+  "% of Total": 0.15
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219435"
+  },
+  "Park": "Fort Pulaski NM",
+  "Rank": 115,
+  "Recreation Visits": 357970,
+  "% of Total": 0.15
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219436"
+  },
+  "Park": "San Juan NHS",
+  "Rank": 116,
+  "Recreation Visits": 357100,
+  "% of Total": 0.15
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219437"
+  },
+  "Park": "Petroglyph NM",
+  "Rank": 117,
+  "Recreation Visits": 356492,
+  "% of Total": 0.15
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219438"
+  },
+  "Park": "Black Canyon of the Gunnison NP",
+  "Rank": 118,
+  "Recreation Visits": 341620,
+  "% of Total": 0.14
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219439"
+  },
+  "Park": "Paterson Great Falls NHP",
+  "Rank": 119,
+  "Recreation Visits": 339768,
+  "% of Total": 0.14
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721943a"
+  },
+  "Park": "Prince William Forest Park",
+  "Rank": 120,
+  "Recreation Visits": 333903,
+  "% of Total": 0.14
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721943b"
+  },
+  "Park": "Fort Donelson NB",
+  "Rank": 121,
+  "Recreation Visits": 325496,
+  "% of Total": 0.14
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721943c"
+  },
+  "Park": "Muir Woods NM",
+  "Rank": 122,
+  "Recreation Visits": 324232,
+  "% of Total": 0.14
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721943d"
+  },
+  "Park": "Haleakala NP",
+  "Rank": 123,
+  "Recreation Visits": 319147,
+  "% of Total": 0.13
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721943e"
+  },
+  "Park": "War in the Pacific NHP",
+  "Rank": 124,
+  "Recreation Visits": 318711,
+  "% of Total": 0.13
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721943f"
+  },
+  "Park": "River Raisin NBP",
+  "Rank": 125,
+  "Recreation Visits": 309977,
+  "% of Total": 0.13
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219440"
+  },
+  "Park": "Big Thicket NPRES",
+  "Rank": 126,
+  "Recreation Visits": 309053,
+  "% of Total": 0.13
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219441"
+  },
+  "Park": "Nez Perce NHP",
+  "Rank": 127,
+  "Recreation Visits": 301473,
+  "% of Total": 0.13
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219442"
+  },
+  "Park": "Stones River NB",
+  "Rank": 128,
+  "Recreation Visits": 301270,
+  "% of Total": 0.13
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219443"
+  },
+  "Park": "Mammoth Cave NP",
+  "Rank": 129,
+  "Recreation Visits": 290392,
+  "% of Total": 0.12
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219444"
+  },
+  "Park": "Mesa Verde NP",
+  "Rank": 130,
+  "Recreation Visits": 287477,
+  "% of Total": 0.12
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219445"
+  },
+  "Park": "Wilson's Creek NB",
+  "Rank": 131,
+  "Recreation Visits": 287260,
+  "% of Total": 0.12
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219446"
+  },
+  "Park": "Wright Brothers NMEM",
+  "Rank": 132,
+  "Recreation Visits": 277963,
+  "% of Total": 0.12
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219447"
+  },
+  "Park": "Boston NHP",
+  "Rank": 133,
+  "Recreation Visits": 277170,
+  "% of Total": 0.12
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219448"
+  },
+  "Park": "Redwood NP",
+  "Rank": 134,
+  "Recreation Visits": 265177,
+  "% of Total": 0.11
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219449"
+  },
+  "Park": "Dinosaur NM",
+  "Rank": 135,
+  "Recreation Visits": 264145,
+  "% of Total": 0.11
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721944a"
+  },
+  "Park": "Voyageurs NP",
+  "Rank": 136,
+  "Recreation Visits": 263091,
+  "% of Total": 0.11
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721944b"
+  },
+  "Park": "Morristown NHP",
+  "Rank": 137,
+  "Recreation Visits": 262361,
+  "% of Total": 0.11
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721944c"
+  },
+  "Park": "Castillo de San Marcos NM",
+  "Rank": 138,
+  "Recreation Visits": 251061,
+  "% of Total": 0.11
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721944d"
+  },
+  "Park": "Craters of the Moon NM & PRES",
+  "Rank": 139,
+  "Recreation Visits": 250872,
+  "% of Total": 0.11
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721944e"
+  },
+  "Park": "Fire Island NS",
+  "Rank": 140,
+  "Recreation Visits": 250449,
+  "% of Total": 0.11
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721944f"
+  },
+  "Park": "Upper Delaware S&RR",
+  "Rank": 141,
+  "Recreation Visits": 250198,
+  "% of Total": 0.11
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219450"
+  },
+  "Park": "Kings Mountain NMP",
+  "Rank": 142,
+  "Recreation Visits": 249477,
+  "% of Total": 0.11
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219451"
+  },
+  "Park": "Flight 93 NMEM",
+  "Rank": 143,
+  "Recreation Visits": 244364,
+  "% of Total": 0.1
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219452"
+  },
+  "Park": "Montezuma Castle NM",
+  "Rank": 144,
+  "Recreation Visits": 242028,
+  "% of Total": 0.1
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219453"
+  },
+  "Park": "Obed W&SR",
+  "Rank": 145,
+  "Recreation Visits": 237837,
+  "% of Total": 0.1
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219454"
+  },
+  "Park": "Harpers Ferry NHP",
+  "Rank": 146,
+  "Recreation Visits": 234473,
+  "% of Total": 0.1
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219455"
+  },
+  "Park": "Abraham Lincoln Birthplace NHP",
+  "Rank": 147,
+  "Recreation Visits": 228141,
+  "% of Total": 0.1
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219456"
+  },
+  "Park": "Cowpens NB",
+  "Rank": 148,
+  "Recreation Visits": 226903,
+  "% of Total": 0.1
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219457"
+  },
+  "Park": "Apostle Islands NL",
+  "Rank": 149,
+  "Recreation Visits": 219009,
+  "% of Total": 0.09
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219458"
+  },
+  "Park": "Vanderbilt Mansion NHS",
+  "Rank": 150,
+  "Recreation Visits": 217231,
+  "% of Total": 0.09
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219459"
+  },
+  "Park": "Bighorn Canyon NRA",
+  "Rank": 151,
+  "Recreation Visits": 212295,
+  "% of Total": 0.09
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721945a"
+  },
+  "Park": "LBJ Memorial Grove on the Potomac",
+  "Rank": 152,
+  "Recreation Visits": 211228,
+  "% of Total": 0.09
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721945b"
+  },
+  "Park": "Fort Frederica NM",
+  "Rank": 153,
+  "Recreation Visits": 210892,
+  "% of Total": 0.09
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721945c"
+  },
+  "Park": "Mississippi NRRA",
+  "Rank": 154,
+  "Recreation Visits": 204707,
+  "% of Total": 0.09
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721945d"
+  },
+  "Park": "Fort Necessity NB",
+  "Rank": 155,
+  "Recreation Visits": 199801,
+  "% of Total": 0.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721945e"
+  },
+  "Park": "Martin Luther King, Jr. NHP",
+  "Rank": 156,
+  "Recreation Visits": 198158,
+  "% of Total": 0.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721945f"
+  },
+  "Park": "De Soto NMEM",
+  "Rank": 157,
+  "Recreation Visits": 196114,
+  "% of Total": 0.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219460"
+  },
+  "Park": "Jean Lafitte NHP & PRES",
+  "Rank": 158,
+  "Recreation Visits": 192601,
+  "% of Total": 0.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219461"
+  },
+  "Park": "Organ Pipe Cactus NM",
+  "Rank": 159,
+  "Recreation Visits": 191512,
+  "% of Total": 0.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219462"
+  },
+  "Park": "Dwight D. Eisenhower MEM",
+  "Rank": 160,
+  "Recreation Visits": 187328,
+  "% of Total": 0.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219463"
+  },
+  "Park": "Guilford Courthouse NMP",
+  "Rank": 161,
+  "Recreation Visits": 186020,
+  "% of Total": 0.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219464"
+  },
+  "Park": "Carlsbad Caverns NP",
+  "Rank": 162,
+  "Recreation Visits": 183835,
+  "% of Total": 0.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219465"
+  },
+  "Park": "Scotts Bluff NM",
+  "Rank": 163,
+  "Recreation Visits": 181900,
+  "% of Total": 0.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219466"
+  },
+  "Park": "Richmond NBP",
+  "Rank": 164,
+  "Recreation Visits": 179598,
+  "% of Total": 0.08
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219467"
+  },
+  "Park": "Vicksburg NMP",
+  "Rank": 165,
+  "Recreation Visits": 176236,
+  "% of Total": 0.07
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219468"
+  },
+  "Park": "Virgin Islands NP",
+  "Rank": 166,
+  "Recreation Visits": 167540,
+  "% of Total": 0.07
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219469"
+  },
+  "Park": "Channel Islands NP",
+  "Rank": 167,
+  "Recreation Visits": 167290,
+  "% of Total": 0.07
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721946a"
+  },
+  "Park": "Piscataway Park",
+  "Rank": 168,
+  "Recreation Visits": 166484,
+  "% of Total": 0.07
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721946b"
+  },
+  "Park": "Pinnacles NP",
+  "Rank": 169,
+  "Recreation Visits": 165740,
+  "% of Total": 0.07
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721946c"
+  },
+  "Park": "Fort McHenry NM & HS",
+  "Rank": 170,
+  "Recreation Visits": 163224,
+  "% of Total": 0.07
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721946d"
+  },
+  "Park": "Lewis & Clark NHP",
+  "Rank": 171,
+  "Recreation Visits": 161230,
+  "% of Total": 0.07
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721946e"
+  },
+  "Park": "Fort Washington Park",
+  "Rank": 172,
+  "Recreation Visits": 160289,
+  "% of Total": 0.07
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721946f"
+  },
+  "Park": "Coronado NMEM",
+  "Rank": 173,
+  "Recreation Visits": 156199,
+  "% of Total": 0.07
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219470"
+  },
+  "Park": "Monocacy NB",
+  "Rank": 174,
+  "Recreation Visits": 155116,
+  "% of Total": 0.07
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219471"
+  },
+  "Park": "Theodore Roosevelt Island",
+  "Rank": 175,
+  "Recreation Visits": 153598,
+  "% of Total": 0.06
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219472"
+  },
+  "Park": "Fort Raleigh NHS",
+  "Rank": 176,
+  "Recreation Visits": 153519,
+  "% of Total": 0.06
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219473"
+  },
+  "Park": "Petersburg NB",
+  "Rank": 177,
+  "Recreation Visits": 152878,
+  "% of Total": 0.06
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219474"
+  },
+  "Park": "Guadalupe Mountains NP",
+  "Rank": 178,
+  "Recreation Visits": 151256,
+  "% of Total": 0.06
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219475"
+  },
+  "Park": "Wupatki NM",
+  "Rank": 179,
+  "Recreation Visits": 146074,
+  "% of Total": 0.06
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219476"
+  },
+  "Park": "El Malpais NM",
+  "Rank": 180,
+  "Recreation Visits": 139336,
+  "% of Total": 0.06
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219477"
+  },
+  "Park": "Allegheny Portage Railroad NHS",
+  "Rank": 181,
+  "Recreation Visits": 136029,
+  "% of Total": 0.06
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219478"
+  },
+  "Park": "Kaloko Honokohau NHP",
+  "Rank": 182,
+  "Recreation Visits": 133877,
+  "% of Total": 0.06
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219479"
+  },
+  "Park": "Pu'uhonua o Honaunau NHP",
+  "Rank": 183,
+  "Recreation Visits": 130845,
+  "% of Total": 0.06
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721947a"
+  },
+  "Park": "Salem Maritime NHS",
+  "Rank": 184,
+  "Recreation Visits": 125554,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721947b"
+  },
+  "Park": "Great Basin NP",
+  "Rank": 185,
+  "Recreation Visits": 120248,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721947c"
+  },
+  "Park": "Congaree NP",
+  "Rank": 186,
+  "Recreation Visits": 119306,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721947d"
+  },
+  "Park": "Kenai Fjords NP",
+  "Rank": 187,
+  "Recreation Visits": 115882,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721947e"
+  },
+  "Park": "Sitka NHP",
+  "Rank": 188,
+  "Recreation Visits": 115494,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721947f"
+  },
+  "Park": "White House",
+  "Rank": 189,
+  "Recreation Visits": 114519,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219480"
+  },
+  "Park": "Missouri NRR",
+  "Rank": 190,
+  "Recreation Visits": 111602,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219481"
+  },
+  "Park": "Lava Beds NM",
+  "Rank": 191,
+  "Recreation Visits": 111258,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219482"
+  },
+  "Park": "Lincoln Boyhood NMEM",
+  "Rank": 192,
+  "Recreation Visits": 110692,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219483"
+  },
+  "Park": "City of Rocks NRES",
+  "Rank": 193,
+  "Recreation Visits": 110203,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219484"
+  },
+  "Park": "Gauley River NRA",
+  "Rank": 194,
+  "Recreation Visits": 109378,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219485"
+  },
+  "Park": "Devils Postpile NM",
+  "Rank": 195,
+  "Recreation Visits": 108590,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219486"
+  },
+  "Park": "Walnut Canyon NM",
+  "Rank": 196,
+  "Recreation Visits": 107422,
+  "% of Total": 0.05
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219487"
+  },
+  "Park": "Sagamore Hill NHS",
+  "Rank": 197,
+  "Recreation Visits": 105289,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219488"
+  },
+  "Park": "Governors Island NM",
+  "Rank": 198,
+  "Recreation Visits": 102915,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219489"
+  },
+  "Park": "Niobrara NSR",
+  "Rank": 199,
+  "Recreation Visits": 102766,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721948a"
+  },
+  "Park": "Minuteman Missile NHS",
+  "Rank": 200,
+  "Recreation Visits": 98908,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721948b"
+  },
+  "Park": "Palo Alto Battlefield NHP",
+  "Rank": 201,
+  "Recreation Visits": 97860,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721948c"
+  },
+  "Park": "Little Bighorn Battlefield NM",
+  "Rank": 202,
+  "Recreation Visits": 97461,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721948d"
+  },
+  "Park": "Ninety Six NHS",
+  "Rank": 203,
+  "Recreation Visits": 95418,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721948e"
+  },
+  "Park": "Bandelier NM",
+  "Rank": 204,
+  "Recreation Visits": 94948,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721948f"
+  },
+  "Park": "Timpanogos Cave NM",
+  "Rank": 205,
+  "Recreation Visits": 92481,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219490"
+  },
+  "Park": "Boston African American NHS",
+  "Rank": 206,
+  "Recreation Visits": 89616,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219491"
+  },
+  "Park": "John Day Fossil Beds NM",
+  "Rank": 207,
+  "Recreation Visits": 88571,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219492"
+  },
+  "Park": "Johnstown Flood NMEM",
+  "Rank": 208,
+  "Recreation Visits": 87805,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219493"
+  },
+  "Park": "Antietam NB",
+  "Rank": 209,
+  "Recreation Visits": 85884,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219494"
+  },
+  "Park": "Sunset Crater Volcano NM",
+  "Rank": 210,
+  "Recreation Visits": 83669,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219495"
+  },
+  "Park": "Washington Monument",
+  "Rank": 211,
+  "Recreation Visits": 83585,
+  "% of Total": 0.04
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219496"
+  },
+  "Park": "Pea Ridge NMP",
+  "Rank": 212,
+  "Recreation Visits": 80455,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219497"
+  },
+  "Park": "Tuzigoot NM",
+  "Rank": 213,
+  "Recreation Visits": 78358,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219498"
+  },
+  "Park": "Canyon de Chelly NM",
+  "Rank": 214,
+  "Recreation Visits": 76752,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219499"
+  },
+  "Park": "Lyndon B. Johnson NHP",
+  "Rank": 215,
+  "Recreation Visits": 75322,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721949a"
+  },
+  "Park": "Saratoga NHP",
+  "Rank": 216,
+  "Recreation Visits": 73825,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721949b"
+  },
+  "Park": "Boston Harbor Islands NRA",
+  "Rank": 217,
+  "Recreation Visits": 71991,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721949c"
+  },
+  "Park": "Little Rock Central High School NHS",
+  "Rank": 218,
+  "Recreation Visits": 68497,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721949d"
+  },
+  "Park": "Fort Smith NHS",
+  "Rank": 219,
+  "Recreation Visits": 67574,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721949e"
+  },
+  "Park": "Grand Portage NM",
+  "Rank": 220,
+  "Recreation Visits": 66426,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721949f"
+  },
+  "Park": "Manzanar NHS",
+  "Rank": 221,
+  "Recreation Visits": 65289,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194a0"
+  },
+  "Park": "Andersonville NHS",
+  "Rank": 222,
+  "Recreation Visits": 63799,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194a1"
+  },
+  "Park": "Capulin Volcano NM",
+  "Rank": 223,
+  "Recreation Visits": 63335,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194a2"
+  },
+  "Park": "Ocmulgee Mounds NHP",
+  "Rank": 224,
+  "Recreation Visits": 61303,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194a3"
+  },
+  "Park": "Florissant Fossil Beds NM",
+  "Rank": 225,
+  "Recreation Visits": 61081,
+  "% of Total": 0.03
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194a4"
+  },
+  "Park": "Moores Creek NB",
+  "Rank": 226,
+  "Recreation Visits": 58786,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194a5"
+  },
+  "Park": "Natchez NHP",
+  "Rank": 227,
+  "Recreation Visits": 57646,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194a6"
+  },
+  "Park": "Appomattox Court House NHP",
+  "Rank": 228,
+  "Recreation Visits": 57513,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194a7"
+  },
+  "Park": "Herbert Hoover NHS",
+  "Rank": 229,
+  "Recreation Visits": 56270,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194a8"
+  },
+  "Park": "George Rogers Clark NHP",
+  "Rank": 230,
+  "Recreation Visits": 56108,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194a9"
+  },
+  "Park": "Ford's Theatre NHS",
+  "Rank": 231,
+  "Recreation Visits": 56058,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194aa"
+  },
+  "Park": "Denali NP & PRES",
+  "Rank": 232,
+  "Recreation Visits": 54850,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ab"
+  },
+  "Park": "Lowell NHP",
+  "Rank": 233,
+  "Recreation Visits": 53954,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ac"
+  },
+  "Park": "Golden Spike NHP",
+  "Rank": 234,
+  "Recreation Visits": 53106,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ad"
+  },
+  "Park": "Natural Bridges NM",
+  "Rank": 235,
+  "Recreation Visits": 52542,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ae"
+  },
+  "Park": "Katmai NP & PRES",
+  "Rank": 236,
+  "Recreation Visits": 51511,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194af"
+  },
+  "Park": "Dry Tortugas NP",
+  "Rank": 237,
+  "Recreation Visits": 48543,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194b0"
+  },
+  "Park": "Waco Mammoth NM",
+  "Rank": 238,
+  "Recreation Visits": 46457,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194b1"
+  },
+  "Park": "Andrew Johnson NHS",
+  "Rank": 239,
+  "Recreation Visits": 46092,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194b2"
+  },
+  "Park": "Chiricahua NM",
+  "Rank": 240,
+  "Recreation Visits": 44794,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194b3"
+  },
+  "Park": "Casa Grande Ruins NM",
+  "Rank": 241,
+  "Recreation Visits": 44269,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194b4"
+  },
+  "Park": "Carl Sandburg Home NHS",
+  "Rank": 242,
+  "Recreation Visits": 42672,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194b5"
+  },
+  "Park": "George Washington Birthplace NM",
+  "Rank": 243,
+  "Recreation Visits": 41970,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194b6"
+  },
+  "Park": "Katahdin Woods and Waters NM",
+  "Rank": 244,
+  "Recreation Visits": 41432,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194b7"
+  },
+  "Park": "Homestead NM of America",
+  "Rank": 245,
+  "Recreation Visits": 40897,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194b8"
+  },
+  "Park": "Perry's Victory & Intl. Peace MEM",
+  "Rank": 246,
+  "Recreation Visits": 40469,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194b9"
+  },
+  "Park": "Home of Franklin D. Roosevelt NHS",
+  "Rank": 247,
+  "Recreation Visits": 40091,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ba"
+  },
+  "Park": "Dayton Aviation Heritage NHP",
+  "Rank": 248,
+  "Recreation Visits": 39851,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194bb"
+  },
+  "Park": "Pipestone NM",
+  "Rank": 249,
+  "Recreation Visits": 38229,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194bc"
+  },
+  "Park": "Cumberland Island NS",
+  "Rank": 250,
+  "Recreation Visits": 37295,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194bd"
+  },
+  "Park": "Pecos NHP",
+  "Rank": 251,
+  "Recreation Visits": 36695,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194be"
+  },
+  "Park": "El Morro NM",
+  "Rank": 252,
+  "Recreation Visits": 36328,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194bf"
+  },
+  "Park": "Big Hole NB",
+  "Rank": 253,
+  "Recreation Visits": 36234,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194c0"
+  },
+  "Park": "Fort Davis NHS",
+  "Rank": 254,
+  "Recreation Visits": 35920,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194c1"
+  },
+  "Park": "Jewel Cave NM",
+  "Rank": 255,
+  "Recreation Visits": 35878,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194c2"
+  },
+  "Park": "Hopewell Culture NHP",
+  "Rank": 256,
+  "Recreation Visits": 35710,
+  "% of Total": 0.02
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194c3"
+  },
+  "Park": "Whitman Mission NHS",
+  "Rank": 257,
+  "Recreation Visits": 34933,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194c4"
+  },
+  "Park": "Hopewell Furnace NHS",
+  "Rank": 258,
+  "Recreation Visits": 34288,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194c5"
+  },
+  "Park": "John Muir NHS",
+  "Rank": 259,
+  "Recreation Visits": 33603,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194c6"
+  },
+  "Park": "Gila Cliff Dwellings NM",
+  "Rank": 260,
+  "Recreation Visits": 31645,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194c7"
+  },
+  "Park": "North Cascades NP",
+  "Rank": 261,
+  "Recreation Visits": 30885,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194c8"
+  },
+  "Park": "Lake Chelan NRA",
+  "Rank": 262,
+  "Recreation Visits": 30598,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194c9"
+  },
+  "Park": "Valles Caldera NPRES",
+  "Rank": 263,
+  "Recreation Visits": 30434,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ca"
+  },
+  "Park": "Aztec Ruins NM",
+  "Rank": 264,
+  "Recreation Visits": 30223,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194cb"
+  },
+  "Park": "Wolf Trap NP for the Performing Arts",
+  "Rank": 265,
+  "Recreation Visits": 30073,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194cc"
+  },
+  "Park": "Longfellow House Washington's HQ NHS",
+  "Rank": 266,
+  "Recreation Visits": 30014,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194cd"
+  },
+  "Park": "Arkansas Post NMEM",
+  "Rank": 267,
+  "Recreation Visits": 29653,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ce"
+  },
+  "Park": "Tallgrass Prairie NPRES",
+  "Rank": 268,
+  "Recreation Visits": 29009,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194cf"
+  },
+  "Park": "Horseshoe Bend NMP",
+  "Rank": 269,
+  "Recreation Visits": 28600,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194d0"
+  },
+  "Park": "Greenbelt Park",
+  "Rank": 270,
+  "Recreation Visits": 28319,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194d1"
+  },
+  "Park": "Lincoln Home NHS",
+  "Rank": 271,
+  "Recreation Visits": 27744,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194d2"
+  },
+  "Park": "Steamtown NHS",
+  "Rank": 272,
+  "Recreation Visits": 27322,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194d3"
+  },
+  "Park": "Salinas Pueblo Missions NM",
+  "Rank": 273,
+  "Recreation Visits": 26982,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194d4"
+  },
+  "Park": "George Washington Carver NM",
+  "Rank": 274,
+  "Recreation Visits": 26569,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194d5"
+  },
+  "Park": "Fort Laramie NHS",
+  "Rank": 275,
+  "Recreation Visits": 26066,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194d6"
+  },
+  "Park": "Weir Farm NHS",
+  "Rank": 276,
+  "Recreation Visits": 25430,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194d7"
+  },
+  "Park": "Bluestone NSR",
+  "Rank": 277,
+  "Recreation Visits": 25207,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194d8"
+  },
+  "Park": "Tonto NM",
+  "Rank": 278,
+  "Recreation Visits": 24756,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194d9"
+  },
+  "Park": "General Grant NMEM",
+  "Rank": 279,
+  "Recreation Visits": 24475,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194da"
+  },
+  "Park": "Fort Stanwix NM",
+  "Rank": 280,
+  "Recreation Visits": 24134,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194db"
+  },
+  "Park": "Pu'ukohola Heiau NHS",
+  "Rank": 281,
+  "Recreation Visits": 23970,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194dc"
+  },
+  "Park": "Christiansted NHS",
+  "Rank": 282,
+  "Recreation Visits": 23816,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194dd"
+  },
+  "Park": "Tumacacori NHP",
+  "Rank": 283,
+  "Recreation Visits": 23726,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194de"
+  },
+  "Park": "Charles Pinckney NHS",
+  "Rank": 284,
+  "Recreation Visits": 23723,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194df"
+  },
+  "Park": "Marsh-Billings-Rockefeller NHP",
+  "Rank": 285,
+  "Recreation Visits": 23538,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194e0"
+  },
+  "Park": "Hamilton Grange NMEM",
+  "Rank": 286,
+  "Recreation Visits": 23015,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194e1"
+  },
+  "Park": "Oregon Caves NM & PRES",
+  "Rank": 287,
+  "Recreation Visits": 22789,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194e2"
+  },
+  "Park": "Booker T. Washington NM",
+  "Rank": 288,
+  "Recreation Visits": 22482,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194e3"
+  },
+  "Park": "Fort Larned NHS",
+  "Rank": 289,
+  "Recreation Visits": 21895,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194e4"
+  },
+  "Park": "Hovenweep NM",
+  "Rank": 290,
+  "Recreation Visits": 19856,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194e5"
+  },
+  "Park": "Friendship Hill NHS",
+  "Rank": 291,
+  "Recreation Visits": 19462,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194e6"
+  },
+  "Park": "Chamizal NMEM",
+  "Rank": 292,
+  "Recreation Visits": 19180,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194e7"
+  },
+  "Park": "New Bedford Whaling NHP",
+  "Rank": 293,
+  "Recreation Visits": 18243,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194e8"
+  },
+  "Park": "Effigy Mounds NM",
+  "Rank": 294,
+  "Recreation Visits": 18225,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194e9"
+  },
+  "Park": "Cane River Creole NHP",
+  "Rank": 295,
+  "Recreation Visits": 17430,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ea"
+  },
+  "Park": "Saugus Iron Works NHS",
+  "Rank": 296,
+  "Recreation Visits": 16928,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194eb"
+  },
+  "Park": "Wrangell-St. Elias NP & PRES",
+  "Rank": 297,
+  "Recreation Visits": 16655,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ec"
+  },
+  "Park": "Buck Island Reef NM",
+  "Rank": 298,
+  "Recreation Visits": 16032,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ed"
+  },
+  "Park": "Pennsylvania Avenue NHS",
+  "Rank": 299,
+  "Recreation Visits": 15898,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ee"
+  },
+  "Park": "Kalaupapa NHP",
+  "Rank": 300,
+  "Recreation Visits": 15847,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ef"
+  },
+  "Park": "Grant-Kohrs Ranch NHS",
+  "Rank": 301,
+  "Recreation Visits": 15328,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194f0"
+  },
+  "Park": "Ulysses S. Grant NHS",
+  "Rank": 302,
+  "Recreation Visits": 15236,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194f1"
+  },
+  "Park": "James A. Garfield NHS",
+  "Rank": 303,
+  "Recreation Visits": 14797,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194f2"
+  },
+  "Park": "Fort Scott NHS",
+  "Rank": 304,
+  "Recreation Visits": 14652,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194f3"
+  },
+  "Park": "Eugene O'Neill NHS",
+  "Rank": 305,
+  "Recreation Visits": 14423,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194f4"
+  },
+  "Park": "Jimmy Carter NHS",
+  "Rank": 306,
+  "Recreation Visits": 14267,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194f5"
+  },
+  "Park": "Hagerman Fossil Beds NM",
+  "Rank": 307,
+  "Recreation Visits": 14113,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194f6"
+  },
+  "Park": "Roger Williams NMEM",
+  "Rank": 308,
+  "Recreation Visits": 13971,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194f7"
+  },
+  "Park": "Federal Hall NMEM",
+  "Rank": 309,
+  "Recreation Visits": 13822,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194f8"
+  },
+  "Park": "Saint-Gaudens NHP",
+  "Rank": 310,
+  "Recreation Visits": 13286,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194f9"
+  },
+  "Park": "Fossil Butte NM",
+  "Rank": 311,
+  "Recreation Visits": 13176,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194fa"
+  },
+  "Park": "Klondike Gold Rush NHP Seattle",
+  "Rank": 312,
+  "Recreation Visits": 13003,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194fb"
+  },
+  "Park": "Noatak NPRES",
+  "Rank": 313,
+  "Recreation Visits": 12533,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194fc"
+  },
+  "Park": "Washita Battlefield NHS",
+  "Rank": 314,
+  "Recreation Visits": 12520,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194fd"
+  },
+  "Park": "Bent's Old Fort NHS",
+  "Rank": 315,
+  "Recreation Visits": 12438,
+  "% of Total": 0.01
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194fe"
+  },
+  "Park": "Martin Van Buren NHS",
+  "Rank": 316,
+  "Recreation Visits": 11480,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d72194ff"
+  },
+  "Park": "Hubbell Trading Post NHS",
+  "Rank": 317,
+  "Recreation Visits": 11407,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219500"
+  },
+  "Park": "Manhattan Project NHP",
+  "Rank": 318,
+  "Recreation Visits": 11392,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219501"
+  },
+  "Park": "Cape Krusenstern NM",
+  "Rank": 319,
+  "Recreation Visits": 11369,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219502"
+  },
+  "Park": "Kobuk Valley NP",
+  "Rank": 320,
+  "Recreation Visits": 11185,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219503"
+  },
+  "Park": "William Howard Taft NHS",
+  "Rank": 321,
+  "Recreation Visits": 11100,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219504"
+  },
+  "Park": "Frederick Douglass NHS",
+  "Rank": 322,
+  "Recreation Visits": 10969,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219505"
+  },
+  "Park": "Pipe Spring NM",
+  "Rank": 323,
+  "Recreation Visits": 10623,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219506"
+  },
+  "Park": "New Orleans Jazz NHP",
+  "Rank": 324,
+  "Recreation Visits": 9640,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219507"
+  },
+  "Park": "Eleanor Roosevelt NHS",
+  "Rank": 325,
+  "Recreation Visits": 9575,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219508"
+  },
+  "Park": "Rosie The Riveter WWII Home Front NHP",
+  "Rank": 326,
+  "Recreation Visits": 9528,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219509"
+  },
+  "Park": "Harry S Truman NHS",
+  "Rank": 327,
+  "Recreation Visits": 9446,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721950a"
+  },
+  "Park": "Hampton NHS",
+  "Rank": 328,
+  "Recreation Visits": 8728,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721950b"
+  },
+  "Park": "Agate Fossil Beds NM",
+  "Rank": 329,
+  "Recreation Visits": 8722,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721950c"
+  },
+  "Park": "Russell Cave NM",
+  "Rank": 330,
+  "Recreation Visits": 8462,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721950d"
+  },
+  "Park": "Women's Rights NHP",
+  "Rank": 331,
+  "Recreation Visits": 8237,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721950e"
+  },
+  "Park": "Chaco Culture NHP",
+  "Rank": 332,
+  "Recreation Visits": 8231,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721950f"
+  },
+  "Park": "Eisenhower NHS",
+  "Rank": 333,
+  "Recreation Visits": 7926,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219510"
+  },
+  "Park": "African Burial Ground NM",
+  "Rank": 334,
+  "Recreation Visits": 7908,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219511"
+  },
+  "Park": "Thomas Edison NHP",
+  "Rank": 335,
+  "Recreation Visits": 7605,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219512"
+  },
+  "Park": "Adams NHP",
+  "Rank": 336,
+  "Recreation Visits": 6937,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219513"
+  },
+  "Park": "Saint Croix Island IHS",
+  "Rank": 337,
+  "Recreation Visits": 6914,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219514"
+  },
+  "Park": "Tuskegee Airmen NHS",
+  "Rank": 338,
+  "Recreation Visits": 6843,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219515"
+  },
+  "Park": "Minidoka NHS",
+  "Rank": 339,
+  "Recreation Visits": 6747,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219516"
+  },
+  "Park": "Isle Royale NP",
+  "Rank": 340,
+  "Recreation Visits": 6493,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219517"
+  },
+  "Park": "Fort Bowie NHS",
+  "Rank": 341,
+  "Recreation Visits": 6456,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219518"
+  },
+  "Park": "Saint Paul's Church NHS",
+  "Rank": 342,
+  "Recreation Visits": 5968,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219519"
+  },
+  "Park": "Glacier Bay NP & PRES",
+  "Rank": 343,
+  "Recreation Visits": 5748,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721951a"
+  },
+  "Park": "Cesar E. Chavez NM",
+  "Rank": 344,
+  "Recreation Visits": 5668,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721951b"
+  },
+  "Park": "Fort Union NM",
+  "Rank": 345,
+  "Recreation Visits": 5334,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721951c"
+  },
+  "Park": "Knife River Indian Villages NHS",
+  "Rank": 346,
+  "Recreation Visits": 5263,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721951d"
+  },
+  "Park": "Fort Union Trading Post NHS",
+  "Rank": 347,
+  "Recreation Visits": 5225,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721951e"
+  },
+  "Park": "Theodore Roosevelt Inaugural NHS",
+  "Rank": 348,
+  "Recreation Visits": 5098,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721951f"
+  },
+  "Park": "Theodore Roosevelt Birthplace NHS",
+  "Rank": 349,
+  "Recreation Visits": 4984,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219520"
+  },
+  "Park": "Lake Clark NP & PRES",
+  "Rank": 350,
+  "Recreation Visits": 4948,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219521"
+  },
+  "Park": "National Park of American Samoa",
+  "Rank": 351,
+  "Recreation Visits": 4819,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219522"
+  },
+  "Park": "Tuskegee Institute NHS",
+  "Rank": 352,
+  "Recreation Visits": 4737,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219523"
+  },
+  "Park": "Alibates Flint Quarries NM",
+  "Rank": 353,
+  "Recreation Visits": 4269,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219524"
+  },
+  "Park": "Sand Creek Massacre NHS",
+  "Rank": 354,
+  "Recreation Visits": 4215,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219525"
+  },
+  "Park": "Brown v. Board of Education NHS",
+  "Rank": 355,
+  "Recreation Visits": 4064,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219526"
+  },
+  "Park": "President W.J. Clinton Birthplace Home NHS",
+  "Rank": 356,
+  "Recreation Visits": 4055,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219527"
+  },
+  "Park": "Navajo NM",
+  "Rank": 357,
+  "Recreation Visits": 3985,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219528"
+  },
+  "Park": "Rainbow Bridge NM",
+  "Rank": 358,
+  "Recreation Visits": 3573,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219529"
+  },
+  "Park": "Gates of the Arctic NP & PRES",
+  "Rank": 359,
+  "Recreation Visits": 2872,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721952a"
+  },
+  "Park": "Salt River Bay NHP & Ecological Pres",
+  "Rank": 360,
+  "Recreation Visits": 2704,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721952b"
+  },
+  "Park": "Bering Land Bridge NPRES",
+  "Rank": 361,
+  "Recreation Visits": 2642,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721952c"
+  },
+  "Park": "Frederick Law Olmsted NHS",
+  "Rank": 362,
+  "Recreation Visits": 2570,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721952d"
+  },
+  "Park": "Belmont-Paul Women's Equality NM",
+  "Rank": 363,
+  "Recreation Visits": 2535,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721952e"
+  },
+  "Park": "Charles Young Buffalo Soldiers NM",
+  "Rank": 364,
+  "Recreation Visits": 2461,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721952f"
+  },
+  "Park": "Edgar Allan Poe NHS",
+  "Rank": 365,
+  "Recreation Visits": 2418,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219530"
+  },
+  "Park": "First Ladies NHS",
+  "Rank": 366,
+  "Recreation Visits": 2406,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219531"
+  },
+  "Park": "Thomas Stone NHS",
+  "Rank": 367,
+  "Recreation Visits": 2351,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219532"
+  },
+  "Park": "Keweenaw NHP",
+  "Rank": 368,
+  "Recreation Visits": 2130,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219533"
+  },
+  "Park": "Maggie L. Walker NHS",
+  "Rank": 369,
+  "Recreation Visits": 1849,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219534"
+  },
+  "Park": "Springfield Armory NHS",
+  "Rank": 370,
+  "Recreation Visits": 1032,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219535"
+  },
+  "Park": "Yukon-Charley Rivers NPRES",
+  "Rank": 371,
+  "Recreation Visits": 666,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219536"
+  },
+  "Park": "Mary McLeod Bethune Council House NHS",
+  "Rank": 372,
+  "Recreation Visits": 578,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219537"
+  },
+  "Park": "Carter G. Woodson Home NHS",
+  "Rank": 373,
+  "Recreation Visits": 548,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219538"
+  },
+  "Park": "John F. Kennedy NHS",
+  "Rank": 374,
+  "Recreation Visits": 451,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d7219539"
+  },
+  "Park": "Clara Barton NHS",
+  "Rank": 375,
+  "Recreation Visits": 450,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721953a"
+  },
+  "Park": "Klondike Gold Rush NHP Alaska",
+  "Rank": 376,
+  "Recreation Visits": 297,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721953b"
+  },
+  "Park": "Nicodemus NHS",
+  "Rank": 377,
+  "Recreation Visits": 262,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721953c"
+  },
+  "Park": "Rio Grande W&SR",
+  "Rank": 378,
+  "Recreation Visits": 126,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721953d"
+  },
+  "Park": "Port Chicago Naval Magazine NMEM",
+  "Rank": 379,
+  "Recreation Visits": 70,
+  "% of Total": 0
+},{
+  "_id": {
+    "$oid": "614575f380772fa3d721953e"
+  },
+  "Park": "Aniakchak NM & PRES",
+  "Rank": 380,
+  "Recreation Visits": 36,
+  "% of Total": 0
+}]
