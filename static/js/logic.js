@@ -67,9 +67,17 @@ function createMap(data) {
       var area = parkData[i];
       if (name1 == area.fullName) {
           marker = new L.marker([area.latitude, area.longitude],  {icon: redMarker, zIndexOffset:1000})
-        .bindPopup(`<h5><a href= "parks/${area.parkCode}">${area.fullName}</a></h5> <hr> <b> ${area.designation}</b>`).addTo(myMap);
+        .bindPopup(`<h5><a href= "parks/${area.parkCode}">${area.fullName}</a></h5> <hr> <b> ${area.designation}</b>`).addTo(myMap).openPopup();
       }
     }
+    myMap.setView(marker.getLatLng(),5);
+    
+  }
+
+  function centerLeafletMapOnMarker(map, marker) {
+    var latLngs = [ marker.getLatLng() ];
+    var markerBounds = L.latLngBounds(latLngs);
+    map.fitBounds(markerBounds);
   }
   // var marker;
   // function newMarker() {
