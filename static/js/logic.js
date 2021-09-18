@@ -74,19 +74,9 @@ function createMap(data) {
     
   }
 
-  function centerLeafletMapOnMarker(map, marker) {
-    var latLngs = [ marker.getLatLng() ];
-    var markerBounds = L.latLngBounds(latLngs);
-    map.fitBounds(markerBounds);
-  }
-  // var marker;
-  // function newMarker() {
-  //  markerLayer = L.layerGroup();
-  //  marker = new L.marker( [12, 13],
-  //  {icon:greenMarker, clickable:true}).bindPopup("Hello Marker").addTo(markerLayer); 
-  
 
-  // };
+
+
 
 
 d3.json("/static/data/park_clean.json").then((data) => {
