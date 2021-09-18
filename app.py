@@ -1,9 +1,19 @@
 from flask import Flask, render_template, redirect
-from flask_pymongo import PyMongo
+import pymongo
 
 app = Flask(__name__)
 
-mongo = PyMongo(app, uri="mongodb://localhost:27017/travel_app")
+# Use PyMongo to establish Mongo connection
+conn = "mongodb://localhost:27017"
+
+# #Pass connection to the pymongo instance
+client = pymongo.MongoClient(conn)
+
+# #connect to a database.
+db = client.parks_db
+collection = db.parks
+
+#print(db.parks.find_one())
 
 
 @app.route("/")
@@ -12,25 +22,15 @@ def index():
     return render_template("index.html")
 
 
-
 @app.route("/name.html")
 def p_name():
-    # names = mongo.travel.parks.find_all()
-    names = ["Abraham Lincoln Birthplace National Historical Park",
-            "Acadia National Park",
-            "Adams National Historical Park",
-            "African American Civil War Memorial",
-            "African Burial Ground National Monument",
-            "Agate Fossil Beds National Monument",
-            "Ala Kahakai National Historic Trail",
-            "Alagnak Wild River",
-            "Alaska Public Lands",
-            "Alcatraz Island",
-            "Aleutian Islands World War II National Historic Area",
-            "Alibates Flint Quarries National Monument",
-            "Allegheny Portage Railroad National Historic Site",
-            "American Memorial Park"]
-    return render_template("name.html", names = names)
+    
+    results = collection.find()
+    #results is a cursor object, when looping through it each result is a dictionary
+    names_from_db = [result["fullName"] for result in results]
+
+    return render_template("name.html", names = names_from_db)
+    
 
 @app.route("/parks/<pCode>")
 def park_detail(pCode):

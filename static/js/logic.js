@@ -44,15 +44,14 @@ function createMap(data) {
   layers: [streetmap, topo, allParksLayer]
   });
 
-  marker = L.marker([data[0].latitude,data[0].longitude]).addTo(myMap);
-
+ 
   L.control.layers(baseMaps,  overlayMaps, {
   collapsed: false
   }).addTo(myMap);
 
   redMarker = L.ExtraMarkers.icon({
     icon: 'fa-coffee',
-    markerColor: 'red',
+    markerColor: 'orange',
     shape: 'square',
     prefix: 'fa'
   });
@@ -61,24 +60,24 @@ function createMap(data) {
 
 
   function getPark(name1) {
-  
-    myMap.removeLayer(marker);
+    try{  
+      myMap.removeLayer(marker);
+      }catch(e){  
+      }
     for (var i = 0; i < parkData.length; i++) {
       var area = parkData[i];
       if (name1 == area.fullName) {
           marker = new L.marker([area.latitude, area.longitude],  {icon: redMarker, zIndexOffset:1000})
-        .bindPopup(`<h5><a href= "parks/${area.parkCode}">${area.fullName}</a></h5> <hr> <b> ${area.designation}</b>`).addTo(myMap);
+        .bindPopup(`<h5><a href= "parks/${area.parkCode}">${area.fullName}</a></h5> <hr> <b> ${area.designation}</b>`).addTo(myMap).openPopup();
       }
     }
+    myMap.setView(marker.getLatLng(),5);
+    
   }
-  // var marker;
-  // function newMarker() {
-  //  markerLayer = L.layerGroup();
-  //  marker = new L.marker( [12, 13],
-  //  {icon:greenMarker, clickable:true}).bindPopup("Hello Marker").addTo(markerLayer); 
-  
 
-  // };
+
+
+
 
 
 d3.json("/static/data/park_clean.json").then((data) => {
