@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect,jsonify
 import pymongo
 
 app = Flask(__name__)
@@ -50,9 +50,22 @@ def string_to_list(data, tag_name)  :
 def hotels():
     return render_template("hotels.html")
 
+
 @app.route("/visitation.html")
 def visitation():
+    results = collection.find()
     return render_template("visitation.html")
+
+
+@app.route("/api/v1/visits")
+def visit_api():
+   
+    results = db.visits_2020.find().limit(50)
+  
+    data = [ {"park": result["Park"], "rank": result["Rank"], "visits" :result["Recreation Visits"] } for result in results]
+    return jsonify(data)
+
+
 
 
 
