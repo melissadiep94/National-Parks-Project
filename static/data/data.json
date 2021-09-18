@@ -1,0 +1,3250 @@
+[
+    {
+        "parkCode": "acad",
+        "fullName": "Acadia National Park",
+        "latitude": 44.409286,
+        "longitude": -68.247501,
+        "states": "ME"
+    },
+    {
+        "parkCode": "adam",
+        "fullName": "Adams National Historical Park",
+        "latitude": 42.2553961,
+        "longitude": -71.01160356,
+        "states": "MA"
+    },
+    {
+        "parkCode": "afam",
+        "fullName": "African American Civil War Memorial",
+        "latitude": 38.9166,
+        "longitude": -77.026,
+        "states": "DC"
+    },
+    {
+        "parkCode": "afbg",
+        "fullName": "African Burial Ground National Monument",
+        "latitude": 40.71452681,
+        "longitude": -74.00447358,
+        "states": "NY"
+    },
+    {
+        "parkCode": "agfo",
+        "fullName": "Agate Fossil Beds National Monument",
+        "latitude": 42.42170419,
+        "longitude": -103.753886,
+        "states": "NE"
+    },
+    {
+        "parkCode": "alka",
+        "fullName": "Ala Kahakai National Historic Trail",
+        "latitude": 19.14466811,
+        "longitude": -155.8907343,
+        "states": "HI"
+    },
+    {
+        "parkCode": "alag",
+        "fullName": "Alagnak Wild River",
+        "latitude": 59.05180188,
+        "longitude": -156.112002,
+        "states": "AK"
+    },
+    {
+        "parkCode": "anch",
+        "fullName": "Alaska Public Lands",
+        "latitude": 61.2188,
+        "longitude": -149.894536,
+        "states": "AK"
+    },
+    {
+        "parkCode": "alca",
+        "fullName": "Alcatraz Island",
+        "latitude": 37.82676234,
+        "longitude": -122.4230206,
+        "states": "CA"
+    },
+    {
+        "parkCode": "aleu",
+        "fullName": "Aleutian Islands World War II National Historic Area",
+        "latitude": 53.9143,
+        "longitude": -166.5197,
+        "states": "AK"
+    },
+    {
+        "parkCode": "alfl",
+        "fullName": "Alibates Flint Quarries National Monument",
+        "latitude": 35.5819662,
+        "longitude": -101.6717008,
+        "states": "TX"
+    },
+    {
+        "parkCode": "alpo",
+        "fullName": "Allegheny Portage Railroad National Historic Site",
+        "latitude": 40.42977467,
+        "longitude": -78.57431622,
+        "states": "PA"
+    },
+    {
+        "parkCode": "amme",
+        "fullName": "American Memorial Park",
+        "latitude": 15.21680033,
+        "longitude": 145.7231096,
+        "states": "MP"
+    },
+    {
+        "parkCode": "amis",
+        "fullName": "Amistad National Recreation Area",
+        "latitude": 29.53539777,
+        "longitude": -101.075821,
+        "states": "TX"
+    },
+    {
+        "parkCode": "anac",
+        "fullName": "Anacostia Park",
+        "latitude": 38.8782,
+        "longitude": -76.9703,
+        "states": "DC"
+    },
+    {
+        "parkCode": "ande",
+        "fullName": "Andersonville National Historic Site",
+        "latitude": 32.19831758,
+        "longitude": -84.12988898,
+        "states": "GA"
+    },
+    {
+        "parkCode": "anjo",
+        "fullName": "Andrew Johnson National Historic Site",
+        "latitude": 36.15624509,
+        "longitude": -82.83709021,
+        "states": "TN"
+    },
+    {
+        "parkCode": "ania",
+        "fullName": "Aniakchak National Monument & Preserve",
+        "latitude": 56.85317675,
+        "longitude": -157.5544362,
+        "states": "AK"
+    },
+    {
+        "parkCode": "anti",
+        "fullName": "Antietam National Battlefield",
+        "latitude": 39.46763452,
+        "longitude": -77.73828017,
+        "states": "MD"
+    },
+    {
+        "parkCode": "apis",
+        "fullName": "Apostle Islands National Lakeshore",
+        "latitude": 46.96240467,
+        "longitude": -90.66045665,
+        "states": "WI"
+    },
+    {
+        "parkCode": "appa",
+        "fullName": "Appalachian National Scenic Trail",
+        "latitude": 40.41029575,
+        "longitude": -76.4337548,
+        "states": "CT,GA,MA,MD,ME,NC,NH,NJ,NY,PA,TN,VA,VT,WV"
+    },
+    {
+        "parkCode": "apco",
+        "fullName": "Appomattox Court House National Historical Park",
+        "latitude": 37.38022164,
+        "longitude": -78.79856982,
+        "states": "VA"
+    },
+    {
+        "parkCode": "arch",
+        "fullName": "Arches National Park",
+        "latitude": 38.72261844,
+        "longitude": -109.5863666,
+        "states": "UT"
+    },
+    {
+        "parkCode": "arpo",
+        "fullName": "Arkansas Post National Memorial",
+        "latitude": 34.00389998,
+        "longitude": -91.30837178,
+        "states": "AR"
+    },
+    {
+        "parkCode": "arho",
+        "fullName": "Arlington House, The Robert E. Lee Memorial",
+        "latitude": 38.88220215,
+        "longitude": -77.0734787,
+        "states": "VA"
+    },
+    {
+        "parkCode": "asis",
+        "fullName": "Assateague Island National Seashore",
+        "latitude": 38.05593172,
+        "longitude": -75.24524611,
+        "states": "MD,VA"
+    },
+    {
+        "parkCode": "azru",
+        "fullName": "Aztec Ruins National Monument",
+        "latitude": 36.83682216,
+        "longitude": -107.9999245,
+        "states": "NM"
+    },
+    {
+        "parkCode": "badl",
+        "fullName": "Badlands National Park",
+        "latitude": 43.68584846,
+        "longitude": -102.482942,
+        "states": "SD"
+    },
+    {
+        "parkCode": "bawa",
+        "fullName": "Baltimore-Washington Parkway",
+        "latitude": 39.02604289,
+        "longitude": -76.85410921,
+        "states": "MD"
+    },
+    {
+        "parkCode": "band",
+        "fullName": "Bandelier National Monument",
+        "latitude": 35.77898596,
+        "longitude": -106.3317124,
+        "states": "NM"
+    },
+    {
+        "parkCode": "bepa",
+        "fullName":"Belmont-Paul Womens Equality National Monument",
+        "latitude": 38.89231541,
+        "longitude": -77.00381882,
+        "states": "DC"
+    },
+    {
+        "parkCode": "beol",
+        "fullName":"Bent's Old Fort National Historic Site",
+        "latitude": 38.03977546,
+        "longitude": -103.4266499,
+        "states": "CO"
+    },
+    {
+        "parkCode": "bela",
+        "fullName": "Bering Land Bridge National Preserve",
+        "latitude": 65.96087902,
+        "longitude": -164.4086432,
+        "states": "AK"
+    },
+    {
+        "parkCode": "bibe",
+        "fullName": "Big Bend National Park",
+        "latitude": 29.29817767,
+        "longitude": -103.2297897,
+        "states": "TX"
+    },
+    {
+        "parkCode": "bicy",
+        "fullName": "Big Cypress National Preserve",
+        "latitude": 25.97079602,
+        "longitude": -81.08120629,
+        "states": "FL"
+    },
+    {
+        "parkCode": "biho",
+        "fullName": "Big Hole National Battlefield",
+        "latitude": 45.64647324,
+        "longitude": -113.6458443,
+        "states": "MT"
+    },
+    {
+        "parkCode": "biso",
+        "fullName": "Big South Fork National River & Recreation Area",
+        "latitude": 36.5348388,
+        "longitude": -84.66506688,
+        "states": "KY,TN"
+    },
+    {
+        "parkCode": "bith",
+        "fullName": "Big Thicket National Preserve",
+        "latitude": 30.45798343,
+        "longitude": -94.38674212,
+        "states": "TX"
+    },
+    {
+        "parkCode": "bica",
+        "fullName": "Bighorn Canyon National Recreation Area",
+        "latitude": 45.13154227,
+        "longitude": -108.1443943,
+        "states": "MT,WY"
+    },
+    {
+        "parkCode": "bicr",
+        "fullName": "Birmingham Civil Rights National Monument",
+        "latitude": 33.51542664,
+        "longitude": -86.81466675,
+        "states": "AL"
+    },
+    {
+        "parkCode": "bisc",
+        "fullName": "Biscayne National Park",
+        "latitude": 25.490587,
+        "longitude": -80.21023851,
+        "states": "FL"
+    },
+    {
+        "parkCode": "blca",
+        "fullName": "Black Canyon Of The Gunnison National Park",
+        "latitude": 38.57779869,
+        "longitude": -107.7242756,
+        "states": "CO"
+    },
+    {
+        "parkCode": "blrv",
+        "fullName": "Blackstone River Valley National Historical Park",
+        "latitude": 41.87757928,
+        "longitude": -71.38243395,
+        "states": "RI,MA"
+    },
+    {
+        "parkCode": "blri",
+        "fullName": "Blue Ridge Parkway",
+        "latitude": 35.56571953,
+        "longitude": -82.48648459,
+        "states": "NC,VA"
+    },
+    {
+        "parkCode": "blue",
+        "fullName": "Bluestone National Scenic River",
+        "latitude": 37.56577087,
+        "longitude": -80.98366657,
+        "states": "WV"
+    },
+    {
+        "parkCode": "bowa",
+        "fullName": "Booker T Washington National Monument",
+        "latitude": 37.11520539,
+        "longitude": -79.73185833,
+        "states": "VA"
+    },
+    {
+        "parkCode": "boaf",
+        "fullName": "Boston African American National Historic Site",
+        "latitude": 42.35908295,
+        "longitude": -71.06764181,
+        "states": "MA"
+    },
+    {
+        "parkCode": "boha",
+        "fullName": "Boston Harbor Islands National Recreation Area",
+        "latitude": 42.30905526,
+        "longitude": -70.93941138,
+        "states": "MA"
+    },
+    {
+        "parkCode": "bost",
+        "fullName": "Boston National Historical Park",
+        "latitude": 42.36957407,
+        "longitude": -71.05536763,
+        "states": "MA"
+    },
+    {
+        "parkCode": "brcr",
+        "fullName": "Brices Cross Roads National Battlefield Site",
+        "latitude": 34.50611958,
+        "longitude": -88.72889343,
+        "states": "MS"
+    },
+    {
+        "parkCode": "brvb",
+        "fullName": "Brown v. Board of Education National Historic Site",
+        "latitude": 39.03787665,
+        "longitude": -95.67614437,
+        "states": "KS"
+    },
+    {
+        "parkCode": "brca",
+        "fullName": "Bryce Canyon National Park",
+        "latitude": 37.58399144,
+        "longitude": -112.1826689,
+        "states": "UT"
+    },
+    {
+        "parkCode": "buis",
+        "fullName": "Buck Island Reef National Monument",
+        "latitude": 17.81026717,
+        "longitude": -64.6222179,
+        "states": "VI"
+    },
+    {
+        "parkCode": "buff",
+        "fullName": "Buffalo National River",
+        "latitude": 36.04116481,
+        "longitude": -92.90761584,
+        "states": "AR"
+    },
+    {
+        "parkCode": "cabr",
+        "fullName": "Cabrillo National Monument",
+        "latitude": 32.6722503,
+        "longitude": -117.2415985,
+        "states": "CA"
+    },
+    {
+        "parkCode": "cali",
+        "fullName": "California National Historic Trail",
+        "latitude": 42.3999644,
+        "longitude": -108.7024154,
+        "states": "CA,CO,ID,KS,MO,NE,NV,OR,UT,WY"
+    },
+    {
+        "parkCode": "cane",
+        "fullName": "Camp Nelson National Monument",
+        "latitude": 37.79701799,
+        "longitude": -84.59816831,
+        "states": "KY"
+    },
+    {
+        "parkCode": "cana",
+        "fullName": "Canaveral National Seashore",
+        "latitude": 28.78637529,
+        "longitude": -80.75419576,
+        "states": "FL"
+    },
+    {
+        "parkCode": "cari",
+        "fullName": "Cane River Creole National Historical Park",
+        "latitude": 31.65408447,
+        "longitude": -93.00131977,
+        "states": "LA"
+    },
+    {
+        "parkCode": "cach",
+        "fullName": "Canyon de Chelly National Monument",
+        "latitude": 36.14319567,
+        "longitude": -109.3388303,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "cany",
+        "fullName": "Canyonlands National Park",
+        "latitude": 38.24555783,
+        "longitude": -109.8801624,
+        "states": "UT"
+    },
+    {
+        "parkCode": "caco",
+        "fullName": "Cape Cod National Seashore",
+        "latitude": 41.92381465,
+        "longitude": -70.04319832,
+        "states": "MA"
+    },
+    {
+        "parkCode": "caha",
+        "fullName": "Cape Hatteras National Seashore",
+        "latitude": 35.41370839,
+        "longitude": -75.65061112,
+        "states": "NC"
+    },
+    {
+        "parkCode": "came",
+        "fullName": "Cape Henry Memorial Part of Colonial National Historical Park",
+        "latitude": 36.9278094,
+        "longitude": -76.0088219,
+        "states": "VA"
+    },
+    {
+        "parkCode": "cakr",
+        "fullName": "Cape Krusenstern National Monument",
+        "latitude": 67.41499986,
+        "longitude": -163.5037786,
+        "states": "AK"
+    },
+    {
+        "parkCode": "calo",
+        "fullName": "Cape Lookout National Seashore",
+        "latitude": 34.8267961,
+        "longitude": -76.34319082,
+        "states": "NC"
+    },
+    {
+        "parkCode": "cahi",
+        "fullName": "Capitol Hill Parks",
+        "latitude": 38.889993,
+        "longitude": -76.990332,
+        "states": "DC"
+    },
+    {
+        "parkCode": "care",
+        "fullName": "Capitol Reef National Park",
+        "latitude": 38.28216531,
+        "longitude": -111.2470484,
+        "states": "UT"
+    },
+    {
+        "parkCode": "cajo",
+        "fullName": "Captain John Smith Chesapeake National Historic Trail",
+        "latitude": 38.971601,
+        "longitude": -76.483355,
+        "states": "VA,MD,DE,DC,PA,NY"
+    },
+    {
+        "parkCode": "cavo",
+        "fullName": "Capulin Volcano National Monument",
+        "latitude": 36.78171096,
+        "longitude": -103.9710427,
+        "states": "NM"
+    },
+    {
+        "parkCode": "carl",
+        "fullName": "Carl Sandburg Home National Historic Site",
+        "latitude": 35.26815509,
+        "longitude": -82.45106258,
+        "states": "NC"
+    },
+    {
+        "parkCode": "cave",
+        "fullName": "Carlsbad Caverns National Park",
+        "latitude": 32.14089463,
+        "longitude": -104.5529688,
+        "states": "NM"
+    },
+    {
+        "parkCode": "cawo",
+        "fullName": "Carter G. Woodson Home National Historic Site",
+        "latitude": 38.91089286,
+        "longitude": -77.02431104,
+        "states": "DC"
+    },
+    {
+        "parkCode": "cagr",
+        "fullName": "Casa Grande Ruins National Monument",
+        "latitude": 32.99702582,
+        "longitude": -111.5325383,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "casa",
+        "fullName": "Castillo de San Marcos National Monument",
+        "latitude": 29.89785701,
+        "longitude": -81.31217173,
+        "states": "FL"
+    },
+    {
+        "parkCode": "cacl",
+        "fullName": "Castle Clinton National Monument",
+        "latitude": 40.70347795,
+        "longitude": -74.01680558,
+        "states": "NY"
+    },
+    {
+        "parkCode": "camo",
+        "fullName": "Castle Mountains National Monument",
+        "latitude": 35.29156348,
+        "longitude": -115.0935606,
+        "states": "CA"
+    },
+    {
+        "parkCode": "cato",
+        "fullName": "Catoctin Mountain Park",
+        "latitude": 39.65068457,
+        "longitude": -77.46417665,
+        "states": "MD"
+    },
+    {
+        "parkCode": "cebr",
+        "fullName": "Cedar Breaks National Monument",
+        "latitude": 37.63545562,
+        "longitude": -112.845268,
+        "states": "UT"
+    },
+    {
+        "parkCode": "cebe",
+        "fullName": "Cedar Creek & Belle Grove National Historical Park",
+        "latitude": 39.0093576,
+        "longitude": -78.30618934,
+        "states": "VA"
+    },
+    {
+        "parkCode": "chcu",
+        "fullName": "Chaco Culture National Historical Park",
+        "latitude": 36.03963414,
+        "longitude": -107.9560076,
+        "states": "NM"
+    },
+    {
+        "parkCode": "cham",
+        "fullName": "Chamizal National Memorial",
+        "latitude": 31.76729634,
+        "longitude": -106.4544011,
+        "states": "TX"
+    },
+    {
+        "parkCode": "chis",
+        "fullName": "Channel Islands National Park",
+        "latitude": 33.98680093,
+        "longitude": -119.9112735,
+        "states": "CA"
+    },
+    {
+        "parkCode": "chpi",
+        "fullName": "Charles Pinckney National Historic Site",
+        "latitude": 32.84577392,
+        "longitude": -79.82487582,
+        "states": "SC"
+    },
+    {
+        "parkCode": "chyo",
+        "fullName": "Charles Young Buffalo Soldiers National Monument",
+        "latitude": 39.70817829,
+        "longitude": -83.89328575,
+        "states": "OH"
+    },
+    {
+        "parkCode": "chat",
+        "fullName": "Chattahoochee River National Recreation Area",
+        "latitude": 33.99698333,
+        "longitude": -84.28953177,
+        "states": "GA"
+    },
+    {
+        "parkCode": "choh",
+        "fullName": "Chesapeake & Ohio Canal National Historical Park",
+        "latitude": 39.00028369,
+        "longitude": -77.24813995,
+        "states": "DC,MD,WV"
+    },
+    {
+        "parkCode": "cbpo",
+        "fullName": "Chesapeake Bay",
+        "latitude": 38.971601,
+        "longitude": -76.483355,
+        "states": "DC,DE,MD,NY,PA,VA,WV"
+    },
+    {
+        "parkCode": "chch",
+        "fullName": "Chickamauga & Chattanooga National Military Park",
+        "latitude": 34.94317623,
+        "longitude": -85.28749537,
+        "states": "GA,TN"
+    },
+    {
+        "parkCode": "chic",
+        "fullName": "Chickasaw National Recreation Area",
+        "latitude": 34.46050507,
+        "longitude": -97.00715669,
+        "states": "OK"
+    },
+    {
+        "parkCode": "chir",
+        "fullName": "Chiricahua National Monument",
+        "latitude": 32.01214618,
+        "longitude": -109.341607,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "chri",
+        "fullName": "Christiansted National Historic Site",
+        "latitude": 17.73771903,
+        "longitude": -64.72906227,
+        "states": "VI"
+    },
+    {
+        "parkCode": "ciro",
+        "fullName": "City Of Rocks National Reserve",
+        "latitude": 42.0699024,
+        "longitude": -113.7124097,
+        "states": "ID"
+    },
+    {
+        "parkCode": "cwdw",
+        "fullName": "Civil War Defenses of Washington",
+        "latitude": 38.9644,
+        "longitude": -77.0292,
+        "states": "DC,MD,VA"
+    },
+    {
+        "parkCode": "clba",
+        "fullName": "Clara Barton National Historic Site",
+        "latitude": 38.96762882,
+        "longitude": -77.14009689,
+        "states": "MD"
+    },
+    {
+        "parkCode": "colo",
+        "fullName": "Colonial National Historical Park",
+        "latitude": 37.22824435,
+        "longitude": -76.61998123,
+        "states": "VA"
+    },
+    {
+        "parkCode": "colm",
+        "fullName": "Colorado National Monument",
+        "latitude": 39.05045016,
+        "longitude": -108.6920709,
+        "states": "CO"
+    },
+    {
+        "parkCode": "colt",
+        "fullName": "Coltsville National Historical Park",
+        "latitude": 42.46775055,
+        "longitude": -73.20366669,
+        "states": "CT"
+    },
+    {
+        "parkCode": "cong",
+        "fullName": "Congaree National Park",
+        "latitude": 33.79187523,
+        "longitude": -80.74867805,
+        "states": "SC"
+    },
+    {
+        "parkCode": "coga",
+        "fullName": "Constitution Gardens",
+        "latitude": 38.8909354,
+        "longitude": -77.04409306,
+        "states": "DC"
+    },
+    {
+        "parkCode": "coro",
+        "fullName": "Coronado National Memorial",
+        "latitude": 31.34900397,
+        "longitude": -110.2561574,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "cowp",
+        "fullName": "Cowpens National Battlefield",
+        "latitude": 35.13160654,
+        "longitude": -81.80935433,
+        "states": "SC"
+    },
+    {
+        "parkCode": "crla",
+        "fullName": "Crater Lake National Park",
+        "latitude": 42.94065854,
+        "longitude": -122.1338414,
+        "states": "OR"
+    },
+    {
+        "parkCode": "crmo",
+        "fullName": "Craters Of The Moon National Monument & Preserve",
+        "latitude": 43.20345611,
+        "longitude": -113.4791609,
+        "states": "ID"
+    },
+    {
+        "parkCode": "cuga",
+        "fullName": "Cumberland Gap National Historical Park",
+        "latitude": 36.62503076,
+        "longitude": -83.6114083,
+        "states": "KY,TN,VA"
+    },
+    {
+        "parkCode": "cuis",
+        "fullName": "Cumberland Island National Seashore",
+        "latitude": 30.85857484,
+        "longitude": -81.45253575,
+        "states": "GA"
+    },
+    {
+        "parkCode": "cure",
+        "fullName": "Curecanti National Recreation Area",
+        "latitude": 38.46584558,
+        "longitude": -107.3303371,
+        "states": "CO"
+    },
+    {
+        "parkCode": "cuva",
+        "fullName": "Cuyahoga Valley National Park",
+        "latitude": 41.26093905,
+        "longitude": -81.57116722,
+        "states": "OH"
+    },
+    {
+        "parkCode": "cech",
+        "fullName": "César E. Chávez National Monument",
+        "latitude": 35.22729389,
+        "longitude": -118.5615781,
+        "states": "CA"
+    },
+    {
+        "parkCode": "daav",
+        "fullName": "Dayton Aviation Heritage National Historical Park",
+        "latitude": 39.78944467,
+        "longitude": -84.10442045,
+        "states": "OH"
+    },
+    {
+        "parkCode": "deso",
+        "fullName": "De Soto National Memorial",
+        "latitude": 27.52272613,
+        "longitude": -82.64335416,
+        "states": "FL"
+    },
+    {
+        "parkCode": "deva",
+        "fullName": "Death Valley National Park",
+        "latitude": 36.48753731,
+        "longitude": -117.134395,
+        "states": "CA,NV"
+    },
+    {
+        "parkCode": "dewa",
+        "fullName": "Delaware Water Gap National Recreation Area",
+        "latitude": 41.12793491,
+        "longitude": -74.94751173,
+        "states": "NJ,PA"
+    },
+    {
+        "parkCode": "dena",
+        "fullName": "Denali National Park & Preserve",
+        "latitude": 63.29777484,
+        "longitude": -151.0526568,
+        "states": "AK"
+    },
+    {
+        "parkCode": "depo",
+        "fullName": "Devils Postpile National Monument",
+        "latitude": 37.6152564,
+        "longitude": -119.0873903,
+        "states": "CA"
+    },
+    {
+        "parkCode": "deto",
+        "fullName": "Devils Tower National Monument",
+        "latitude": 44.59064655,
+        "longitude": -104.7156341,
+        "states": "WY"
+    },
+    {
+        "parkCode": "dino",
+        "fullName": "Dinosaur National Monument",
+        "latitude": 40.50739742,
+        "longitude": -108.9333714,
+        "states": "CO,UT"
+    },
+    {
+        "parkCode": "drto",
+        "fullName": "Dry Tortugas National Park",
+        "latitude": 24.628741,
+        "longitude": -82.87319,
+        "states": "FL"
+    },
+    {
+        "parkCode": "ddem",
+        "fullName": "Dwight D. Eisenhower Memorial",
+        "latitude": 38.88694766,
+        "longitude": -77.01873755,
+        "states": "DC"
+    },
+    {
+        "parkCode": "ebla",
+        "fullName":"Ebey's Landing National Historical Reserve",
+        "latitude": 48.21403036,
+        "longitude": -122.6877213,
+        "states": "WA"
+    },
+    {
+        "parkCode": "edal",
+        "fullName": "Edgar Allan Poe National Historic Site",
+        "latitude": 39.96195482,
+        "longitude": -75.1500062,
+        "states": "PA"
+    },
+    {
+        "parkCode": "efmo",
+        "fullName": "Effigy Mounds National Monument",
+        "latitude": 43.08095081,
+        "longitude": -91.19687517,
+        "states": "IA"
+    },
+    {
+        "parkCode": "eise",
+        "fullName": "Eisenhower National Historic Site",
+        "latitude": 39.79577592,
+        "longitude": -77.26508101,
+        "states": "PA"
+    },
+    {
+        "parkCode": "elca",
+        "fullName": "El Camino Real de Tierra Adentro National Historic Trail",
+        "latitude": 33.79906725,
+        "longitude": -106.8663862,
+        "states": "NM,TX"
+    },
+    {
+        "parkCode": "elte",
+        "fullName": "El Camino Real de los Tejas National Historic Trail",
+        "latitude": 30.09229646,
+        "longitude": -97.33976667,
+        "states": "TX,LA"
+    },
+    {
+        "parkCode": "elma",
+        "fullName": "El Malpais National Monument",
+        "latitude": 34.88422799,
+        "longitude": -107.9950948,
+        "states": "NM"
+    },
+    {
+        "parkCode": "elmo",
+        "fullName": "El Morro National Monument",
+        "latitude": 35.03895916,
+        "longitude": -108.3463984,
+        "states": "NM"
+    },
+    {
+        "parkCode": "elro",
+        "fullName": "Eleanor Roosevelt National Historic Site",
+        "latitude": 41.76208482,
+        "longitude": -73.89894026,
+        "states": "NY"
+    },
+    {
+        "parkCode": "elis",
+        "fullName": "Ellis Island Part of Statue of Liberty National Monument",
+        "latitude": 40.69946,
+        "longitude": -74.0401,
+        "states": "NJ,NY"
+    },
+    {
+        "parkCode": "euon",
+        "fullName":"Eugene O'Neill National Historic Site",
+        "latitude": 37.82604456,
+        "longitude": -122.0271566,
+        "states": "CA"
+    },
+    {
+        "parkCode": "ever",
+        "fullName": "Everglades National Park",
+        "latitude": 25.37294225,
+        "longitude": -80.88200301,
+        "states": "FL"
+    },
+    {
+        "parkCode": "feha",
+        "fullName": "Federal Hall National Memorial",
+        "latitude": 40.70731192,
+        "longitude": -74.01025636,
+        "states": "NY"
+    },
+    {
+        "parkCode": "fiis",
+        "fullName": "Fire Island National Seashore",
+        "latitude": 40.69668638,
+        "longitude": -73.00013462,
+        "states": "NY"
+    },
+    {
+        "parkCode": "fila",
+        "fullName": "First Ladies National Historic Site",
+        "latitude": 40.79689857,
+        "longitude": -81.37579869,
+        "states": "OH"
+    },
+    {
+        "parkCode": "frst",
+        "fullName": "First State National Historical Park",
+        "latitude": 39.83076929,
+        "longitude": -75.56353942,
+        "states": "DE,PA"
+    },
+    {
+        "parkCode": "flni",
+        "fullName": "Flight 93 National Memorial",
+        "latitude": 40.06061476,
+        "longitude": -78.89456905,
+        "states": "PA"
+    },
+    {
+        "parkCode": "flfo",
+        "fullName": "Florissant Fossil Beds National Monument",
+        "latitude": 38.91260586,
+        "longitude": -105.2803396,
+        "states": "CO"
+    },
+    {
+        "parkCode": "foth",
+        "fullName":"Ford's Theatre",
+        "latitude": 38.89668819,
+        "longitude": -77.02577944,
+        "states": "DC"
+    },
+    {
+        "parkCode": "fobo",
+        "fullName": "Fort Bowie National Historic Site",
+        "latitude": 32.14925942,
+        "longitude": -109.451132,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "foda",
+        "fullName": "Fort Davis National Historic Site",
+        "latitude": 30.59930381,
+        "longitude": -103.8961904,
+        "states": "TX"
+    },
+    {
+        "parkCode": "fodo",
+        "fullName": "Fort Donelson National Battlefield",
+        "latitude": 36.49019078,
+        "longitude": -87.92445695,
+        "states": "KY,TN"
+    },
+    {
+        "parkCode": "fodu",
+        "fullName": "Fort Dupont Park",
+        "latitude": 38.87731289,
+        "longitude": -76.94955824,
+        "states": "DC"
+    },
+    {
+        "parkCode": "fofo",
+        "fullName": "Fort Foote Park",
+        "latitude": 38.76901785,
+        "longitude": -77.02812387,
+        "states": "MD"
+    },
+    {
+        "parkCode": "fofr",
+        "fullName": "Fort Frederica National Monument",
+        "latitude": 31.2214699,
+        "longitude": -81.39452014,
+        "states": "GA"
+    },
+    {
+        "parkCode": "fola",
+        "fullName": "Fort Laramie National Historic Site",
+        "latitude": 42.20301694,
+        "longitude": -104.5459112,
+        "states": "WY"
+    },
+    {
+        "parkCode": "fols",
+        "fullName": "Fort Larned National Historic Site",
+        "latitude": 38.18047491,
+        "longitude": -99.21836664,
+        "states": "KS"
+    },
+    {
+        "parkCode": "foma",
+        "fullName": "Fort Matanzas National Monument",
+        "latitude": 29.7121489,
+        "longitude": -81.23567535,
+        "states": "FL"
+    },
+    {
+        "parkCode": "fomc",
+        "fullName": "Fort McHenry National Monument and Historic Shrine",
+        "latitude": 39.26395314,
+        "longitude": -76.58044165,
+        "states": "MD"
+    },
+    {
+        "parkCode": "fomr",
+        "fullName": "Fort Monroe National Monument",
+        "latitude": 37.01733343,
+        "longitude": -76.30103195,
+        "states": "VA"
+    },
+    {
+        "parkCode": "fone",
+        "fullName": "Fort Necessity National Battlefield",
+        "latitude": 39.81306048,
+        "longitude": -79.59033344,
+        "states": "PA"
+    },
+    {
+        "parkCode": "fopo",
+        "fullName": "Fort Point National Historic Site",
+        "latitude": 37.80837439,
+        "longitude": -122.473747,
+        "states": "CA"
+    },
+    {
+        "parkCode": "fopu",
+        "fullName": "Fort Pulaski National Monument",
+        "latitude": 32.0308274,
+        "longitude": -80.93361681,
+        "states": "GA"
+    },
+    {
+        "parkCode": "fora",
+        "fullName": "Fort Raleigh National Historic Site",
+        "latitude": 35.93278602,
+        "longitude": -75.71496865,
+        "states": "NC"
+    },
+    {
+        "parkCode": "fosc",
+        "fullName": "Fort Scott National Historic Site",
+        "latitude": 37.84358849,
+        "longitude": -94.70429174,
+        "states": "KS"
+    },
+    {
+        "parkCode": "fosm",
+        "fullName": "Fort Smith National Historic Site",
+        "latitude": 35.38834746,
+        "longitude": -94.43129079,
+        "states": "AR,OK"
+    },
+    {
+        "parkCode": "fost",
+        "fullName": "Fort Stanwix National Monument",
+        "latitude": 43.21053441,
+        "longitude": -75.45557626,
+        "states": "NY"
+    },
+    {
+        "parkCode": "fosu",
+        "fullName": "Fort Sumter and Fort Moultrie National Historical Park",
+        "latitude": 32.75654469,
+        "longitude": -79.87068744,
+        "states": "SC"
+    },
+    {
+        "parkCode": "foun",
+        "fullName": "Fort Union National Monument",
+        "latitude": 35.90700629,
+        "longitude": -105.0145185,
+        "states": "NM"
+    },
+    {
+        "parkCode": "fous",
+        "fullName": "Fort Union Trading Post National Historic Site",
+        "latitude": 48.00075828,
+        "longitude": -104.0375238,
+        "states": "MT,ND"
+    },
+    {
+        "parkCode": "fova",
+        "fullName": "Fort Vancouver National Historic Site",
+        "latitude": 45.62234841,
+        "longitude": -122.6617043,
+        "states": "OR,WA"
+    },
+    {
+        "parkCode": "fowa",
+        "fullName": "Fort Washington Park",
+        "latitude": 38.7117,
+        "longitude": -77.0302,
+        "states": "MD"
+    },
+    {
+        "parkCode": "fobu",
+        "fullName": "Fossil Butte National Monument",
+        "latitude": 41.85635223,
+        "longitude": -110.7624754,
+        "states": "WY"
+    },
+    {
+        "parkCode": "frde",
+        "fullName": "Franklin Delano Roosevelt Memorial",
+        "latitude": 38.88341274,
+        "longitude": -77.04311542,
+        "states": "DC"
+    },
+    {
+        "parkCode": "frdo",
+        "fullName": "Frederick Douglass National Historic Site",
+        "latitude": 38.86298458,
+        "longitude": -76.98508147,
+        "states": "DC"
+    },
+    {
+        "parkCode": "frla",
+        "fullName": "Frederick Law Olmsted National Historic Site",
+        "latitude": 42.32424266,
+        "longitude": -71.13202567,
+        "states": "MA"
+    },
+    {
+        "parkCode": "frsp",
+        "fullName": "Fredericksburg & Spotsylvania National Military Park",
+        "latitude": 38.29378,
+        "longitude": -77.46734,
+        "states": "VA"
+    },
+    {
+        "parkCode": "frri",
+        "fullName": "Freedom Riders National Monument",
+        "latitude": 33.63526917,
+        "longitude": -85.90643311,
+        "states": "AL"
+    },
+    {
+        "parkCode": "frhi",
+        "fullName": "Friendship Hill National Historic Site",
+        "latitude": 39.77543423,
+        "longitude": -79.92504169,
+        "states": "PA"
+    },
+    {
+        "parkCode": "gaar",
+        "fullName": "Gates Of The Arctic National Park & Preserve",
+        "latitude": 67.75961636,
+        "longitude": -153.2917758,
+        "states": "AK"
+    },
+    {
+        "parkCode": "jeff",
+        "fullName": "Gateway Arch National Park",
+        "latitude": 38.6258069,
+        "longitude": -90.1892508,
+        "states": "MO"
+    },
+    {
+        "parkCode": "gate",
+        "fullName": "Gateway National Recreation Area",
+        "latitude": 40.56536246,
+        "longitude": -73.9171087,
+        "states": "NY,NJ"
+    },
+    {
+        "parkCode": "gari",
+        "fullName": "Gauley River National Recreation Area",
+        "latitude": 38.20614947,
+        "longitude": -81.00420836,
+        "states": "WV"
+    },
+    {
+        "parkCode": "gegr",
+        "fullName": "General Grant National Memorial",
+        "latitude": 40.81332817,
+        "longitude": -73.96331542,
+        "states": "NY"
+    },
+    {
+        "parkCode": "gero",
+        "fullName": "George Rogers Clark National Historical Park",
+        "latitude": 38.67912659,
+        "longitude": -87.53545212,
+        "states": "IN"
+    },
+    {
+        "parkCode": "gewa",
+        "fullName": "George Washington Birthplace National Monument",
+        "latitude": 38.19362603,
+        "longitude": -76.92079458,
+        "states": "VA"
+    },
+    {
+        "parkCode": "gwca",
+        "fullName": "George Washington Carver National Monument",
+        "latitude": 36.9871322,
+        "longitude": -94.35522737,
+        "states": "MO"
+    },
+    {
+        "parkCode": "gwmp",
+        "fullName": "George Washington Memorial Parkway",
+        "latitude": 38.9628,
+        "longitude": -77.1495,
+        "states": "DC,MD,VA"
+    },
+    {
+        "parkCode": "gett",
+        "fullName": "Gettysburg National Military Park",
+        "latitude": 39.81557366,
+        "longitude": -77.23246758,
+        "states": "PA"
+    },
+    {
+        "parkCode": "gicl",
+        "fullName": "Gila Cliff Dwellings National Monument",
+        "latitude": 33.22715258,
+        "longitude": -108.2706711,
+        "states": "NM"
+    },
+    {
+        "parkCode": "glba",
+        "fullName": "Glacier Bay National Park & Preserve",
+        "latitude": 58.80086718,
+        "longitude": -136.8407579,
+        "states": "AK"
+    },
+    {
+        "parkCode": "glac",
+        "fullName": "Glacier National Park",
+        "latitude": 48.68414678,
+        "longitude": -113.8009306,
+        "states": "MT"
+    },
+    {
+        "parkCode": "glca",
+        "fullName": "Glen Canyon National Recreation Area",
+        "latitude": 36.93574647,
+        "longitude": -111.4855943,
+        "states": "AZ,UT"
+    },
+    {
+        "parkCode": "glec",
+        "fullName": "Glen Echo Park",
+        "latitude": 38.96912315,
+        "longitude": -77.14012206,
+        "states": "MD"
+    },
+    {
+        "parkCode": "glde",
+        "fullName": "Gloria Dei Church National Historic Site",
+        "latitude": 39.93435005,
+        "longitude": -75.14398924,
+        "states": "PA"
+    },
+    {
+        "parkCode": "goga",
+        "fullName": "Golden Gate National Recreation Area",
+        "latitude": 37.85982543,
+        "longitude": -122.6007386,
+        "states": "CA"
+    },
+    {
+        "parkCode": "gosp",
+        "fullName": "Golden Spike National Historical Park",
+        "latitude": 41.61947508,
+        "longitude": -112.5242653,
+        "states": "UT"
+    },
+    {
+        "parkCode": "gois",
+        "fullName": "Governors Island National Monument",
+        "latitude": 40.69164233,
+        "longitude": -74.01670765,
+        "states": "NY"
+    },
+    {
+        "parkCode": "grca",
+        "fullName": "Grand Canyon National Park",
+        "latitude": 36.00011653,
+        "longitude": -112.1215164,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "para",
+        "fullName": "Grand Canyon-Parashant National Monument",
+        "latitude": 36.41535465,
+        "longitude": -113.6682797,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "grpo",
+        "fullName": "Grand Portage National Monument",
+        "latitude": 47.99294217,
+        "longitude": -89.75573031,
+        "states": "MN"
+    },
+    {
+        "parkCode": "grte",
+        "fullName": "Grand Teton National Park",
+        "latitude": 43.81853565,
+        "longitude": -110.7054666,
+        "states": "WY"
+    },
+    {
+        "parkCode": "grko",
+        "fullName": "Grant-Kohrs Ranch National Historic Site",
+        "latitude": 46.41358923,
+        "longitude": -112.7467024,
+        "states": "MT"
+    },
+    {
+        "parkCode": "grba",
+        "fullName": "Great Basin National Park",
+        "latitude": 38.94617378,
+        "longitude": -114.2579782,
+        "states": "NV"
+    },
+    {
+        "parkCode": "greg",
+        "fullName": "Great Egg Harbor River",
+        "latitude": 39.3042,
+        "longitude": -74.6497,
+        "states": "NJ"
+    },
+    {
+        "parkCode": "grfa",
+        "fullName": "Great Falls Park",
+        "latitude": 38.98776107,
+        "longitude": -77.25128326,
+        "states": "VA"
+    },
+    {
+        "parkCode": "grsa",
+        "fullName": "Great Sand Dunes National Park & Preserve",
+        "latitude": 37.79256812,
+        "longitude": -105.5919572,
+        "states": "CO"
+    },
+    {
+        "parkCode": "grsm",
+        "fullName": "Great Smoky Mountains National Park",
+        "latitude": 35.60116374,
+        "longitude": -83.50818326,
+        "states": "NC,TN"
+    },
+    {
+        "parkCode": "grsp",
+        "fullName": "Green Springs",
+        "latitude": 38.037099,
+        "longitude": -78.189823,
+        "states": "VA"
+    },
+    {
+        "parkCode": "gree",
+        "fullName": "Greenbelt Park",
+        "latitude": 38.98328267,
+        "longitude": -76.89722133,
+        "states": "MD"
+    },
+    {
+        "parkCode": "gumo",
+        "fullName": "Guadalupe Mountains National Park",
+        "latitude": 31.92304462,
+        "longitude": -104.885527,
+        "states": "TX"
+    },
+    {
+        "parkCode": "guco",
+        "fullName": "Guilford Courthouse National Military Park",
+        "latitude": 36.13225478,
+        "longitude": -79.8424561,
+        "states": "NC"
+    },
+    {
+        "parkCode": "guis",
+        "fullName": "Gulf Islands National Seashore",
+        "latitude": 30.29924926,
+        "longitude": -87.75064297,
+        "states": "FL,MS"
+    },
+    {
+        "parkCode": "hafo",
+        "fullName": "Hagerman Fossil Beds National Monument",
+        "latitude": 42.79074114,
+        "longitude": -114.9443074,
+        "states": "ID"
+    },
+    {
+        "parkCode": "hale",
+        "fullName": "Haleakalā National Park",
+        "latitude": 20.70693015,
+        "longitude": -156.1591775,
+        "states": "HI"
+    },
+    {
+        "parkCode": "hagr",
+        "fullName": "Hamilton Grange National Memorial",
+        "latitude": 40.81871605,
+        "longitude": -73.94878487,
+        "states": "NY"
+    },
+    {
+        "parkCode": "hamp",
+        "fullName": "Hampton National Historic Site",
+        "latitude": 39.4175296,
+        "longitude": -76.58781182,
+        "states": "MD"
+    },
+    {
+        "parkCode": "haha",
+        "fullName": "Harmony Hall",
+        "latitude": 38.74646351,
+        "longitude": -77.00377069,
+        "states": "MD"
+    },
+    {
+        "parkCode": "hafe",
+        "fullName": "Harpers Ferry National Historical Park",
+        "latitude": 39.31865949,
+        "longitude": -77.74088546,
+        "states": "WV,VA,MD"
+    },
+    {
+        "parkCode": "hart",
+        "fullName": "Harriet Tubman National Historical Park",
+        "latitude": 42.91289203,
+        "longitude": -76.56467155,
+        "states": "NY"
+    },
+    {
+        "parkCode": "hatu",
+        "fullName": "Harriet Tubman Underground Railroad National Historical Park",
+        "latitude": 38.45486435,
+        "longitude": -76.13734514,
+        "states": "MD"
+    },
+    {
+        "parkCode": "hstr",
+        "fullName": "Harry S Truman National Historic Site",
+        "latitude": 38.92711967,
+        "longitude": -94.5162488,
+        "states": "MO"
+    },
+    {
+        "parkCode": "havo",
+        "fullName": "Hawaiʻi Volcanoes National Park",
+        "latitude": 19.3355036,
+        "longitude": -155.4700257,
+        "states": "HI"
+    },
+    {
+        "parkCode": "heho",
+        "fullName": "Herbert Hoover National Historic Site",
+        "latitude": 41.66793558,
+        "longitude": -91.35232139,
+        "states": "IA"
+    },
+    {
+        "parkCode": "jame",
+        "fullName": "Historic Jamestowne Part of Colonial National Historical Park",
+        "latitude": 37.2065,
+        "longitude": -76.7538,
+        "states": "VA"
+    },
+    {
+        "parkCode": "hofr",
+        "fullName": "Home Of Franklin D Roosevelt National Historic Site",
+        "latitude": 41.76639758,
+        "longitude": -73.92516857,
+        "states": "NY"
+    },
+    {
+        "parkCode": "home",
+        "fullName": "Homestead National Historical Park",
+        "latitude": 40.28802381,
+        "longitude": -96.83387781,
+        "states": "NE"
+    },
+    {
+        "parkCode": "hono",
+        "fullName": "Honouliuli National Historic Site",
+        "latitude": 21.38817536,
+        "longitude": -158.0574991,
+        "states": "HI"
+    },
+    {
+        "parkCode": "hocu",
+        "fullName": "Hopewell Culture National Historical Park",
+        "latitude": 39.31594374,
+        "longitude": -83.08049456,
+        "states": "OH"
+    },
+    {
+        "parkCode": "hofu",
+        "fullName": "Hopewell Furnace National Historic Site",
+        "latitude": 40.20610637,
+        "longitude": -75.76766355,
+        "states": "PA"
+    },
+    {
+        "parkCode": "hobe",
+        "fullName": "Horseshoe Bend National Military Park",
+        "latitude": 32.97668879,
+        "longitude": -85.73413589,
+        "states": "AL"
+    },
+    {
+        "parkCode": "hosp",
+        "fullName": "Hot Springs National Park",
+        "latitude": 34.52414366,
+        "longitude": -93.06332936,
+        "states": "AR"
+    },
+    {
+        "parkCode": "hove",
+        "fullName": "Hovenweep National Monument",
+        "latitude": 37.39134092,
+        "longitude": -109.0047977,
+        "states": "CO,UT"
+    },
+    {
+        "parkCode": "hutr",
+        "fullName": "Hubbell Trading Post National Historic Site",
+        "latitude": 35.70727324,
+        "longitude": -109.5599515,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "iafl",
+        "fullName": "Ice Age Floods National Geologic Trail",
+        "latitude": 46.5669309,
+        "longitude": -118.992565,
+        "states": "WA,OR,ID,MT"
+    },
+    {
+        "parkCode": "iatr",
+        "fullName": "Ice Age National Scenic Trail",
+        "latitude": 43.98956978,
+        "longitude": -89.56120217,
+        "states": "WI"
+    },
+    {
+        "parkCode": "inde",
+        "fullName": "Independence National Historical Park",
+        "latitude": 39.94746112,
+        "longitude": -75.14794157,
+        "states": "PA"
+    },
+    {
+        "parkCode": "indu",
+        "fullName": "Indiana Dunes National Park",
+        "latitude": 41.63765525,
+        "longitude": -87.09647445,
+        "states": "IN"
+    },
+    {
+        "parkCode": "isro",
+        "fullName": "Isle Royale National Park",
+        "latitude": 48.01145819,
+        "longitude": -88.82780657,
+        "states": "MI"
+    },
+    {
+        "parkCode": "inup",
+        "fullName": "Iñupiat Heritage Center",
+        "latitude": 71.29832445,
+        "longitude": -156.7535863,
+        "states": "AK"
+    },
+    {
+        "parkCode": "jaga",
+        "fullName": "James A Garfield National Historic Site",
+        "latitude": 41.66486549,
+        "longitude": -81.35086557,
+        "states": "OH"
+    },
+    {
+        "parkCode": "jela",
+        "fullName": "Jean Lafitte National Historical Park and Preserve",
+        "latitude": 29.81739855,
+        "longitude": -90.1402241,
+        "states": "LA"
+    },
+    {
+        "parkCode": "jeca",
+        "fullName": "Jewel Cave National Monument",
+        "latitude": 43.73102945,
+        "longitude": -103.829994,
+        "states": "SD"
+    },
+    {
+        "parkCode": "jica",
+        "fullName": "Jimmy Carter National Historical Park",
+        "latitude": 32.03611,
+        "longitude": -84.3924,
+        "states": "GA"
+    },
+    {
+        "parkCode": "joda",
+        "fullName": "John Day Fossil Beds National Monument",
+        "latitude": 44.62566508,
+        "longitude": -119.8811491,
+        "states": "OR"
+    },
+    {
+        "parkCode": "jofi",
+        "fullName": "John Fitzgerald Kennedy National Historic Site",
+        "latitude": 42.34693694,
+        "longitude": -71.12323846,
+        "states": "MA"
+    },
+    {
+        "parkCode": "jomu",
+        "fullName": "John Muir National Historic Site",
+        "latitude": 37.9828422,
+        "longitude": -122.1326097,
+        "states": "CA"
+    },
+    {
+        "parkCode": "jofl",
+        "fullName": "Johnstown Flood National Memorial",
+        "latitude": 40.34584534,
+        "longitude": -78.77448601,
+        "states": "PA"
+    },
+    {
+        "parkCode": "jotr",
+        "fullName": "Joshua Tree National Park",
+        "latitude": 33.91418525,
+        "longitude": -115.8398125,
+        "states": "CA"
+    },
+    {
+        "parkCode": "juba",
+        "fullName": "Juan Bautista de Anza National Historic Trail",
+        "latitude": 33.8743391,
+        "longitude": -117.2241799,
+        "states": "AZ,CA"
+    },
+    {
+        "parkCode": "kala",
+        "fullName": "Kalaupapa National Historical Park",
+        "latitude": 21.1731108,
+        "longitude": -156.9511609,
+        "states": "HI"
+    },
+    {
+        "parkCode": "kaho",
+        "fullName": "Kaloko-Honokōhau National Historical Park",
+        "latitude": 19.68083237,
+        "longitude": -156.0306932,
+        "states": "HI"
+    },
+    {
+        "parkCode": "kaww",
+        "fullName": "Katahdin Woods and Waters National Monument",
+        "latitude": 45.95675659,
+        "longitude": -68.7122879,
+        "states": "ME"
+    },
+    {
+        "parkCode": "katm",
+        "fullName": "Katmai National Park & Preserve",
+        "latitude": 58.62235668,
+        "longitude": -155.0126574,
+        "states": "AK"
+    },
+    {
+        "parkCode": "kefj",
+        "fullName": "Kenai Fjords National Park",
+        "latitude": 59.81804414,
+        "longitude": -150.106502,
+        "states": "AK"
+    },
+    {
+        "parkCode": "keaq",
+        "fullName": "Kenilworth Park & Aquatic Gardens",
+        "latitude": 38.9128,
+        "longitude": -76.9434,
+        "states": "DC"
+    },
+    {
+        "parkCode": "kemo",
+        "fullName": "Kennesaw Mountain National Battlefield Park",
+        "latitude": 33.95370717,
+        "longitude": -84.59214186,
+        "states": "GA"
+    },
+    {
+        "parkCode": "kewe",
+        "fullName": "Keweenaw National Historical Park",
+        "latitude": 47.1792308,
+        "longitude": -88.52275344,
+        "states": "MI"
+    },
+    {
+        "parkCode": "kimo",
+        "fullName": "Kings Mountain National Military Park",
+        "latitude": 35.13900723,
+        "longitude": -81.38978712,
+        "states": "SC"
+    },
+    {
+        "parkCode": "klse",
+        "fullName": "Klondike Gold Rush - Seattle Unit National Historical Park",
+        "latitude": 47.5993663,
+        "longitude": -122.3319664,
+        "states": "WA"
+    },
+    {
+        "parkCode": "klgo",
+        "fullName": "Klondike Gold Rush National Historical Park",
+        "latitude": 59.61042373,
+        "longitude": -135.2618535,
+        "states": "AK"
+    },
+    {
+        "parkCode": "knri",
+        "fullName": "Knife River Indian Villages National Historic Site",
+        "latitude": 47.3540219,
+        "longitude": -101.3860533,
+        "states": "ND"
+    },
+    {
+        "parkCode": "kova",
+        "fullName": "Kobuk Valley National Park",
+        "latitude": 67.35631336,
+        "longitude": -159.2002293,
+        "states": "AK"
+    },
+    {
+        "parkCode": "kowa",
+        "fullName": "Korean War Veterans Memorial",
+        "latitude": 38.88784226,
+        "longitude": -77.04773857,
+        "states": "DC"
+    },
+    {
+        "parkCode": "lyba",
+        "fullName": "LBJ Memorial Grove on the Potomac",
+        "latitude": 38.87858036,
+        "longitude": -77.05145832,
+        "states": "DC"
+    },
+    {
+        "parkCode": "lacl",
+        "fullName": "Lake Clark National Park & Preserve",
+        "latitude": 60.57405857,
+        "longitude": -153.55535,
+        "states": "AK"
+    },
+    {
+        "parkCode": "lake",
+        "fullName": "Lake Mead National Recreation Area",
+        "latitude": 35.96622528,
+        "longitude": -114.3469067,
+        "states": "AZ,NV"
+    },
+    {
+        "parkCode": "lamr",
+        "fullName": "Lake Meredith National Recreation Area",
+        "latitude": 35.61926203,
+        "longitude": -101.6820066,
+        "states": "TX"
+    },
+    {
+        "parkCode": "laro",
+        "fullName": "Lake Roosevelt National Recreation Area",
+        "latitude": 48.17148735,
+        "longitude": -118.3513713,
+        "states": "WA"
+    },
+    {
+        "parkCode": "lavo",
+        "fullName": "Lassen Volcanic National Park",
+        "latitude": 40.49354575,
+        "longitude": -121.4075993,
+        "states": "CA"
+    },
+    {
+        "parkCode": "labe",
+        "fullName": "Lava Beds National Monument",
+        "latitude": 41.75915823,
+        "longitude": -121.5172189,
+        "states": "CA"
+    },
+    {
+        "parkCode": "lecl",
+        "fullName": "Lewis & Clark National Historic Trail",
+        "latitude": 41.26461411,
+        "longitude": -95.92451477,
+        "states": "IA,ID,IL,IN,KS,KY,MO,MT,NE,ND,OH,OR,PA,SD,WA,WV"
+    },
+    {
+        "parkCode": "lewi",
+        "fullName": "Lewis and Clark National Historical Park",
+        "latitude": 46.21178735,
+        "longitude": -123.9638583,
+        "states": "OR,WA"
+    },
+    {
+        "parkCode": "libo",
+        "fullName": "Lincoln Boyhood National Memorial",
+        "latitude": 38.11817004,
+        "longitude": -86.99656861,
+        "states": "IN"
+    },
+    {
+        "parkCode": "liho",
+        "fullName": "Lincoln Home National Historic Site",
+        "latitude": 39.79715642,
+        "longitude": -89.64513397,
+        "states": "IL"
+    },
+    {
+        "parkCode": "linc",
+        "fullName": "Lincoln Memorial",
+        "latitude": 38.88927229,
+        "longitude": -77.05017778,
+        "states": "DC"
+    },
+    {
+        "parkCode": "libi",
+        "fullName": "Little Bighorn Battlefield National Monument",
+        "latitude": 45.55633048,
+        "longitude": -107.4183614,
+        "states": "MT"
+    },
+    {
+        "parkCode": "liri",
+        "fullName": "Little River Canyon National Preserve",
+        "latitude": 34.41461863,
+        "longitude": -85.61734327,
+        "states": "AL"
+    },
+    {
+        "parkCode": "chsc",
+        "fullName": "Little Rock Central High School National Historic Site",
+        "latitude": 34.7369465,
+        "longitude": -92.29987899,
+        "states": "AR"
+    },
+    {
+        "parkCode": "long",
+        "fullName":"Longfellow House Washington's Headquarters National Historic Site",
+        "latitude": 42.37698854,
+        "longitude": -71.12636956,
+        "states": "MA"
+    },
+    {
+        "parkCode": "lowe",
+        "fullName": "Lowell National Historical Park",
+        "latitude": 42.6455371,
+        "longitude": -71.31588673,
+        "states": "MA"
+    },
+    {
+        "parkCode": "lode",
+        "fullName": "Lower Delaware National Wild and Scenic River",
+        "latitude": 40.4000389,
+        "longitude": -74.983737,
+        "states": "PA,NJ"
+    },
+    {
+        "parkCode": "loea",
+        "fullName": "Lower East Side Tenement Museum National Historic Site",
+        "latitude": 40.7187683,
+        "longitude": -73.99001245,
+        "states": "NY"
+    },
+    {
+        "parkCode": "lyjo",
+        "fullName": "Lyndon B Johnson National Historical Park",
+        "latitude": 30.2519655,
+        "longitude": -98.60692433,
+        "states": "TX"
+    },
+    {
+        "parkCode": "mawa",
+        "fullName": "Maggie L Walker National Historic Site",
+        "latitude": 37.54781499,
+        "longitude": -77.43746979,
+        "states": "VA"
+    },
+    {
+        "parkCode": "maac",
+        "fullName": "Maine Acadian Culture",
+        "latitude": 47.25102114,
+        "longitude": -68.59447532,
+        "states": "ME"
+    },
+    {
+        "parkCode": "maca",
+        "fullName": "Mammoth Cave National Park",
+        "latitude": 37.19760458,
+        "longitude": -86.13090198,
+        "states": "KY"
+    },
+    {
+        "parkCode": "mana",
+        "fullName": "Manassas National Battlefield Park",
+        "latitude": 38.81710063,
+        "longitude": -77.5353468,
+        "states": "VA"
+    },
+    {
+        "parkCode": "mapr",
+        "fullName": "Manhattan Project National Historical Park",
+        "latitude": 35.88096,
+        "longitude": -106.30214,
+        "states": "NM,WA,TN"
+    },
+    {
+        "parkCode": "manz",
+        "fullName": "Manzanar National Historic Site",
+        "latitude": 36.72559195,
+        "longitude": -118.1547177,
+        "states": "CA"
+    },
+    {
+        "parkCode": "mabi",
+        "fullName": "Marsh - Billings - Rockefeller National Historical Park",
+        "latitude": 43.63348732,
+        "longitude": -72.53424638,
+        "states": "VT"
+    },
+    {
+        "parkCode": "mlkm",
+        "fullName": "Martin Luther King, Jr. Memorial",
+        "latitude": 38.88622769,
+        "longitude": -77.04421955,
+        "states": "DC"
+    },
+    {
+        "parkCode": "malu",
+        "fullName": "Martin Luther King, Jr. National Historical Park",
+        "latitude": 33.75618241,
+        "longitude": -84.37256768,
+        "states": "GA"
+    },
+    {
+        "parkCode": "mava",
+        "fullName": "Martin Van Buren National Historic Site",
+        "latitude": 42.36819596,
+        "longitude": -73.70834257,
+        "states": "NY"
+    },
+    {
+        "parkCode": "mamc",
+        "fullName": "Mary McLeod Bethune Council House National Historic Site",
+        "latitude": 38.90819107,
+        "longitude": -77.03096742,
+        "states": "DC"
+    },
+    {
+        "parkCode": "memy",
+        "fullName": "Medgar and Myrlie Evers Home National Monument",
+        "latitude": 32.34096274,
+        "longitude": -90.21264553,
+        "states": "MS"
+    },
+    {
+        "parkCode": "meve",
+        "fullName": "Mesa Verde National Park",
+        "latitude": 37.23908345,
+        "longitude": -108.4624032,
+        "states": "CO"
+    },
+    {
+        "parkCode": "misp",
+        "fullName": "Mill Springs Battlefield National Monument",
+        "latitude": 37.06881586,
+        "longitude": -84.73753613,
+        "states": "KY"
+    },
+    {
+        "parkCode": "miin",
+        "fullName": "Minidoka National Historic Site",
+        "latitude": 42.80586068,
+        "longitude": -114.4449868,
+        "states": "ID,WA"
+    },
+    {
+        "parkCode": "mima",
+        "fullName": "Minute Man National Historical Park",
+        "latitude": 42.4562778,
+        "longitude": -71.30738884,
+        "states": "MA"
+    },
+    {
+        "parkCode": "mimi",
+        "fullName": "Minuteman Missile National Historic Site",
+        "latitude": 43.89558013,
+        "longitude": -102.0272131,
+        "states": "SD"
+    },
+    {
+        "parkCode": "miss",
+        "fullName": "Mississippi National River and Recreation Area",
+        "latitude": 44.942487,
+        "longitude": -93.098712,
+        "states": "MN"
+    },
+    {
+        "parkCode": "mnrr",
+        "fullName": "Missouri National Recreational River",
+        "latitude": 42.7882189,
+        "longitude": -97.59077822,
+        "states": "SD,NE"
+    },
+    {
+        "parkCode": "moja",
+        "fullName": "Mojave National Preserve",
+        "latitude": 35.12485941,
+        "longitude": -115.5168258,
+        "states": "CA"
+    },
+    {
+        "parkCode": "mono",
+        "fullName": "Monocacy National Battlefield",
+        "latitude": 39.36084236,
+        "longitude": -77.39637677,
+        "states": "MD"
+    },
+    {
+        "parkCode": "moca",
+        "fullName": "Montezuma Castle National Monument",
+        "latitude": 34.62237771,
+        "longitude": -111.8147857,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "mocr",
+        "fullName": "Moores Creek National Battlefield",
+        "latitude": 34.45820776,
+        "longitude": -78.11031134,
+        "states": "NC"
+    },
+    {
+        "parkCode": "mopi",
+        "fullName": "Mormon Pioneer National Historic Trail",
+        "latitude": 41.26503217,
+        "longitude": -101.8408376,
+        "states": "IL,IA,NE,UT,WY"
+    },
+    {
+        "parkCode": "morr",
+        "fullName": "Morristown National Historical Park",
+        "latitude": 40.7650755,
+        "longitude": -74.53455122,
+        "states": "NJ"
+    },
+    {
+        "parkCode": "mora",
+        "fullName": "Mount Rainier National Park",
+        "latitude": 46.86075416,
+        "longitude": -121.7043885,
+        "states": "WA"
+    },
+    {
+        "parkCode": "moru",
+        "fullName": "Mount Rushmore National Memorial",
+        "latitude": 43.88037021,
+        "longitude": -103.4525186,
+        "states": "SD"
+    },
+    {
+        "parkCode": "muwo",
+        "fullName": "Muir Woods National Monument",
+        "latitude": 37.89658027,
+        "longitude": -122.5808047,
+        "states": "CA"
+    },
+    {
+        "parkCode": "natc",
+        "fullName": "Natchez National Historical Park",
+        "latitude": 31.54697621,
+        "longitude": -91.39040665,
+        "states": "MS"
+    },
+    {
+        "parkCode": "natt",
+        "fullName": "Natchez Trace National Scenic Trail",
+        "latitude": 34.33029033,
+        "longitude": -88.71001041,
+        "states": "AL,MS,TN"
+    },
+    {
+        "parkCode": "natr",
+        "fullName": "Natchez Trace Parkway",
+        "latitude": 33.78002293,
+        "longitude": -89.03092439,
+        "states": "AL,MS,TN"
+    },
+    {
+        "parkCode": "nace",
+        "fullName": "National Capital Parks-East",
+        "latitude": 38.8659,
+        "longitude": -76.994,
+        "states": "DC"
+    },
+    {
+        "parkCode": "nama",
+        "fullName": "National Mall and Memorial Parks",
+        "latitude": 38.8899,
+        "longitude": -77.026,
+        "states": "DC"
+    },
+    {
+        "parkCode": "npsa",
+        "fullName": "National Park of American Samoa",
+        "latitude": -14.22865935,
+        "longitude": -169.8503777,
+        "states": "AS"
+    },
+    {
+        "parkCode": "npnh",
+        "fullName": "National Parks of New York Harbor",
+        "latitude": 40.6632,
+        "longitude": -74.0451,
+        "states": "NY"
+    },
+    {
+        "parkCode": "nabr",
+        "fullName": "Natural Bridges National Monument",
+        "latitude": 37.6045329,
+        "longitude": -110.0022436,
+        "states": "UT"
+    },
+    {
+        "parkCode": "nava",
+        "fullName": "Navajo National Monument",
+        "latitude": 36.71755643,
+        "longitude": -110.5504015,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "nebe",
+        "fullName": "New Bedford Whaling National Historical Park",
+        "latitude": 41.63540552,
+        "longitude": -70.92322321,
+        "states": "MA"
+    },
+    {
+        "parkCode": "neen",
+        "fullName": "New England National Scenic Trail",
+        "latitude": 42.29158191,
+        "longitude": -72.52427673,
+        "states": "MA,CT"
+    },
+    {
+        "parkCode": "pine",
+        "fullName": "New Jersey Pinelands National Reserve",
+        "latitude": 39.9384,
+        "longitude": -74.625,
+        "states": "NJ"
+    },
+    {
+        "parkCode": "jazz",
+        "fullName": "New Orleans Jazz National Historical Park",
+        "latitude": 29.96303129,
+        "longitude": -90.06749669,
+        "states": "LA"
+    },
+    {
+        "parkCode": "neri",
+        "fullName": "New River Gorge National Park and Preserve",
+        "latitude": 37.86878554,
+        "longitude": -80.99956002,
+        "states": "WV"
+    },
+    {
+        "parkCode": "nepe",
+        "fullName": "Nez Perce National Historical Park",
+        "latitude": 46.07019093,
+        "longitude": -115.8761258,
+        "states": "ID,MT,OR,WA"
+    },
+    {
+        "parkCode": "nico",
+        "fullName": "Nicodemus National Historic Site",
+        "latitude": 39.39167606,
+        "longitude": -99.61680329,
+        "states": "KS"
+    },
+    {
+        "parkCode": "nisi",
+        "fullName": "Ninety Six National Historic Site",
+        "latitude": 34.14273587,
+        "longitude": -82.01636079,
+        "states": "SC"
+    },
+    {
+        "parkCode": "niob",
+        "fullName": "Niobrara National Scenic River",
+        "latitude": 42.79413083,
+        "longitude": -99.91870646,
+        "states": "NE"
+    },
+    {
+        "parkCode": "noat",
+        "fullName": "Noatak National Preserve",
+        "latitude": 68.01027053,
+        "longitude": -159.831694,
+        "states": "AK"
+    },
+    {
+        "parkCode": "noca",
+        "fullName": "North Cascades National Park",
+        "latitude": 48.71171756,
+        "longitude": -121.2069423,
+        "states": "WA"
+    },
+    {
+        "parkCode": "noco",
+        "fullName": "North Country National Scenic Trail",
+        "latitude": 46.33440074,
+        "longitude": -90.81656305,
+        "states": "MI,MN,ND,NY,OH,PA,VT,WI"
+    },
+    {
+        "parkCode": "obed",
+        "fullName": "Obed Wild & Scenic River",
+        "latitude": 36.1056026,
+        "longitude": -84.59791705,
+        "states": "TN"
+    },
+    {
+        "parkCode": "ocmu",
+        "fullName": "Ocmulgee Mounds National Historical Park",
+        "latitude": 32.83816576,
+        "longitude": -83.60224853,
+        "states": "GA"
+    },
+    {
+        "parkCode": "okci",
+        "fullName": "Oklahoma City National Memorial",
+        "latitude": 35.473,
+        "longitude": -97.5171,
+        "states": "OK"
+    },
+    {
+        "parkCode": "olsp",
+        "fullName": "Old Spanish National Historic Trail",
+        "latitude": 37.07917825,
+        "longitude": -112.1146934,
+        "states": "AZ,CA,CO,NV,NM,UT"
+    },
+    {
+        "parkCode": "olym",
+        "fullName": "Olympic National Park",
+        "latitude": 47.80392754,
+        "longitude": -123.6663848,
+        "states": "WA"
+    },
+    {
+        "parkCode": "orca",
+        "fullName": "Oregon Caves National Monument & Preserve",
+        "latitude": 42.10319143,
+        "longitude": -123.4018586,
+        "states": "OR"
+    },
+    {
+        "parkCode": "oreg",
+        "fullName": "Oregon National Historic Trail",
+        "latitude": 41.98769778,
+        "longitude": -109.6342008,
+        "states": "ID,KS,MO,NE,OR,WA,WY"
+    },
+    {
+        "parkCode": "orpi",
+        "fullName": "Organ Pipe Cactus National Monument",
+        "latitude": 32.03585543,
+        "longitude": -112.8573314,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "ovvi",
+        "fullName": "Overmountain Victory National Historic Trail",
+        "latitude": 35.14044,
+        "longitude": -81.377,
+        "states": "NC,SC,TN,VA"
+    },
+    {
+        "parkCode": "oxhi",
+        "fullName": "Oxon Cove Park & Oxon Hill Farm",
+        "latitude": 38.80578214,
+        "longitude": -77.01131457,
+        "states": "MD"
+    },
+    {
+        "parkCode": "ozar",
+        "fullName": "Ozark National Scenic Riverways",
+        "latitude": 37.13968894,
+        "longitude": -91.25709817,
+        "states": "MO"
+    },
+    {
+        "parkCode": "pais",
+        "fullName": "Padre Island National Seashore",
+        "latitude": 27.05381186,
+        "longitude": -97.35901135,
+        "states": "TX"
+    },
+    {
+        "parkCode": "paal",
+        "fullName": "Palo Alto Battlefield National Historical Park",
+        "latitude": 26.02387351,
+        "longitude": -97.46296072,
+        "states": "TX"
+    },
+    {
+        "parkCode": "pagr",
+        "fullName": "Paterson Great Falls National Historical Park",
+        "latitude": 40.91584645,
+        "longitude": -74.18021494,
+        "states": "NJ"
+    },
+    {
+        "parkCode": "peri",
+        "fullName": "Pea Ridge National Military Park",
+        "latitude": 36.45438033,
+        "longitude": -94.03468357,
+        "states": "AR"
+    },
+    {
+        "parkCode": "valr",
+        "fullName": "Pearl Harbor National Memorial",
+        "latitude": 21.36706994,
+        "longitude": -157.9385789,
+        "states": "HI"
+    },
+    {
+        "parkCode": "peco",
+        "fullName": "Pecos National Historical Park",
+        "latitude": 35.54192238,
+        "longitude": -105.6814684,
+        "states": "NM"
+    },
+    {
+        "parkCode": "paav",
+        "fullName": "Pennsylvania Avenue",
+        "latitude": 38.89426856,
+        "longitude": -77.02506554,
+        "states": "DC"
+    },
+    {
+        "parkCode": "pevi",
+        "fullName":"Perry's Victory & International Peace Memorial",
+        "latitude": 41.65449782,
+        "longitude": -82.8115794,
+        "states": "OH"
+    },
+    {
+        "parkCode": "pete",
+        "fullName": "Petersburg National Battlefield",
+        "latitude": 37.19109957,
+        "longitude": -77.47594865,
+        "states": "VA"
+    },
+    {
+        "parkCode": "pefo",
+        "fullName": "Petrified Forest National Park",
+        "latitude": 34.98387664,
+        "longitude": -109.7877678,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "petr",
+        "fullName": "Petroglyph National Monument",
+        "latitude": 35.13915998,
+        "longitude": -106.7491456,
+        "states": "NM"
+    },
+    {
+        "parkCode": "piro",
+        "fullName": "Pictured Rocks National Lakeshore",
+        "latitude": 46.56435642,
+        "longitude": -86.31628733,
+        "states": "MI"
+    },
+    {
+        "parkCode": "pinn",
+        "fullName": "Pinnacles National Park",
+        "latitude": 36.49029208,
+        "longitude": -121.1813607,
+        "states": "CA"
+    },
+    {
+        "parkCode": "pisp",
+        "fullName": "Pipe Spring National Monument",
+        "latitude": 36.86282666,
+        "longitude": -112.7398567,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "pipe",
+        "fullName": "Pipestone National Monument",
+        "latitude": 44.01351958,
+        "longitude": -96.32475523,
+        "states": "MN"
+    },
+    {
+        "parkCode": "pisc",
+        "fullName": "Piscataway Park",
+        "latitude": 38.6929,
+        "longitude": -77.067,
+        "states": "MD"
+    },
+    {
+        "parkCode": "pore",
+        "fullName": "Point Reyes National Seashore",
+        "latitude": 38.05511241,
+        "longitude": -122.8797804,
+        "states": "CA"
+    },
+    {
+        "parkCode": "poex",
+        "fullName": "Pony Express National Historic Trail",
+        "latitude": 42.23657611,
+        "longitude": -109.2661484,
+        "states": "CA,CO,KS,MO,NE,NV,UT,WY"
+    },
+    {
+        "parkCode": "poch",
+        "fullName": "Port Chicago Naval Magazine National Memorial",
+        "latitude": 38.05685472,
+        "longitude": -122.0301603,
+        "states": "CA"
+    },
+    {
+        "parkCode": "pohe",
+        "fullName": "Potomac Heritage National Scenic Trail",
+        "latitude": 39.15060133,
+        "longitude": -77.52301085,
+        "states": "DC,MD,PA,VA"
+    },
+    {
+        "parkCode": "popo",
+        "fullName": "Poverty Point National Monument",
+        "latitude": 32.6424361,
+        "longitude": -91.40829834,
+        "states": "LA"
+    },
+    {
+        "parkCode": "wicl",
+        "fullName": "President William Jefferson Clinton Birthplace Home National Historic Site",
+        "latitude": 33.66758356,
+        "longitude": -93.59641868,
+        "states": "AR"
+    },
+    {
+        "parkCode": "whho",
+        "fullName":"President's Park (White House)",
+        "latitude": 38.89541886,
+        "longitude": -77.03654147,
+        "states": "DC"
+    },
+    {
+        "parkCode": "prsf",
+        "fullName": "Presidio of San Francisco",
+        "latitude": 37.797,
+        "longitude": -122.4671,
+        "states": "CA"
+    },
+    {
+        "parkCode": "prwi",
+        "fullName": "Prince William Forest Park",
+        "latitude": 38.58589108,
+        "longitude": -77.38910997,
+        "states": "VA"
+    },
+    {
+        "parkCode": "pull",
+        "fullName": "Pullman National Monument",
+        "latitude": 41.69429163,
+        "longitude": -87.60873824,
+        "states": "IL"
+    },
+    {
+        "parkCode": "puho",
+        "fullName": "Puʻuhonua o Hōnaunau National Historical Park",
+        "latitude": 19.41268627,
+        "longitude": -155.9008789,
+        "states": "HI"
+    },
+    {
+        "parkCode": "puhe",
+        "fullName": "Puʻukoholā Heiau National Historic Site",
+        "latitude": 20.02772186,
+        "longitude": -155.8211629,
+        "states": "HI"
+    },
+    {
+        "parkCode": "rabr",
+        "fullName": "Rainbow Bridge National Monument",
+        "latitude": 36.99432643,
+        "longitude": -111.4914848,
+        "states": "UT"
+    },
+    {
+        "parkCode": "reer",
+        "fullName": "Reconstruction Era National Historical Park",
+        "latitude": 32.38685989,
+        "longitude": -80.65110779,
+        "states": "SC"
+    },
+    {
+        "parkCode": "redw",
+        "fullName": "Redwood National and State Parks",
+        "latitude": 41.37237268,
+        "longitude": -124.0318129,
+        "states": "CA"
+    },
+    {
+        "parkCode": "rich",
+        "fullName": "Richmond National Battlefield Park",
+        "latitude": 37.48774472,
+        "longitude": -77.29107785,
+        "states": "VA"
+    },
+    {
+        "parkCode": "rigr",
+        "fullName": "Rio Grande Wild & Scenic River",
+        "latitude": 29.52743158,
+        "longitude": -102.5979169,
+        "states": "TX"
+    },
+    {
+        "parkCode": "rira",
+        "fullName": "River Raisin National Battlefield Park",
+        "latitude": 41.91291085,
+        "longitude": -83.37620464,
+        "states": "MI"
+    },
+    {
+        "parkCode": "rocr",
+        "fullName": "Rock Creek Park",
+        "latitude": 38.95125063,
+        "longitude": -77.05002838,
+        "states": "DC"
+    },
+    {
+        "parkCode": "romo",
+        "fullName": "Rocky Mountain National Park",
+        "latitude": 40.3556924,
+        "longitude": -105.6972879,
+        "states": "CO"
+    },
+    {
+        "parkCode": "rowi",
+        "fullName": "Roger Williams National Memorial",
+        "latitude": 41.8298955,
+        "longitude": -71.41056665,
+        "states": "RI"
+    },
+    {
+        "parkCode": "roca",
+        "fullName": "Roosevelt Campobello International Park",
+        "latitude": 44.8736,
+        "longitude": -66.9621,
+        "states": "ME"
+    },
+    {
+        "parkCode": "rori",
+        "fullName": "Rosie the Riveter WWII Home Front National Historical Park",
+        "latitude": 37.90999027,
+        "longitude": -122.360156,
+        "states": "CA"
+    },
+    {
+        "parkCode": "ruca",
+        "fullName": "Russell Cave National Monument",
+        "latitude": 34.97402063,
+        "longitude": -85.81560314,
+        "states": "AL"
+    },
+    {
+        "parkCode": "sahi",
+        "fullName": "Sagamore Hill National Historic Site",
+        "latitude": 40.88579128,
+        "longitude": -73.49686438,
+        "states": "NY"
+    },
+    {
+        "parkCode": "sagu",
+        "fullName": "Saguaro National Park",
+        "latitude": 32.20909636,
+        "longitude": -110.7574974,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "sacr",
+        "fullName": "Saint Croix Island International Historic Site",
+        "latitude": 45.12858838,
+        "longitude": -67.13363651,
+        "states": "ME"
+    },
+    {
+        "parkCode": "sacn",
+        "fullName": "Saint Croix National Scenic Riverway",
+        "latitude": 45.70019235,
+        "longitude": -92.36126685,
+        "states": "WI,MN"
+    },
+    {
+        "parkCode": "sapa",
+        "fullName":"Saint Paul's Church National Historic Site",
+        "latitude": 40.89283511,
+        "longitude": -73.82577276,
+        "states": "NY"
+    },
+    {
+        "parkCode": "saga",
+        "fullName": "Saint-Gaudens National Historical Park",
+        "latitude": 43.4997238,
+        "longitude": -72.37333969,
+        "states": "NH"
+    },
+    {
+        "parkCode": "sama",
+        "fullName": "Salem Maritime National Historic Site",
+        "latitude": 42.52024529,
+        "longitude": -70.88640867,
+        "states": "MA"
+    },
+    {
+        "parkCode": "sapu",
+        "fullName": "Salinas Pueblo Missions National Monument",
+        "latitude": 34.35423203,
+        "longitude": -106.2050309,
+        "states": "NM"
+    },
+    {
+        "parkCode": "sari",
+        "fullName": "Salt River Bay National Historical Park and Ecological Preserve",
+        "latitude": 17.77908602,
+        "longitude": -64.75519348,
+        "states": "VI"
+    },
+    {
+        "parkCode": "saan",
+        "fullName": "San Antonio Missions National Historical Park",
+        "latitude": 29.31262089,
+        "longitude": -98.4289522,
+        "states": "TX"
+    },
+    {
+        "parkCode": "safr",
+        "fullName": "San Francisco Maritime National Historical Park",
+        "latitude": 37.81005871,
+        "longitude": -122.4244415,
+        "states": "CA"
+    },
+    {
+        "parkCode": "sajh",
+        "fullName": "San Juan Island National Historical Park",
+        "latitude": 48.51241933,
+        "longitude": -123.0610277,
+        "states": "WA"
+    },
+    {
+        "parkCode": "saju",
+        "fullName": "San Juan National Historic Site",
+        "latitude": 18.46873857,
+        "longitude": -66.11848623,
+        "states": "PR"
+    },
+    {
+        "parkCode": "sand",
+        "fullName": "Sand Creek Massacre National Historic Site",
+        "latitude": 38.56414189,
+        "longitude": -102.5169542,
+        "states": "CO"
+    },
+    {
+        "parkCode": "safe",
+        "fullName": "Santa Fe National Historic Trail",
+        "latitude": 37.72765222,
+        "longitude": -99.92196923,
+        "states": "CO,KS,MO,NM,OK"
+    },
+    {
+        "parkCode": "samo",
+        "fullName": "Santa Monica Mountains National Recreation Area",
+        "latitude": 34.09777606,
+        "longitude": -118.7708619,
+        "states": "CA"
+    },
+    {
+        "parkCode": "sara",
+        "fullName": "Saratoga National Historical Park",
+        "latitude": 42.99522612,
+        "longitude": -73.63386108,
+        "states": "NY"
+    },
+    {
+        "parkCode": "sair",
+        "fullName": "Saugus Iron Works National Historic Site",
+        "latitude": 42.46830664,
+        "longitude": -71.0076953,
+        "states": "MA"
+    },
+    {
+        "parkCode": "scbl",
+        "fullName": "Scotts Bluff National Monument",
+        "latitude": 41.83464193,
+        "longitude": -103.7071351,
+        "states": "NE"
+    },
+    {
+        "parkCode": "semo",
+        "fullName": "Selma To Montgomery National Historic Trail",
+        "latitude": 32.27082092,
+        "longitude": -86.72823702,
+        "states": "AL"
+    },
+    {
+        "parkCode": "seki",
+        "fullName": "Sequoia & Kings Canyon National Parks",
+        "latitude": 36.71277299,
+        "longitude": -118.587429,
+        "states": "CA"
+    },
+    {
+        "parkCode": "shen",
+        "fullName": "Shenandoah National Park",
+        "latitude": 38.49236644,
+        "longitude": -78.46907715,
+        "states": "VA"
+    },
+    {
+        "parkCode": "shil",
+        "fullName": "Shiloh National Military Park",
+        "latitude": 35.13850907,
+        "longitude": -88.3421072,
+        "states": "TN,MS"
+    },
+    {
+        "parkCode": "sitk",
+        "fullName": "Sitka National Historical Park",
+        "latitude": 57.04718173,
+        "longitude": -135.3156876,
+        "states": "AK"
+    },
+    {
+        "parkCode": "slbe",
+        "fullName": "Sleeping Bear Dunes National Lakeshore",
+        "latitude": 44.92844962,
+        "longitude": -86.02706591,
+        "states": "MI"
+    },
+    {
+        "parkCode": "spar",
+        "fullName": "Springfield Armory National Historic Site",
+        "latitude": 42.1086368,
+        "longitude": -72.57967415,
+        "states": "MA"
+    },
+    {
+        "parkCode": "stsp",
+        "fullName": "Star-Spangled Banner National Historic Trail",
+        "latitude": 39.28725052,
+        "longitude": -76.6034317,
+        "states": "MD,VA,DC"
+    },
+    {
+        "parkCode": "stli",
+        "fullName": "Statue Of Liberty National Monument",
+        "latitude": 40.6898,
+        "longitude": -74.0451,
+        "states": "NY"
+    },
+    {
+        "parkCode": "stge",
+        "fullName": "Ste. Geneviève National Historical Park",
+        "latitude": 37.97921714,
+        "longitude": -90.04321575,
+        "states": "MO"
+    },
+    {
+        "parkCode": "stea",
+        "fullName": "Steamtown National Historic Site",
+        "latitude": 41.40757521,
+        "longitude": -75.67037255,
+        "states": "PA"
+    },
+    {
+        "parkCode": "stri",
+        "fullName": "Stones River National Battlefield",
+        "latitude": 35.87608652,
+        "longitude": -86.43078399,
+        "states": "TN"
+    },
+    {
+        "parkCode": "sucr",
+        "fullName": "Sunset Crater Volcano National Monument",
+        "latitude": 35.37114323,
+        "longitude": -111.510376,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "tapr",
+        "fullName": "Tallgrass Prairie National Preserve",
+        "latitude": 38.44023613,
+        "longitude": -96.5670822,
+        "states": "KS"
+    },
+    {
+        "parkCode": "thko",
+        "fullName": "Thaddeus Kosciuszko National Memorial",
+        "latitude": 39.94345312,
+        "longitude": -75.14732045,
+        "states": "PA"
+    },
+    {
+        "parkCode": "thrb",
+        "fullName": "Theodore Roosevelt Birthplace National Historic Site",
+        "latitude": 40.7386469,
+        "longitude": -73.98903703,
+        "states": "NY"
+    },
+    {
+        "parkCode": "thri",
+        "fullName": "Theodore Roosevelt Inaugural National Historic Site",
+        "latitude": 42.90146781,
+        "longitude": -78.87248411,
+        "states": "NY"
+    },
+    {
+        "parkCode": "this",
+        "fullName": "Theodore Roosevelt Island",
+        "latitude": 38.89584162,
+        "longitude": -77.06241918,
+        "states": "DC"
+    },
+    {
+        "parkCode": "thro",
+        "fullName": "Theodore Roosevelt National Park",
+        "latitude": 47.17777274,
+        "longitude": -103.4300083,
+        "states": "ND"
+    },
+    {
+        "parkCode": "thco",
+        "fullName": "Thomas Cole National Historic Site",
+        "latitude": 42.22570607,
+        "longitude": -73.86154864,
+        "states": "NY"
+    },
+    {
+        "parkCode": "edis",
+        "fullName": "Thomas Edison National Historical Park",
+        "latitude": 40.78549896,
+        "longitude": -74.23821139,
+        "states": "NJ"
+    },
+    {
+        "parkCode": "thje",
+        "fullName": "Thomas Jefferson Memorial",
+        "latitude": 38.88101431,
+        "longitude": -77.03632572,
+        "states": "DC"
+    },
+    {
+        "parkCode": "thst",
+        "fullName": "Thomas Stone National Historic Site",
+        "latitude": 38.52934443,
+        "longitude": -77.037813,
+        "states": "MD"
+    },
+    {
+        "parkCode": "tica",
+        "fullName": "Timpanogos Cave National Monument",
+        "latitude": 40.44039719,
+        "longitude": -111.7093944,
+        "states": "UT"
+    },
+    {
+        "parkCode": "timu",
+        "fullName": "Timucuan Ecological & Historic Preserve",
+        "latitude": 30.47251894,
+        "longitude": -81.49950104,
+        "states": "FL"
+    },
+    {
+        "parkCode": "tont",
+        "fullName": "Tonto National Monument",
+        "latitude": 33.64842945,
+        "longitude": -111.1135627,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "tosy",
+        "fullName": "Touro Synagogue National Historic Site",
+        "latitude": 41.4893,
+        "longitude": -71.3121,
+        "states": "RI"
+    },
+    {
+        "parkCode": "trte",
+        "fullName": "Trail Of Tears National Historic Trail",
+        "latitude": 36.0530021,
+        "longitude": -89.6761042,
+        "states": "AL,AR,GA,IL,KY,MO,NC,OK,TN"
+    },
+    {
+        "parkCode": "tule",
+        "fullName": "Tule Lake National Monument",
+        "latitude": 41.88727902,
+        "longitude": -121.3744818,
+        "states": "CA"
+    },
+    {
+        "parkCode": "tusk",
+        "fullName": "Tule Springs Fossil Beds National Monument",
+        "latitude": 36.3893217,
+        "longitude": -115.3202223,
+        "states": "NV"
+    },
+    {
+        "parkCode": "tuma",
+        "fullName": "Tumacácori National Historical Park",
+        "latitude": 31.567824,
+        "longitude": -111.051223,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "tupe",
+        "fullName": "Tupelo National Battlefield",
+        "latitude": 34.25557705,
+        "longitude": -88.73708623,
+        "states": "MS"
+    },
+    {
+        "parkCode": "tuai",
+        "fullName": "Tuskegee Airmen National Historic Site",
+        "latitude": 32.45538671,
+        "longitude": -85.67983321,
+        "states": "AL"
+    },
+    {
+        "parkCode": "tuin",
+        "fullName": "Tuskegee Institute National Historic Site",
+        "latitude": 32.42962115,
+        "longitude": -85.70488498,
+        "states": "AL"
+    },
+    {
+        "parkCode": "tuzi",
+        "fullName": "Tuzigoot National Monument",
+        "latitude": 34.77296377,
+        "longitude": -112.0279069,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "ulsg",
+        "fullName": "Ulysses S Grant National Historic Site",
+        "latitude": 38.55182374,
+        "longitude": -90.35169255,
+        "states": "MO"
+    },
+    {
+        "parkCode": "upde",
+        "fullName": "Upper Delaware Scenic & Recreational River",
+        "latitude": 41.66172578,
+        "longitude": -75.03861562,
+        "states": "NY,PA"
+    },
+    {
+        "parkCode": "vall",
+        "fullName": "Valles Caldera National Preserve",
+        "latitude": 35.91682872,
+        "longitude": -106.5195724,
+        "states": "NM"
+    },
+    {
+        "parkCode": "vafo",
+        "fullName": "Valley Forge National Historical Park",
+        "latitude": 40.10054985,
+        "longitude": -75.44581889,
+        "states": "PA"
+    },
+    {
+        "parkCode": "vama",
+        "fullName": "Vanderbilt Mansion National Historic Site",
+        "latitude": 41.79697937,
+        "longitude": -73.94205557,
+        "states": "NY"
+    },
+    {
+        "parkCode": "vick",
+        "fullName": "Vicksburg National Military Park",
+        "latitude": 32.3621286,
+        "longitude": -90.85030186,
+        "states": "MS,LA"
+    },
+    {
+        "parkCode": "vive",
+        "fullName": "Vietnam Veterans Memorial",
+        "latitude": 38.89096297,
+        "longitude": -77.04765735,
+        "states": "DC"
+    },
+    {
+        "parkCode": "vicr",
+        "fullName": "Virgin Islands Coral Reef National Monument",
+        "latitude": 18.28996918,
+        "longitude": -64.70683395,
+        "states": "VI"
+    },
+    {
+        "parkCode": "viis",
+        "fullName": "Virgin Islands National Park",
+        "latitude": 18.34279656,
+        "longitude": -64.74194451,
+        "states": "VI"
+    },
+    {
+        "parkCode": "voya",
+        "fullName": "Voyageurs National Park",
+        "latitude": 48.48370609,
+        "longitude": -92.8382913,
+        "states": "MN"
+    },
+    {
+        "parkCode": "waco",
+        "fullName": "Waco Mammoth National Monument",
+        "latitude": 31.60465887,
+        "longitude": -97.17606143,
+        "states": "TX"
+    },
+    {
+        "parkCode": "waca",
+        "fullName": "Walnut Canyon National Monument",
+        "latitude": 35.16822994,
+        "longitude": -111.5024239,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "wapa",
+        "fullName": "War In The Pacific National Historical Park",
+        "latitude": 13.43795691,
+        "longitude": 144.6922461,
+        "states": "GU"
+    },
+    {
+        "parkCode": "wamo",
+        "fullName": "Washington Monument",
+        "latitude": 38.88948,
+        "longitude": -77.035207,
+        "states": "DC"
+    },
+    {
+        "parkCode": "waro",
+        "fullName": "Washington-Rochambeau Revolutionary Route National Historic Trail",
+        "latitude": 40.09582046,
+        "longitude": -74.85635151,
+        "states": "MA,RI,CT,NY,NJ,PA,DE,MD,VA,DC"
+    },
+    {
+        "parkCode": "waba",
+        "fullName": "Washita Battlefield National Historic Site",
+        "latitude": 35.62083963,
+        "longitude": -99.70445143,
+        "states": "OK"
+    },
+    {
+        "parkCode": "wefa",
+        "fullName": "Weir Farm National Historical Park",
+        "latitude": 41.25886268,
+        "longitude": -73.45452542,
+        "states": "CT"
+    },
+    {
+        "parkCode": "whis",
+        "fullName": "Whiskeytown National Recreation Area",
+        "latitude": 40.61359941,
+        "longitude": -122.6022657,
+        "states": "CA"
+    },
+    {
+        "parkCode": "whsa",
+        "fullName": "White Sands National Park",
+        "latitude": 32.77907858,
+        "longitude": -106.3333461,
+        "states": "NM"
+    },
+    {
+        "parkCode": "whmi",
+        "fullName": "Whitman Mission National Historic Site",
+        "latitude": 46.04119286,
+        "longitude": -118.4629388,
+        "states": "WA"
+    },
+    {
+        "parkCode": "wiho",
+        "fullName": "William Howard Taft National Historic Site",
+        "latitude": 39.11970352,
+        "longitude": -84.50758951,
+        "states": "OH"
+    },
+    {
+        "parkCode": "wicr",
+        "fullName":"Wilson's Creek National Battlefield",
+        "latitude": 37.1000127,
+        "longitude": -93.40986704,
+        "states": "MO"
+    },
+    {
+        "parkCode": "wica",
+        "fullName": "Wind Cave National Park",
+        "latitude": 43.58012365,
+        "longitude": -103.4394709,
+        "states": "SD"
+    },
+    {
+        "parkCode": "wing",
+        "fullName": "Wing Luke Museum Affiliated Area",
+        "latitude": 47.59820859,
+        "longitude": -122.3228912,
+        "states": "WA"
+    },
+    {
+        "parkCode": "wotr",
+        "fullName": "Wolf Trap National Park for the Performing Arts",
+        "latitude": 38.93854526,
+        "longitude": -77.265089,
+        "states": "VA"
+    },
+    {
+        "parkCode": "wori",
+        "fullName":"Women's Rights National Historical Park",
+        "latitude": 42.90817073,
+        "longitude": -76.81655558,
+        "states": "NY"
+    },
+    {
+        "parkCode": "wwim",
+        "fullName": "World War I Memorial",
+        "latitude": 38.8959,
+        "longitude": -77.0329,
+        "states": "DC"
+    },
+    {
+        "parkCode": "wwii",
+        "fullName": "World War II Memorial",
+        "latitude": 38.88923917,
+        "longitude": -77.0403759,
+        "states": "DC"
+    },
+    {
+        "parkCode": "wrst",
+        "fullName": "Wrangell - St Elias National Park & Preserve",
+        "latitude": 61.4182147,
+        "longitude": -142.6028439,
+        "states": "AK"
+    },
+    {
+        "parkCode": "wrbr",
+        "fullName": "Wright Brothers National Memorial",
+        "latitude": 36.01637713,
+        "longitude": -75.66997163,
+        "states": "NC"
+    },
+    {
+        "parkCode": "wupa",
+        "fullName": "Wupatki National Monument",
+        "latitude": 35.55741077,
+        "longitude": -111.3957216,
+        "states": "AZ"
+    },
+    {
+        "parkCode": "yell",
+        "fullName": "Yellowstone National Park",
+        "latitude": 44.59824417,
+        "longitude": -110.5471695,
+        "states": "ID,MT,WY"
+    },
+    {
+        "parkCode": "york",
+        "fullName": "Yorktown Battlefield Part of Colonial National Historical Park",
+        "latitude": 37.2195,
+        "longitude": -76.4983,
+        "states": "VA"
+    },
+    {
+        "parkCode": "yose",
+        "fullName": "Yosemite National Park",
+        "latitude": 37.84883288,
+        "longitude": -119.5571873,
+        "states": "CA"
+    },
+    {
+        "parkCode": "yuho",
+        "fullName": "Yucca House National Monument",
+        "latitude": 37.24778944,
+        "longitude": -108.6861274,
+        "states": "CO"
+    },
+    {
+        "parkCode": "yuch",
+        "fullName": "Yukon - Charley Rivers National Preserve",
+        "latitude": 65.0935608,
+        "longitude": -142.7960021,
+        "states": "AK"
+    },
+    {
+        "parkCode": "zion",
+        "fullName": "Zion National Park",
+        "latitude": 37.29839254,
+        "longitude": -113.0265138,
+        "states": "UT"
+    }
+]

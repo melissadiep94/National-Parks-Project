@@ -5,22 +5,24 @@ Our aim is to provide useful information for prospective travelers to National P
 We will source the data and upload onto Mongo database,  upload onto website with Flask server, and format website with HTML/CSS/Javascript
 
 ## Data Sources
-* Find list of national parks and their locations: https://www.nps.gov/subjects/developer/api-documentation.htm
-  * things to do
-  * activities
-  * events
-  * campgrounds
-* Hotels nearby: https://maps.googleapis.com/maps/api/place/nearbysearch/json 
-* Ratings of hotels: hotwire/tripadvisor ?
+* Find list of national parks and other info about the parks: https://www.nps.gov/subjects/developer/api-documentation.htm ; https://pypi.org/project/python-natlparks/
+  * Names of all national parks and their parkCode
+  * park description
+  * long and latitude of each park
+  * address
+  * link to each park website
+  * hours of operation
+  * image of each park
+  * weatherInfo
+  * print out activities for each park
+* Hotel data with Google Maps Nearby Search api: https://developers.google.com/maps/documentation/places/web-service/search-nearby
 
 ## Project Outline
-1. Extract Data from API 
-2. Create ERD for the fields we will need, and define primary keys
-3. Clean the data in Flask app.py file
-4. Load data onto Mongo 
-5. Create HTML pages (things to do, campgrounds, etc.) 
-6. Javascript - map visualization to show location of national parks and zoom in to show locations of nearby hotels 
-
+1. Extract Data from API  
+2. Load and store collections of states, parks, activities, designations in MongoDB 
+3. Use Python Flask to present main page and detail page for each park, creating app.py file
+4. Create HTML pages (things to do, campgrounds, etc.) 
+5. Javascript - map visualization to show location of national parks and zoom in to show locations of nearby hotels, as well as statistical information.
 
 
 ## Team Members
