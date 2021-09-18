@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>US National Parks</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light mask gradient-custom">
@@ -45,7 +45,12 @@
                 <br>
                 <p class="summary_text"> 
                 </p>
-                <img src="{{park.images[0].url}}" width="300">
+                 <img src={{park.images_url[0]}} width="300"> 
+                <br>
+                <br> 
+                <p><b>More information about park at</b> 
+                 <a href={{park.url}} target="_blank">park website</a>
+                </p> 
               </div>
               
              
