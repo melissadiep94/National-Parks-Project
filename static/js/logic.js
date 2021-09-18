@@ -44,15 +44,14 @@ function createMap(data) {
   layers: [streetmap, topo, allParksLayer]
   });
 
-  marker = L.marker([data[0].latitude,data[0].longitude]).addTo(myMap);
-
+ 
   L.control.layers(baseMaps,  overlayMaps, {
   collapsed: false
   }).addTo(myMap);
 
   redMarker = L.ExtraMarkers.icon({
     icon: 'fa-coffee',
-    markerColor: 'red',
+    markerColor: 'orange',
     shape: 'square',
     prefix: 'fa'
   });
@@ -61,8 +60,10 @@ function createMap(data) {
 
 
   function getPark(name1) {
-  
-    myMap.removeLayer(marker);
+    try{  
+      myMap.removeLayer(marker);
+      }catch(e){  
+      }
     for (var i = 0; i < parkData.length; i++) {
       var area = parkData[i];
       if (name1 == area.fullName) {
