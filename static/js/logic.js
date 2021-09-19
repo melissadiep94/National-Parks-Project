@@ -27,7 +27,7 @@ function createMap(data) {
     var area = data[i];
     allParks.push(
     L.marker([area.latitude, area.longitude])
-      .bindPopup(`<h5><a href= "parks/${area.parkCode}">${area.fullName}</a></h5> <hr> <b> ${area.designation}</b>`)
+      .bindPopup(`<h6><a href= "parks/${area.parkCode}">${area.fullName}</a></h6> <hr> <b> ${area.designation} ${area.states}</b>`)
       );
   }//
 
@@ -51,8 +51,8 @@ function createMap(data) {
 
   redMarker = L.ExtraMarkers.icon({
     icon: 'fa-coffee',
-    markerColor: 'orange',
-    shape: 'square',
+    markerColor: 'violet',
+    shape: 'star',
     prefix: 'fa'
   });
 
@@ -68,7 +68,7 @@ function createMap(data) {
       var area = parkData[i];
       if (name1 == area.fullName) {
           marker = new L.marker([area.latitude, area.longitude],  {icon: redMarker, zIndexOffset:1000})
-        .bindPopup(`<h5><a href= "parks/${area.parkCode}">${area.fullName}</a></h5> <hr> <b> ${area.designation}</b>`).addTo(myMap).openPopup();
+        .bindPopup(`<h6><a href= "parks/${area.parkCode}">${area.fullName}</a></h6> <hr><b>${area.designation}, ${area.states}</b>`).addTo(myMap).openPopup();
       }
     }
     myMap.setView(marker.getLatLng(),5);
@@ -76,10 +76,6 @@ function createMap(data) {
   }
 
 
-
-
-
-
-d3.json("/static/data/park_clean.json").then((data) => {
+d3.json( location.origin + "/api/v1/markers").then((data) => {
    createMap(data);
 });
