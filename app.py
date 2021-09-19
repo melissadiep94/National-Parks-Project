@@ -41,6 +41,14 @@ def park_detail(pCode):
     
     return render_template("park_detail.html", park = park_info_from_db)
 
+@app.route("/api/v1/markers")
+def markers_api():
+   
+    results = db.parks.find()
+  
+    data = [ {"latitude": result["latitude"], "longitude": result["longitude"], "parkCode" :result["parkCode"], "fullName" :result["fullName"], "designation" :result["designation"] , "states" :result["states"] } for result in results]
+    return jsonify(data)
+
 
 def string_to_list(data, tag_name)  :
     data[tag_name]= data[tag_name].replace("[", "").replace("]","").replace("'","").split(", ")
