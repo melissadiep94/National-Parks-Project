@@ -22,14 +22,20 @@ function createMap(data) {
  
   var allParks =[];
 
+ 
+  blueMarker = L.ExtraMarkers.icon({
+    icon: 'fa-coffee',
+    markerColor: 'blue',
+    shape: 'circle',
+    prefix: 'fa'
+  });
   // Looping through the parks, adding marker
   for (var i = 0; i < data.length; i++) {
     var area = data[i];
     allParks.push(
-    L.marker([area.latitude, area.longitude])
+    L.marker([area.latitude, area.longitude], {icon: blueMarker, opacity:0.5})
       .bindPopup(`<h6><a href= "parks/${area.parkCode}">${area.fullName}</a></h6> <hr> <b> ${area.designation} ${area.states}</b>`)
-      );
-  }//
+    )};
 
   var allParksLayer = L.layerGroup(allParks);
   var overlayMaps = {
@@ -51,7 +57,7 @@ function createMap(data) {
 
   redMarker = L.ExtraMarkers.icon({
     icon: 'fa-coffee',
-    markerColor: 'violet',
+    markerColor: 'white',
     shape: 'star',
     prefix: 'fa'
   });
