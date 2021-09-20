@@ -41,6 +41,7 @@ def park_detail(pCode):
     
     return render_template("park_detail.html", park = park_info_from_db)
 
+
 @app.route("/api/v1/markers")
 def markers_api():
    
@@ -79,3 +80,5 @@ def visit_api():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
