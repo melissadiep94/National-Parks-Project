@@ -56,7 +56,7 @@ def string_to_list(data, tag_name)  :
 
 
 @app.route("/park_detail.html")
-def hotels():
+def park_detail():
     return render_template("park_detail.html")
 
 
