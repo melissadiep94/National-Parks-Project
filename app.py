@@ -37,9 +37,18 @@ def park_detail(pCode):
    
     park_info_from_db = collection.find({"parkCode": pCode})[0]
         
-    string_to_list(park_info_from_db,"images_url") 
+    # string_to_list(park_info_from_db,"images_url") 
     
     return render_template("park_detail.html", park = park_info_from_db)
+
+
+@app.route("/api/v1/markers")
+def markers_api():
+   
+    results = db.parks.find()
+  
+    data = [ {"latitude": result["latitude"], "longitude": result["longitude"], "parkCode" :result["parkCode"], "fullName" :result["fullName"], "designation" :result["designation"] , "states" :result["states"] } for result in results]
+    return jsonify(data)
 
 
 def string_to_list(data, tag_name)  :
@@ -71,3 +80,5 @@ def visit_api():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
