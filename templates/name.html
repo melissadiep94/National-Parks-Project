@@ -53,16 +53,19 @@
         <div class="container" style= "margin-top: 30px">
             <div class="row">
              <div class="col col-12 col-sm-12 text-center">
-                <h2><b>Parks</b></h2> 
+                <div class="col-md-12 jumbotron jumbotron.container(max-width: 100%) text-center">
+                    <h2><b>National Parks </b></h2>
+                </div>
+                <!--<h2><b>Parks</b></h2>--> 
                 <p class="summary_text"> </p>
               </div>
-              <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Select park name..." onchange="getPark(this.value)">
+              <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Choose the place for your visit" onchange="getPark(this.value)">
               <datalist id="datalistOptions">
                    {% for name in names %}
                     <option value= "{{name}}">
                     {% endfor %}       
               </datalist>
-             
+            
             </div>
           </div>
         </div>
