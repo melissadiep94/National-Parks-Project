@@ -69,9 +69,11 @@ def visitation():
 @app.route("/api/v1/visits")
 def visit_api():
    
-    results = db.visits_2020.find().limit(50)
+    results = db.visits.find({"Rank": {"$lt":30}})
   
-    data = [ {"park": result["Park"], "rank": result["Rank"], "visits" :result["Recreation Visits"] } for result in results]
+    data = [ {"park": result["ParkName"], "year": result["Year"], "visits" :result["Value"] } for result in results]
+
+    print(data)
     return jsonify(data)
 
 
