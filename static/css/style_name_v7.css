@@ -7,13 +7,13 @@ body {
   margin: 0;
   color: #fff;
   background-size: cover;
-  background-image: url("/static/img/background-visitation-image6.jpg");
-  font-family: 'Montserrat', sans-serif; 
 }
 
 a.navbar-brand {
     font-family: 'Elianto', sans-serif;
-    }
+    } 
+
+    
 a.nav-link {
   font-family: 'Montserrat', sans-serif; 
   font-size: 14px;

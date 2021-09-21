@@ -1,19 +1,23 @@
 d3.json( location.origin + "/api/v1/visits").then((data) => {
 
 
-console.log(data);
-
-
 // Trace for parks visits
 let trace1 = {
-    x: data.map(row => row.park),
-    y: data.map(row => row.visits),
+    x: data.filter(row=>row.year==2018).map(row => row.park),
+    y: data.filter(row=>row.year==2018).map(row => row.visits),
+    type: "bar",
+    
+  };
+let trace2 = {
+    x: data.filter(row=>row.year==2019).map(row => row.park),
+    y: data.filter(row=>row.year==2019).map(row => row.visits),
     type: "bar",
     
   };
 
+ 
 // Data trace array
-let traceData = [trace1];
+let traceData = [trace1, trace2];
 
 // Apply the group barmode to the layout
 let layout = {
@@ -30,7 +34,8 @@ let layout = {
   },
   yaxis:{
     color: '#f0f0f0'
-  }
+  },
+  barmode: 'group'
 };
 
 
