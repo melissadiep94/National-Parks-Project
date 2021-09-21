@@ -39,27 +39,19 @@
         <div class="container" style= "margin-top: 60px">
             <div class="row">
               <div class="col col-12 col-sm-12 text-center">
-                <h2>Acadia National Park</h2> 
-                <p class="summary_text" >Acadia National Park protects the natural beauty of the highest rocky headlands along the Atlantic coastline of the United States, an abundance of habitats, and a rich cultural heritage. At 3.5 million visits a year, it's one of the top 10 most-visited national parks in the United States. Visitors enjoy 27 miles of historic motor roads, 158 miles of hiking trails, and 45 miles of carriage roads.</p>
+                <h2>{{park.fullName}}</h2> <br>
+                <p class="summary_text" >{{park.description}}</p><br>
                 <br>
                 <br>
                 <p class="summary_text"> 
-                </p>
-                 <img src=https://www.nps.gov/common/uploads/structured_data/3C7B45AE-1DD8-B71B-0B7EE131C7DFC2F5.jpg width="800"> 
-                <br>
-                <br> 
+                
+                
                 <p><b>Find more information about park at</b> 
                  <a href=https://www.nps.gov/acad/index.htm target="_blank">Park website</a>
                 </p> 
-                <p id="weather-info" class="summary_text" onclick="showWeatherInfo()">park.weatherInfo</p>
-               
-                
-    
-            
-              
-
+                <p class="summary_text" >{{park.weatherInfo}}</p>
              
-           
+        
              
             </div>
           </div>
@@ -70,24 +62,24 @@
     <script>
         // Other page: set the the park name
 
-        const parkName = localStorage.getItem('parkName') || 'Acadia National Park'; // this should already be defined from the marker page
+        //const parkName = localStorage.getItem('parkName') || 'Acadia National Park'; // this should already be defined from the marker page
 
-        function showWeatherInfo() {
+        //function showWeatherInfo() {
             // retrieve the parks.json (fetch, d3.json)
-            fetch('./static/parks.json')
-             .then(response => response.json())
-             .then(data => {
-                 let myPark;
-                 for (var i = 0; i < data.length; i++) {
-                    if (data[i].fullName === parkName) {
-                        myPark = data[i];
-                        break;
-                    }
-                 }
+           // fetch('./static/parks.json')
+            // .then(response => response.json())
+             //.then(data => {
+                // let myPark;
+                 //for (var i = 0; i < data.length; i++) {
+                   // if (data[i].fullName === parkName) {
+                      //  myPark = data[i];
+                       // break;
+                   // }
+                // }
 
-                 console.log(myPark);
-                 document.querySelector('#weather-info').innerHTML = myPark.weatherInfo;
-             });
+                 //console.log(myPark);
+                 //document.querySelector('#weather-info').innerHTML = myPark.weatherInfo;
+            // });
             // check for the park name
             // display the weather info if park name is found
         }
