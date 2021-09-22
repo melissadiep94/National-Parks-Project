@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect,jsonify
 import pymongo
 
-app = Flask(__name__)
+app=Flask(__name__)
 
 # Use PyMongo to establish Mongo connection
 conn = "mongodb://localhost:27017"
@@ -55,9 +55,9 @@ def string_to_list(data, tag_name)  :
     data[tag_name]= data[tag_name].replace("[", "").replace("]","").replace("'","").split(", ")
 
 
-@app.route("/hotels.html")
-def hotels():
-    return render_template("hotels.html")
+@app.route("/park_detail.html")
+def park():
+    return render_template("park_detail.html")
 
 
 @app.route("/visitation.html")
@@ -69,16 +69,19 @@ def visitation():
 @app.route("/api/v1/visits")
 def visit_api():
    
-    results = db.visits_2020.find().limit(50)
+    results = db.visits.find({"Rank": {"$lt":30}})
   
-    data = [ {"park": result["Park"], "rank": result["Rank"], "visits" :result["Recreation Visits"] } for result in results]
+    data = [ {"park": result["ParkName"], "year": result["Year"], "visits" :result["Value"] } for result in results]
+
+    print(data)
     return jsonify(data)
 
 
 
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ =="__main__":
+ app.run(debug=True)
+   
 
 
