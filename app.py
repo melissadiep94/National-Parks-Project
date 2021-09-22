@@ -77,6 +77,19 @@ def visit_api():
     return jsonify(data)
 
 
+@app.route("/api/v1/activities")
+def activities_api():
+
+    def srt(val):
+        print (val["count"])
+        return val["count"]
+   
+    results = db.activities.find()
+  
+    data = [ {"count": result["Value"], "type": result["Type"],} for result in results]#.sort(key=srt)
+    print(data)
+    return jsonify(data)
+
 
 
 
