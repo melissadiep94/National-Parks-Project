@@ -57,13 +57,13 @@ def string_to_list(data, tag_name)  :
 
 @app.route("/park_detail.html")
 def park():
-    return render_template("park_detail.html")
+    return render_template("park_detail_v2.html")
 
 
 @app.route("/visitation.html")
 def visitation():
     results = collection.find()
-    return render_template("visitation.html")
+    return render_template("visitation_v2.html")
 
 
 @app.route("/api/v1/visits")
@@ -83,5 +83,3 @@ def visit_api():
 if __name__ =="__main__":
  app.run(debug=True)
    
-
-
