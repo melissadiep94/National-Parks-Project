@@ -39,7 +39,7 @@ def park_detail(pCode):
         
     # string_to_list(park_info_from_db,"images_url") 
     
-    return render_template("park_detail.html", park = park_info_from_db)
+    return render_template("park_detail_v2.html", park = park_info_from_db)
 
 
 @app.route("/api/v1/markers")

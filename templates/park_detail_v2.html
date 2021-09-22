@@ -6,9 +6,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script> 
-    <link rel="stylesheet" type="text/css" href="../static/css/style_visitation_v19.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/style_park_details_v8.css">
 </head>
-<body stype = "overflow: hidden">
+<body style = "overflow: hidden">
     
     <!-- need to edit navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light mask gradient-custom">
@@ -36,108 +36,87 @@
             <!-- </div> -->
         </div>
     </nav>
+  
+    <style> 
+        body {
+          background-image: url({{park.images_url[0]}});
+        
+        }
+        </style>
+    <!--img src={{park.images_url[0]}} --> 
+    
 
     <div class ="container-fluid fixed-right" style= "background-color: rgba(0,0,0,.6);overflow:scroll; margin-top: 50px; width: 1300px; height: 700px; margin-left: 440px; border:1px solid #cecece">
         <div class="row">
             <div class="col-lg-12 justify-content-center align-items-center text-center">      
                 <br>
-                <h3>VISITATION DATA</h3>
+                <h3>{{park.fullName}}</h3>
                 <br>
             </div>
 
         </div>
+    
+       
         <div class="row">
             <div class="col-lg-12 justify-content-center align-items-center text-center">      
        
-                <h5>2020 Visitations</h5>
-               
+                <h5>{{park.description}}</h5>
+               <br>
+               <br>
+
             </div>
 
-       
-       <div class="col-lg-12 justify-content-center align-items-center text-center">
-        <div class="col-lg-12 text-center">      
-        
-               <p>
-                <br>  
-                <div id="plot"></div>
-                <br>
-                <br></p> 
-
-        </div>
-
-        <div class="row justify-content-center align-items-center text-center">
-            <div class="col-lg-3 text-center">      
+            <div class="row">
+                <div class="col-lg-12 justify-content-center align-items-center text-center">      
+           
+                    <h5>Hours of operation: {{park.standardHours}}</h5>
+                   <br>
+                   <br>
+    
+                </div>
             
-                Total Visits: xxxx
-            </div> 
-            <div class="col-lg-3 text-center">      
-            
-                Average: xxxx
+
+                <div class="row">
+                        <div class="col-lg-12 justify-content-center align-items-center text-center">      
+                       
+                                <h5>Activity names: {{park.activity_names}}</h5>
+                               <br>
+                               <br>
+                    </div>
+
                 
-        </div> 
-       
-     
-
-        <div class="row">
-            <div class="col-lg-12 justify-content-center align-items-center text-center">      
-                <br>
-                <br>
-                <h5>2019 Visitations</h5>
-               
-            </div>
-
-       
+                    <div class="row">
+                        <div class="col-lg-12 justify-content-center align-items-center text-center">      
+                       
+                                <h5>Main address: {{park.addresses_street[0]}} | {{park.addresses_city[0]}} | {{park.addresses_stateCode[0]}}   </h5>
+                               <br>
+                               <br>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-lg-12 justify-content-center align-items-center text-center">      
+                       
+                                <h5>Entrance fees: {{park.entranceFees_cost}}  <br>
+                                    {{park.entranceFees_description}}
+                                
+                                
+                                </h5>
+                               <br>
+                               <br>
+                    </div>
+        
        <div class="col-lg-12 justify-content-center align-items-center text-center">
         <div class="col-lg-12 text-center">      
         
-               <p>
-                <br>  
-                Input graph here
-                <br>
-                <br></p> 
+            <p class="summary_text"> 
+            </p>
+            
+            <p><b>More information about park at</b> 
+             <a href={{park.url}} target="_blank">park website</a>
+            </p> 
 
         </div>
 
-        <div class="row justify-content-center align-items-center">
-            <div class="col-lg-3 text-center">      
-            
-                Total Visits: xxxx
-            </div> 
-            <div class="col-lg-3 text-center">      
-            
-                Average: xxxx
-            </div>
-
-            
-        <div class="row">
-            <div class="col-lg-12 justify-content-center align-items-center text-center">      
-                <br>
-                <br>
-                <h5>2018 Visitations</h5>
-               
-            </div>
-
-       
-       <div class="col-lg-12 justify-content-center align-items-center text-center">
-        <div class="col-lg-12 text-center">      
-        
-               <p>
-                <br>  
-                Input graph here
-                <br>
-                <br></p> 
-
-        </div>
-
-        <div class="row justify-content-center align-items-center">
-            <div class="col-lg-3 text-center">      
-            
-                Total Visits: xxxx
-            </div> 
-            <div class="col-lg-3 text-center">      
-            
-                Average: xxxx
-            </div>
     </div>
 
     <!--/div>
