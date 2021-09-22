@@ -7,7 +7,7 @@ body {
   margin: 0;
   color: #fff;
   background-size: cover;
-  background-image: url("/static/img/background-visitation-image6.jpg");
+  /*background-image: url({{park.images_url[0]}});*/
   font-family: 'Montserrat', sans-serif; 
 }
 
@@ -30,9 +30,13 @@ html {
   height: 100%;
 } 
 
+
+h5 {
+    font-size: 16px;
+}
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 /* Track */
