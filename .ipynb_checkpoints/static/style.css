@@ -1,0 +1,41 @@
+body {
+    background-image :url("cloud_image.jpeg");
+    background-repeat: repeat ;
+    background-color: rgb(245, 238, 236);
+    height: 750px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(40, 180, 82);
+  }
+  
+  .navbar {
+    max-height: 75px;
+  }
+  
+  
+  
+  
+ 
+  
+  p {
+  color: rgb(52, 149, 165);
+  font-family: 'segoe ui';
+  font-size: 16px;
+  }
+  
+  
+  
+  #map,
+  body,
+  html {
+    height: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
