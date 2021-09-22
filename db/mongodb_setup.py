@@ -39,13 +39,13 @@ collection = db[visitation_db]
 print("Collection created........")
 
 #define data
-sp_to_en_colors = [{"votes": 62, "color":"red"},
-                    {"votes": 24, "color":"orange"},
-                    {"votes": 29, "color":"yellow"},
-                    {"votes": 18, "color":"green"},
-                    {"votes": 44, "color":"blue"},
-                    {"votes": 64, "color":"black"},
-                    {"votes": 48, "color":"pink"}]
+#sp_to_en_colors = [{"votes": 62, "color":"red"},
+                 # {"votes": 24, "color":"orange"},
+                # {"votes": 29, "color":"yellow"},
+                  #  {"votes": 18, "color":"green"},
+                    #{"votes": 44, "color":"blue"},
+                   # {"votes": 64, "color":"black"},
+                    #{"votes": 48, "color":"pink"}]
 
 res = collection.insert_many(sp_to_en_colors)
 print("Data inserted ......")
