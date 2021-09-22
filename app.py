@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect,jsonify
 import pymongo
 
-app=Flask(__name__)
+app = Flask(__name__)
 
 # Use PyMongo to establish Mongo connection
 conn = "mongodb://localhost:27017"
@@ -55,21 +55,21 @@ def string_to_list(data, tag_name)  :
     data[tag_name]= data[tag_name].replace("[", "").replace("]","").replace("'","").split(", ")
 
 
-@app.route("/park_detail.html")
-def park():
-    return render_template("park_detail_v2.html")
+@app.route("/team.html")
+def team():
+    return render_template("team.html")
 
 
 @app.route("/visitation.html")
 def visitation():
     results = collection.find()
-    return render_template("visitation_v2.html")
+    return render_template("visitation.html")
 
 
 @app.route("/api/v1/visits")
 def visit_api():
    
-    results = db.visits.find({"Rank": {"$lt":30}})
+    results = db.visits.find({"Rank": {"$lt":20}})
   
     data = [ {"park": result["ParkName"], "year": result["Year"], "visits" :result["Value"] } for result in results]
 
@@ -77,22 +77,8 @@ def visit_api():
     return jsonify(data)
 
 
-@app.route("/api/v1/activities")
-def activities_api():
 
-    def srt(val):
-        print (val["count"])
-        return val["count"]
-   
-    results = db.activities.find()
-  
-    data = [ {"count": result["Value"], "type": result["Type"],} for result in results]#.sort(key=srt)
-    print(data)
-    return jsonify(data)
+if __name__ == "__main__":
+    app.run(debug=True)
 
 
-
-
-if __name__ =="__main__":
- app.run(debug=True)
-   
