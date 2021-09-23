@@ -34,7 +34,7 @@ function createMap(data) {
     var area = data[i];
     allParks.push(
     L.marker([area.latitude, area.longitude], {icon: blueMarker, opacity:0.5})
-      .bindPopup(`<h6><a href= "parks/${area.parkCode}">${area.fullName}</a></h6> <hr> <b> ${area.designation} ${area.states}</b>`)
+      .bindPopup(`<h6><a href= "parks/${area.parkCode}">${area.fullName}</a></h6> <hr> <b> ${area.designation}, ${area.states}</b>`)
     )};
 
   var allParksLayer = L.layerGroup(allParks);

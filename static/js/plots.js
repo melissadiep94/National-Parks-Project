@@ -1,30 +1,36 @@
 d3.json(location.origin + "/api/v1/visits").then((data) => {
 
+   data = data.sort(function(a, b){return b.y2020 - a.y2020}).slice(0,20) 
+
   // Trace for parks visits
   let trace1 = {
-    x: data.filter(row => row.year == 2017).map(row => row.park),
-    y: data.filter(row => row.year == 2017).map(row => row.visits),
+    x: data.map(row => row.park),
+    y: data.map(row => row.y2020),
     type: "bar",
+    name: 2020
   };
 
   let trace2 = {
-    x: data.filter(row => row.year == 2018).map(row => row.park),
-    y: data.filter(row => row.year == 2018).map(row => row.visits),
+    x: data.map(row => row.park),
+    y: data.map(row => row.y2019),
     type: "bar",
+    name: 2019
   };
 
   let trace3 = {
-    x: data.filter(row => row.year == 2019).map(row => row.park),
-    y: data.filter(row => row.year == 2019).map(row => row.visits),
+    x: data.map(row => row.park),
+    y: data.map(row => row.y2018),
     type: "bar",
+    name: 2018
   };
   
   
   let trace4 = {
-    x: data.filter(row => row.year == 2020).map(row => row.park),
-    y: data.filter(row => row.year == 2020).map(row => row.visits),
+    x: data.map(row => row.park),
+    y: data.map(row => row.y2017),
     type: "bar",
-  };
+    name: 2017
+    };
 
   // Data trace array
   let traceData = [trace1, trace2, trace3, trace4];
@@ -32,18 +38,28 @@ d3.json(location.origin + "/api/v1/visits").then((data) => {
   // Apply the group barmode to the layout
   let layout = {
     title: {
-      text: "Most Visited Parks 2020 (in millions of visits)",
+      text: "Most Visited Parks 2020",
       font: {
         color: '#f0f0f0',
       }
     },
     paper_bgcolor: '#232e35',
     plot_bgcolor: '#232e35',
+    
     xaxis: {
       color: '#f0f0f0'
     },
     yaxis: {
       color: '#f0f0f0'
+    },
+    legend: {
+      x: 1.0,
+      y: 1.0,
+      font: {
+        color: '#f0f0f0',
+        size : 12
+      }   
+
     },
     barmode: 'group'
   };

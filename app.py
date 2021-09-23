@@ -69,9 +69,17 @@ def visitation():
 @app.route("/api/v1/visits")
 def visit_api():
    
-    results = db.visits.find({"Rank": {"$lt":20}})
+    results = db.visits.find()
   
-    data = [ {"park": result["ParkName"], "year": result["Year"], "visits" :result["Value"] } for result in results]
+   #data = [ {"park": result["ParkName"], "year": result["Year"], "visits" :result["Value"], "rank": result["Rank"]} for result in results]
+    data = []
+    for result in results:
+        park=next((item for item in data if item["park"] == result["ParkName"]), None)
+        if park == None :
+            park = {"park": result["ParkName"]}
+            data.append(park)
+
+        park[f'y{result["Year"]}'] = result["Value"]      
 
     print(data)
     return jsonify(data)
