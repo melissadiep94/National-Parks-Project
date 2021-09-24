@@ -33,9 +33,9 @@ def p_name():
     
     client = MongoClient(mongo_url)
 
-    db = client[parks_db]
+    db = client[db_name]
 
-    collection = db[parks]
+    collection = db[parks_collection]
 
     results = collection.find()
     #results is a cursor object, when looping through it each result is a dictionary
