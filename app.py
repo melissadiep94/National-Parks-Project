@@ -6,7 +6,11 @@ import os
 app = Flask(__name__)
 
 
+db_name = "parks_db"
 
+parks_collection = "parks"
+visits_collection = "visits"
+activities_collection = "activites"
 
 #print(db.parks.find_one())
 
@@ -44,9 +48,9 @@ def p_name():
 def park_detail(pCode):
     client = MongoClient(mongo_url)
 
-    db = client[parks_db]
+    db = client[db_name]
 
-    collection = db[parks]
+    collection = db[parks_collection]
 
     results = collection.find()
 
@@ -61,13 +65,12 @@ def park_detail(pCode):
 def markers_api():
     client = MongoClient(mongo_url)
 
-    db = client[parks_db]
+    db = client[db_name]
 
-    collection = db[parks]
+    collection = db[parks_collection]
 
     results = collection.find()
 
-    results = db.parks.find()
   
     data = [ {"latitude": result["latitude"], "longitude": result["longitude"], "parkCode" :result["parkCode"], "fullName" :result["fullName"], "designation" :result["designation"] , "states" :result["states"] } for result in results]
     
@@ -87,11 +90,11 @@ def team():
 def visitation():
     client = MongoClient(mongo_url)
 
-    db = client[parks_db]
+    db = client[db_name]
 
-    collection = db[visits]
+    collection = db[visits_collection]
 
-    results = db.visits.find()
+    results = collection.find()
 
     return render_template("visitation.html")
 
@@ -100,11 +103,11 @@ def visitation():
 def visit_api():
     client = MongoClient(mongo_url)
 
-    db = client[parks_db]
+    db = client[db_name]
 
-    collection = db[visits]
+    collection = db[visits_collection]
 
-    results = db.visits.find()
+    results = collection.find()
   
    #data = [ {"park": result["ParkName"], "year": result["Year"], "visits" :result["Value"], "rank": result["Rank"]} for result in results]
     data = []
@@ -123,11 +126,11 @@ def visit_api():
 def activites_api():
     client = MongoClient(mongo_url)
 
-    db = client[parks_db]
+    db = client[db_name]
 
-    collection = db[activities]
+    collection = db[activities_collection]
 
-    results = db.activities.find()
+    results = collection.find()
 
   
     data = [ {"count": result["Value"], "type": result["Type"] ,}for result in results]
