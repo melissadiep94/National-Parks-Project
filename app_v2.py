@@ -22,7 +22,6 @@ if 'DATABASE_URL' in os.environ:
     mongo_url = os.environ['MONGO_URL']
 else:
     #if we're not running in heroku then try and get my local config pwd
-    from db import config
     mongo_url = "mongodb://localhost:27017"
 
 @app.route("/")
