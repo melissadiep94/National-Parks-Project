@@ -68,6 +68,7 @@
             <div class="row">
                 <div class="col-md-4">
                   <h5><strong>Hours of operation:</strong></h5>
+                  <!-- Expolore the way how to fix sorting of the days coming from our database -->
                   
                     {% for days, hours in park.standardHours[0].items()%}
                     <h6>{{days}}:{{hours}}</h6> 
@@ -108,9 +109,9 @@
                     <div class="row">
                         <div class="col-lg-12 justify-content-center align-items-center text-center">      
                        
-                                <h5>Entrance fees: {{park.entranceFees_cost}}  <br>
+                            <!-- <h5>Entrance fees: {{park.entranceFees_cost}}  <br>
                                     {{park.entranceFees_description}}
-                                
+                            <-->   
                                 
                                 </h5>
                                <br>
