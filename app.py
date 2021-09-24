@@ -7,9 +7,6 @@ app = Flask(__name__)
 
 
 
-# #connect to a database.
-db = "parks_db"
-collection = db.parks
 
 #print(db.parks.find_one())
 
