@@ -3,7 +3,7 @@ cffi==1.14.6
 click==8.0.1
 colorama==0.4.4
 cryptography==3.4.7
-dataclasses==0.8
+dataclasses==0.6
 dnspython==2.1.0
 Flask==2.0.1
 Flask-SQLAlchemy==2.5.1
