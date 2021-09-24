@@ -5,7 +5,6 @@ import os
 
 app = Flask(__name__)
 
-
 db_name = "parks_db"
 
 parks_collection = "parks"
