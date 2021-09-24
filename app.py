@@ -1,5 +1,21 @@
 from flask import Flask, render_template, redirect,jsonify
 import pymongo
+import os
+import psycopg2
+from pymongo import MongoClient
+import socket
+
+
+db_name = "parks_db"
+
+#check if we're running in heroku and my environmental variable exist
+if 'DATABASE_URL' in os.environ:
+    mongo_url = os.environ['MONGO_URL']
+else:
+    #if we're not running in heroku then try and get my local config password
+    from db import config
+    mongo_url = "mongodb://localhost:27017/"
+
 
 app = Flask(__name__)
 
@@ -84,6 +100,16 @@ def visit_api():
     print(data)
     return jsonify(data)
 
+
+@app.route("/api/v1/activites")
+def activites_api():
+   
+    results = db.activites.find()
+  
+    data = [ {"count": result["Value"], "type": result["Type"] ,}for result in results]
+
+    print(data)
+    return jsonify(data)
 
 
 if __name__ == "__main__":
