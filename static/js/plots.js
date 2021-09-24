@@ -69,3 +69,64 @@ d3.json(location.origin + "/api/v1/visits").then((data) => {
   Plotly.newPlot("plot", traceData, layout);
 });
 
+d3.json(location.origin + "/api/v1/activities").then((data) => {
+  data = data.sort(function(a, b){return b.count - a.count}) 
+  // sorted in descending order, first 20  
+  var data1 = data.slice(0,20)
+  let pieData = [
+    {
+        values: data1.map(row=>row.count),
+        labels: data1.map(row=>row.type),
+        hoverinfo: "hovertext",
+        type: "pie"
+    }
+  ];
+
+let pieLayout = {
+    margin: { t: 0, l: 0 },
+    paper_bgcolor: '#232e35',
+    plot_bgcolor: '#232e35',
+    legend: {
+      traceorder: 'normal',
+      font: {
+        size: 12,
+        color: '#f0f0f0',
+      },
+      bgcolor: '#232e35',
+      bordercolor: '#232e35',
+      borderwidth: 2
+    }
+};
+
+Plotly.plot("pie", pieData, pieLayout);
+
+  data = data.sort(function(a, b){return a.count - b.count}).slice(0,20) 
+  // sorted in ascending order, first 20  
+
+  let pieData1 = [
+    {
+        values: data.map(row=>row.count),
+        labels: data.map(row=>row.type),
+        hoverinfo: "hovertext",
+        type: "pie"
+    }
+];
+
+let pieLayout1 = {
+    margin: { t: 0, l: 0 },
+    paper_bgcolor: '#232e35',
+    plot_bgcolor: '#232e35',
+    legend: {
+      traceorder: 'normal',
+      font: {
+        size: 12,
+        color: '#f0f0f0',
+      },
+      bgcolor: '#232e35',
+      bordercolor: '#232e35',
+      borderwidth: 2
+    }
+};
+
+Plotly.plot("pie1", pieData1, pieLayout1);
+});
