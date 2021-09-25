@@ -46,7 +46,7 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
    *  Javascript
         *  [plots.js](static/js/plots.js) - for charts
         *  [logic.js](https://github.com/melissadiep94/travel-project/blob/main/static/js/logic.js) - for map functionality (layers, markers)
-   *  [HTML pages](https://github.com/melissadiep94/travel-project/tree/main/templates) 
+   *  [HTML pages](https://github.com/melissadiep94/travel-project/tree/main/templates) - We designed our website National Parks using Bootstrap and css formatting. For the enjoyable adventure we prepared for the user of this website  easy to navigate bar and sites with a background with a little peek into his future trip to help him decide easier (and faster). 
         *   index.html 
         *   name.html 
         *   visitation.html 
@@ -91,9 +91,12 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
      Next we used activities data and a pie chart from Plotly to display the twenty most common activities and also the activities which are the least available through our parks.
      We accessed the data in our MongoDB by code in Python [app.py](app.py). The next code in Javascript [plots.js](static/js/plots.js) used this data for visualization in pie charts.
 
-  - HTML 
-  
-    We designed our website National Parks using Bootstrap and css formatting. For the enjoyable adventure we prepared for the user of this website  easy to navigate bar and sites with a background with a little peek into his future trip to help him decide easier (and faster). 
+- Team Page
+
+![Team page](https://github.com/melissadiep94/travel-project) 
+
+We included a gif sourced from gify, pictures of our team, and a link to our github.
+Included the same gray background and navbar for same look and feel as other pages.
 
   ## Heroku Website Deployment
   Work in progress. There are some pages that work, but we struggled to connect to our Mongo database.
