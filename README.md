@@ -92,7 +92,7 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
   
     We designed our website National Parks using Bootstrap and css formatting. For the enjoyable adventure we prepared for the user of this website  easy to navigate bar and sites with a background with a little peek into his future trip to help him decide easier (and faster). 
 
-  ## Heroku Website
+  ## Heroku Website Deployment
   Work in progress. There are some pages that work, but we struggled to connect to our Mongo database.
   https://nationalpark-app.herokuapp.com/ 
   
