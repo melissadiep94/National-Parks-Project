@@ -19,6 +19,4 @@ dependencies:
   - wincertstore
   - pip
   - pip:
-    - gunicorn 
-    
- entrypoint: gunicorn -b :$PORT main:app --timeout 90
+    - gunicorn
