@@ -1,20 +1,25 @@
 from flask import Flask, render_template, redirect,jsonify
-import pymongo
+from pymongo import MongoClient
+import socket
+import os
 
 app = Flask(__name__)
 
-# Use PyMongo to establish Mongo connection
-conn = "mongodb://localhost:27017"
+db_name = "parks_db"
 
-# #Pass connection to the pymongo instance
-client = pymongo.MongoClient(conn)
-
-# #connect to a database.
-db = client.parks_db
-collection = db.parks
+parks_collection = "parks"
+visits_collection = "visits"
+activities_collection = "activities"
 
 #print(db.parks.find_one())
 
+#check if we're running in heroku and my environment variable exist
+
+if 'MONGO_URL' in os.environ:
+    mongo_url = os.environ['MONGO_URL']
+else:
+    #if we're not running in heroku then try and get my local config pwd
+    mongo_url = "mongodb://localhost:27017"
 
 client = MongoClient(mongo_url)
 
@@ -30,7 +35,9 @@ def index():
 @app.route("/name.html")
 def p_name():
     
-    results = collection.find()
+   collection = db[parks_collection]
+
+   results = collection.find()  
     #results is a cursor object, when looping through it each result is a dictionary
    names_from_db = [result["fullName"] for result in results]
 
@@ -39,7 +46,9 @@ def p_name():
 
 @app.route("/parks/<pCode>")
 def park_detail(pCode):
-   
+
+    collection = db[parks_collection]
+
     park_info_from_db = collection.find({"parkCode": pCode})[0]
         
     # string_to_list(park_info_from_db,"images_url") 
@@ -49,10 +58,13 @@ def park_detail(pCode):
 
 @app.route("/api/v1/markers")
 def markers_api():
-   
-    results = db.parks.find()
+
+    collection = db[parks_collection]
+
+    results = collection.find()
   
     data = [ {"latitude": result["latitude"], "longitude": result["longitude"], "parkCode" :result["parkCode"], "fullName" :result["fullName"], "designation" :result["designation"] , "states" :result["states"] } for result in results]
+    
     return jsonify(data)
 
 
@@ -63,14 +75,20 @@ def team():
 
 @app.route("/visitation.html")
 def visitation():
+
+    collection = db[visits_collection]
+
     results = collection.find()
+
     return render_template("visitation.html")
 
 
 @app.route("/api/v1/visits")
 def visit_api():
-   
-    results = db.visits.find()
+
+    collection = db[visits_collection]
+
+    results = collection.find()
   
    #data = [ {"park": result["ParkName"], "year": result["Year"], "visits" :result["Value"], "rank": result["Rank"]} for result in results]
     data = []
@@ -86,15 +104,19 @@ def visit_api():
     return jsonify(data)
 
 @app.route("/api/v1/activities")
-def activities_api():
+def activites_api():
 
-   
-    results = db.activities.find()
+    collection = db[activities_collection]
+
+    results = collection.find()
   
-    data = [ {"count": result["Value"], "type": result["Type"],} for result in results]
+    data = [ {"count": result["Value"], "type": result["Type"]} for result in results]
+
     print(data)
     return jsonify(data)
 
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
