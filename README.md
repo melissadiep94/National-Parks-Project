@@ -9,7 +9,8 @@ Our aim was to provide useful information for prospective travelers to National 
 ## Table of Content
 * [Data Sources](#data-sources)
 * [Technologies and Libraries](#technologies-and-libraries)
-* [Data Processing and Cleanup](#data-processing-and-cleanup)  
+* [Data Processing and Cleanup](#data-processing-and-cleanup)
+* [Coding files](#coding-files)  
 * [Visualization](#visualization) 
     - Map development - Choose the place for your next visit
     - Selected park information
