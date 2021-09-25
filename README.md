@@ -59,7 +59,8 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
  # Visualization
     
   - Home page
-  Included large 'National Parks' header with free font imported from the interneet, with background of HD picture of Aspen, Colorado 
+  
+    Included large 'National Parks' header with free font imported from the interneet, with background of HD picture of Aspen, Colorado 
   
   - Interactive Map
 
