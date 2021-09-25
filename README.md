@@ -44,9 +44,7 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
   * we wanted to take a closer look at the activities data, which we retrieved from our clean data for parks and transformed it into file as in [activities.py](activities.py) The file was uploaded into our MongoDB database to create collection activities.
 
    ## Coding files
-   *  [Cleaning_national_park_data.ipynb](Cleaning_national_park_data.ipynb)
-    
-    
+   *  [Cleaning_national_park_data.ipynb](https://github.com/melissadiep94/travel-project/blob/main/jupyter%20notebook/Cleaning_national_park_data.ipynb)
     # Visualization
     
   - Interactive Map
