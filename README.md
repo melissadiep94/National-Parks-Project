@@ -39,13 +39,23 @@ Our aim was to provide useful information for prospective travelers to National 
 
 ## Data Processing and Cleanup
 We retrieved our data for national parks from API https://www.nps.gov/subjects/developer/api-documentation.htm for parks and cleaned it in our jupyter notebook to retrieve the information to be uploaded to our MongoDB as follow:
-   * unique information about each park (it includes information about 464 parks: id, park code, name, description, operating hours, activities information, fees information, weather information, address, url, images, latitude and longitude). Clean data were uploaded into our collection parks in MongoDB.
-  * we wanted to use information about the visitation for some visualization. We use public information about recreational visits (in milions of visits) from https://irma.nps.gov/STATS. Data were retrieved for years 2017, 2018, 2019 and 2020 in the form of csv files, which we cleaned and uploaded into our MongoDB into one collection (visits).
-  * we wanted to take a closer look at the activities data, which we retrieved from our clean data for parks and transformed it into file as in [activities.py](activities.py) The file was uploaded into our MongoDB database to create collection activities.
-
-   ## Coding files
-   *  [Cleaning_national_park_data.ipynb](https://github.com/melissadiep94/travel-project/blob/main/jupyter%20notebook/Cleaning_national_park_data.ipynb)
-    # Visualization
+   * Unique information about each park (it includes information about 464 parks: id, park code, name, description, operating hours, activities information, fees information, weather information, address, url, images, latitude and longitude). Clean data were uploaded into our collection parks in MongoDB.
+  * We wanted to use information about the visitation for some visualization. We used public information about recreational visits (in milions of visits) from https://irma.nps.gov/STATS. Data were retrieved for years 2017, 2018, 2019 and 2020 in the form of csv files, which we cleaned and uploaded into our MongoDB into one collection (visits).
+  * We wanted to take a closer look at the activities data, which we retrieved from our clean data for parks and transformed it into file as in [activities.py](activities.py) The file was uploaded into our MongoDB database to create collection activities.
+ 
+ ## Coding files
+   *  Jupyter Notebook - [Cleaning_national_park_data.ipynb](https://github.com/melissadiep94/travel-project/blob/main/jupyter%20notebook/Cleaning_national_park_data.ipynb)
+   *  Javascript
+        *  [plots.js](static/js/plots.js) - for charts
+        *  [logic.js](https://github.com/melissadiep94/travel-project/blob/main/static/js/logic.js) - for map functionality (layers, markers)
+   *  [HTML pages](https://github.com/melissadiep94/travel-project/tree/main/templates) 
+        *   index.html 
+        *   name.html 
+        *   visitation.html 
+        *   team.html 
+   * Flask/Heroku - [app.py](app.py)  
+ 
+ # Visualization
     
   - Interactive Map
 
@@ -82,11 +92,15 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
   
     We designed our website National Parks using Bootstrap and css formatting. For the enjoyable adventure we prepared for the user of this website  easy to navigate bar and sites with a background with a little peek into his future trip to help him decide easier (and faster). 
 
+  ## Heroku Website
+  Work in progress. There are some pages that work, but we struggled to connect to our Mongo database.
+  https://nationalpark-app.herokuapp.com/ 
+  
   ## Future Development
 
-   We would like to add into our database information about nearby accomodations (hotels,..) and add visualization about its location into our interactive map to offer one site with most helpful data for the prospective travelers.    
-
-
+   We would like to add into our database information about nearby accomodations (hotels,..) and add visualization about its location into our interactive map to offer one site with most helpful data for the prospective travelers.   
+   
+   
 ## Team Members
   * Melissa Diep
   * Dasa Simo
