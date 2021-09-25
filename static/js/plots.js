@@ -39,7 +39,7 @@ d3.json(location.origin + "/api/v1/visits").then((data) => {
   // Apply the group barmode to the layout
   let layout = {
     title: {
-      text: "Most Visited Parks 2020",
+      text: "",
       font: {
         color: '#f0f0f0',
       }
