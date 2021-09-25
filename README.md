@@ -100,7 +100,6 @@ We included a gif sourced from gify, pictures of our team, and a link to our git
 Included the same gray background and navbar for same look and feel as other pages.
 
   ## Heroku Website Deployment
-  Work in progress. There are some pages that work, but we struggled to connect to our Mongo database.
   https://nationalpark-app.herokuapp.com/ 
   
   ## Future Development
