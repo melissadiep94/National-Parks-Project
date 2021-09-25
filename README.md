@@ -54,7 +54,7 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
 
   - Individual Park Information
 
-    ![Selected_park](/static/img/individual_page.png)
+    ![Selected_park](/static/img/Individual_page.png)
 
 
     Popup for each marker is linked to an individual page for the park.  In [app.py](app.py) was created route to render selected park information page: @app.route("/parks/\<pCode>").  To display information about park the Flask was used for selected data to be rendered on the page (description, hours of operation, things to do - activities, url to original park website, address and picture from the park). 
