@@ -1,5 +1,5 @@
 # travel-project
-![NationalParks](/static/img/home_page_v2.PNG)
+![NationalParks](/static/img/home_page_v3.PNG)
 
 
 ## Project Information
@@ -94,13 +94,12 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
 
 - Team Page
 
-![Team page](/static/img/team_page.PNG) 
+![Team page](/static/img/team_page_v2.PNG) 
 
 We included a gif sourced from gify, pictures of our team, and a link to our github.
 Included the same gray background and navbar for same look and feel as other pages.
 
   ## Heroku Website Deployment
-  Work in progress. There are some pages that work, but we struggled to connect to our Mongo database.
   https://nationalpark-app.herokuapp.com/ 
   
   ## Future Development
