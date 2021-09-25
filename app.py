@@ -21,6 +21,9 @@ else:
     #if we're not running in heroku then try and get my local config pwd
     mongo_url = "mongodb://localhost:27017"
 
+client = MongoClient(mongo_url)
+
+db = client[db_name]
 
 
 @app.route("/")
@@ -32,24 +35,17 @@ def index():
 @app.route("/name.html")
 def p_name():
     
-    client = MongoClient(mongo_url)
+   collection = db[parks_collection]
 
-    db = client[db_name]
-
-    collection = db[parks_collection]
-
-    results = collection.find()
+   results = collection.find()  
     #results is a cursor object, when looping through it each result is a dictionary
-    names_from_db = [result["fullName"] for result in results]
+   names_from_db = [result["fullName"] for result in results]
 
-    return render_template("name.html", names = names_from_db)
+   return render_template("name.html", names = names_from_db)
 
 
 @app.route("/parks/<pCode>")
 def park_detail(pCode):
-    client = MongoClient(mongo_url)
-
-    db = client[db_name]
 
     collection = db[parks_collection]
 
@@ -62,22 +58,14 @@ def park_detail(pCode):
 
 @app.route("/api/v1/markers")
 def markers_api():
-    client = MongoClient(mongo_url)
-
-    db = client[db_name]
 
     collection = db[parks_collection]
 
     results = collection.find()
-
   
     data = [ {"latitude": result["latitude"], "longitude": result["longitude"], "parkCode" :result["parkCode"], "fullName" :result["fullName"], "designation" :result["designation"] , "states" :result["states"] } for result in results]
     
     return jsonify(data)
-
-
-def string_to_list(data, tag_name)  :
-    data[tag_name]= data[tag_name].replace("[", "").replace("]","").replace("'","").split(", ")
 
 
 @app.route("/team.html")
@@ -87,9 +75,6 @@ def team():
 
 @app.route("/visitation.html")
 def visitation():
-    client = MongoClient(mongo_url)
-
-    db = client[db_name]
 
     collection = db[visits_collection]
 
@@ -100,9 +85,6 @@ def visitation():
 
 @app.route("/api/v1/visits")
 def visit_api():
-    client = MongoClient(mongo_url)
-
-    db = client[db_name]
 
     collection = db[visits_collection]
 
@@ -123,21 +105,15 @@ def visit_api():
 
 @app.route("/api/v1/activities")
 def activites_api():
-    client = MongoClient(mongo_url)
-
-    db = client[db_name]
 
     collection = db[activities_collection]
 
     results = collection.find()
-
   
     data = [ {"count": result["Value"], "type": result["Type"]} for result in results]
 
     print(data)
     return jsonify(data)
-
-
 
 
 if __name__ == "__main__":
