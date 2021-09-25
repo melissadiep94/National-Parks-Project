@@ -16,7 +16,8 @@ Our aim was to provide useful information for prospective travelers to National 
     - Selected park information
     - Visitation Data - graphs for recreational visits and activities
     - HTML / CSS
-* Setup
+* [Heroku Website Deployment](#heroku-website-deployment)
+* [Future Development](#future-development)
 * [Team Members](#team-members)
 
  ## Data Sources     
