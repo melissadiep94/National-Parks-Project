@@ -45,7 +45,12 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
 
   # Visualization
     
-  - Interactive Map
+    - Home page 
+   ![NationalParks](/static/img/home_page.png)
+
+    Chose an HD background of Aspen, Colorada and made a large header with free font imported from the internet.
+    
+   - Interactive Map
 
     ![Maps](/static/img/map_page.png)
       To choose the place for your next adventure, we created dropdown box to select a park from the database, where the user can select the park in US by its name. 
