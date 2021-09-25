@@ -45,7 +45,7 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
 
   # Visualization
     
-    - Home page 
+  - Home page 
    ![NationalParks](/static/img/home_page.png)
 
     Chose an HD background of Aspen, Colorada and made a large header with free font imported from the internet.
