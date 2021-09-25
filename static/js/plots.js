@@ -1,3 +1,4 @@
+
 d3.json(location.origin + "/api/v1/visits").then((data) => {
 
    data = data.sort(function(a, b){return b.y2020 - a.y2020}).slice(0,20) 
