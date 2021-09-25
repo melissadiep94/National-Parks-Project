@@ -38,22 +38,18 @@ Our aim was to provide useful information for prospective travelers to National 
 * MongoDB
 
 ## Data Processing and Cleanup
-We retrieved our data for national parks from API https://www.nps.gov/subjects/developer/api-documentation.htm for /parks and cleaned it in our jupyter notebook to retrieve the information to be uploaded to our MongoDB as follow:
+We retrieved our data for national parks from API https://www.nps.gov/subjects/developer/api-documentation.htm for parks and cleaned it in our jupyter notebook to retrieve the information to be uploaded to our MongoDB as follow:
    * unique information about each park (it includes information about 464 parks: id, park code, name, description, operating hours, activities information, fees information, weather information, address, url, images, latitude and longitude). Clean data were uploaded into our collection parks in MongoDB.
   * we wanted to use information about the visitation for some visualization. We use public information about recreational visits (in milions of visits) from https://irma.nps.gov/STATS. Data were retrieved for years 2017, 2018, 2019 and 2020 in the form of csv files, which we cleaned and uploaded into our MongoDB into one collection (visits).
   * we wanted to take a closer look at the activities data, which we retrieved from our clean data for parks and transformed it into file as in [activities.py](activities.py) The file was uploaded into our MongoDB database to create collection activities.
 
   # Visualization
     
-  - Home page 
-   ![NationalParks](/static/img/home_page.png)
+  - Interactive Map
 
-    Chose an HD background of Aspen, Colorada and made a large header with free font imported from the internet.
-    
-   - Interactive Map
     ![Maps](/static/img/map_page.png)
-    
-    Choose the place for your next adventure, we created dropdown box to select a park from the database, where the user can select the park in US by its name. Javascript, Leaflet and d3 were used on client side to visualize data in the map with parks information. The different layers with markers allows to choose from all parks, or national parks. Individual park choice is implemented for a marker, which can be selected from the dropdown box.
+      To choose the place for your next adventure, we created dropdown box to select a park from the database, where the user can select the park in US by its name. 
+      Javascript, Leaflet and d3 were used on client side to visualize data in the map with parks information. The different layers with markers allows to choose from all parks, or national parks. Individual park choice is implemented for a marker, which can be selected from the dropdown box.
 
 
   - Individual Park Information
@@ -77,8 +73,8 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
     ![Activities_park](/static/img/activities_least_page.png)
  
 
-     Next we used activities data and pie chart from Plotly to display the twenty most common activities and also the activities which are the least available through our parks.
-     We access the data in our MongoDB by code in Python [app.py](app.py). The next code in Javascript [plots.js](static/js/plots.js) used this data for visualization in pie charts.
+     Next we used activities data and a pie chart from Plotly to display the twenty most common activities and also the activities which are the least available through our parks.
+     We accessed the data in our MongoDB by code in Python [app.py](app.py). The next code in Javascript [plots.js](static/js/plots.js) used this data for visualization in pie charts.
 
   - HTML 
   
@@ -86,7 +82,7 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
 
   ## Future Development
 
-   We would like to add into our database information about nearby accomodation (hotels,..) and add visualization about its location into our interactive map to offer one site with most helpful data for the prospective travelers.    
+   We would like to add into our database information about nearby accomodations (hotels,..) and add visualization about its location into our interactive map to offer one site with most helpful data for the prospective travelers.    
 
 
 ## Team Members
