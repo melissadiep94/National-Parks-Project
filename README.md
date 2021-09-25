@@ -51,10 +51,9 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
     Chose an HD background of Aspen, Colorada and made a large header with free font imported from the internet.
     
    - Interactive Map
-
     ![Maps](/static/img/map_page.png)
-      To choose the place for your next adventure, we created dropdown box to select a park from the database, where the user can select the park in US by its name. 
-      Javascript, Leaflet and d3 were used on client side to visualize data in the map with parks information. The different layers with markers allows to choose from all parks, or national parks. Individual park choice is implemented for a marker, which can be selected from the dropdown box.
+    
+    Choose the place for your next adventure, we created dropdown box to select a park from the database, where the user can select the park in US by its name. Javascript, Leaflet and d3 were used on client side to visualize data in the map with parks information. The different layers with markers allows to choose from all parks, or national parks. Individual park choice is implemented for a marker, which can be selected from the dropdown box.
 
 
   - Individual Park Information
