@@ -17,8 +17,8 @@ Our aim was to provide useful information for prospective travelers to National 
 * [Team Members](#team-members)
 
  ## Data Sources     
- * We found list of national parks and other information about the parks at: https://www.nps.gov/subjects/developer/api-documentation.htm 
- * we used public information about recreational visits on https://irma.nps.gov/STATS
+ * Data on each park: https://www.nps.gov/subjects/developer/api-documentation.htm 
+ * Public information about recreational visits from https://irma.nps.gov/STATS
 
 ## Technologies and libraries
 * Python
