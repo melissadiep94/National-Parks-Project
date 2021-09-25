@@ -93,7 +93,7 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
 
 - Team Page
 
-![Team page](/static/img/team_page.png) 
+![Team page](/static/img/team_page.PNG) 
 
 We included a gif sourced from gify, pictures of our team, and a link to our github.
 Included the same gray background and navbar for same look and feel as other pages.
