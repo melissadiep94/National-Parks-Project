@@ -9,7 +9,7 @@ db_name = "parks_db"
 
 parks_collection = "parks"
 visits_collection = "visits"
-activities_collection = "activites"
+activities_collection = "activities"
 
 #print(db.parks.find_one())
 
@@ -20,6 +20,8 @@ if 'MONGO_URL' in os.environ:
 else:
     #if we're not running in heroku then try and get my local config pwd
     mongo_url = "mongodb://localhost:27017"
+
+
 
 @app.route("/")
 @app.route("/index.html")
@@ -50,8 +52,6 @@ def park_detail(pCode):
     db = client[db_name]
 
     collection = db[parks_collection]
-
-    results = collection.find()
 
     park_info_from_db = collection.find({"parkCode": pCode})[0]
         
@@ -121,7 +121,7 @@ def visit_api():
     print(data)
     return jsonify(data)
 
-@app.route("/api/v1/activites")
+@app.route("/api/v1/activities")
 def activites_api():
     client = MongoClient(mongo_url)
 
@@ -132,7 +132,7 @@ def activites_api():
     results = collection.find()
 
   
-    data = [ {"count": result["Value"], "type": result["Type"] ,}for result in results]
+    data = [ {"count": result["Value"], "type": result["Type"]} for result in results]
 
     print(data)
     return jsonify(data)
