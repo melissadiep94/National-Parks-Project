@@ -3,7 +3,7 @@
 
 
 ## Project Information
-Our aim was to provide useful information for prospective travelers to National Parks. You can find information and choose your destination for your next adventure from 464 National Parks in US, as displayed  on the map. These includes all parks, where 63 has a designation as a National Park.  
+Our aim was to provide useful information for prospective travelers to National Parks. You can find information and choose your destination for your next adventure from 464 National Parks in US, as displayed  on the map. These includes all parks, where 63 has a designation as a National Park.  We only wanted to include top parks visited and top activities to do in the parks.
 
 
 ## Table of Content
@@ -38,7 +38,7 @@ Our aim was to provide useful information for prospective travelers to National 
 ## Data Processing and Cleanup
 We retrieved our data for national parks from API https://www.nps.gov/subjects/developer/api-documentation.htm for parks and cleaned it in our jupyter notebook to retrieve the information to be uploaded to our MongoDB as follow:
    * Unique information about each park (it includes information about 464 parks: id, park code, name, description, operating hours, activities information, fees information, weather information, address, url, images, latitude and longitude). Clean data were uploaded into our collection parks in MongoDB.
-  * We wanted to use information about the visitation for some visualization. We used public information about recreational visits (in milions of visits) from https://irma.nps.gov/STATS. Data were retrieved for years 2017, 2018, 2019 and 2020 in the form of csv files, which we cleaned and uploaded into our MongoDB into one collection (visits).
+  * We wanted to use information about # of visitations for the parks for some visualization. We used public information about recreational visits (in milions of visits) from https://irma.nps.gov/STATS. Data were retrieved for years 2017, 2018, 2019 and 2020 in the form of csv files, which we cleaned and uploaded into our MongoDB into one collection (visits).
   * We wanted to take a closer look at the activities data, which we retrieved from our clean data for parks and transformed it into file as in [activities.py](activities.py) The file was uploaded into our MongoDB database to create collection activities.
  
  ## Coding files
