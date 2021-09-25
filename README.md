@@ -46,29 +46,35 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
   # Visualization
     
   - Interactive Map
-  ![Maps](/static/img/map_page.png)
+
+    ![Maps](/static/img/map_page.png)
       To choose the place for your next adventure, we created dropdown box to select a park from the database, where the user can select the park in US by its name. 
       Javascript, Leaflet and d3 were used on client side to visualize data in the map with parks information. The different layers with markers allows to choose from all parks, or national parks. Individual park choice is implemented for a marker, which can be selected from the dropdown box.
 
 
   - Individual Park Information
-  ![Selected_park](/static/img/individual_page.png)
+
+    ![Selected_park](/static/img/individual_page.png)
+
 
     Popup for each marker is linked to an individual page for the park.  In [app.py](app.py) was created route to render selected park information page: @app.route("/parks/\<pCode>").  To display information about park the Flask was used for selected data to be rendered on the page (description, hours of operation, things to do - activities, url to original park website, address and picture from the park). 
   
 
   - Visitation Data
-  ![Visitation_park](/static/img/visitation_page.png)
+
+    ![Visitation_park](/static/img/visitation_page.png)
 
     To diplay information about recreational visits we used data for each park from 2017, 2018, 2019 an 2020. In Plotly we choosed the bar graph to display the most visited parks in 2020 and by filtering by the first 20 parks in Javascript [plots.js](static/js/plots.js) we added information about visitation for each park for 2017, 2018 and 2019 for comparison purposes.
   
   - Activities 
-  ![Activities_park](/static/img/activities_most_page.png)
-  ![Activities_park](/static/img/activities_least_page.png)
+
+    ![Activities_park](/static/img/activities_most_page.png)
+
+    ![Activities_park](/static/img/activities_least_page.png)
  
 
-    Next we used activities data and pie chart from Plotly to display the twenty most common activities and also the activities which are the least available through our parks.
-    We access the data in our MongoDB by code in Python [app.py](app.py). The next code in Javascript [plots.js](static/js/plots.js) used this data for visualization in pie charts.
+     Next we used activities data and pie chart from Plotly to display the twenty most common activities and also the activities which are the least available through our parks.
+     We access the data in our MongoDB by code in Python [app.py](app.py). The next code in Javascript [plots.js](static/js/plots.js) used this data for visualization in pie charts.
 
   - HTML 
   
