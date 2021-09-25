@@ -3,7 +3,7 @@
 
 
 ## Project Information
-Our aim was to provide useful information for prospective travelers to National Parks. You can find information on 464 National Parks in US, as displayed  on the map with a link to an individual page for each park. These includes all National Public Service parks, where 63 has a designation as a National Park.  We also wanted to include top parks visited and top activities to do in the parks.
+Our aim was to provide useful information for prospective travelers to National Parks. You can find information on all 464 National Public Service Parks in US,  including 63 with 'National Park' designation as displayed  on the map with a link to an individual page for each park. These includes all National Public Service parks, where 63 has a designation as a National Park.  We also wanted to include top parks visited and top activities to do in the parks.
 
 
 ## Table of Content
