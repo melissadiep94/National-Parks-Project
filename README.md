@@ -12,10 +12,6 @@ Our aim was to provide useful information for prospective travelers to National 
 * [Data Processing and Cleanup](#data-processing-and-cleanup)
 * [Coding files](#coding-files)  
 * [Visualization](#visualization) 
-    - Map development - Choose the place for your next visit
-    - Selected park information
-    - Visitation Data - graphs for recreational visits and activities
-    - HTML / CSS
 * [Heroku Website Deployment](#heroku-website-deployment)
 * [Future Development](#future-development)
 * [Team Members](#team-members)
