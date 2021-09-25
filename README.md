@@ -54,7 +54,7 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
    * [CSS files](https://github.com/melissadiep94/travel-project/tree/main/static/css)
    * Flask/Heroku - [app.py](app.py)  
  
- # Visualization
+ ## Visualization
     
   - Home page
   
