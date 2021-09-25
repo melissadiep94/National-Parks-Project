@@ -1,5 +1,5 @@
 # travel-project
-![NationalParks](/static/img/home_page.png)
+![NationalParks](/static/img/home_page_v2.png)
 
 
 ## Project Information
