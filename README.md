@@ -1,12 +1,18 @@
 # travel-project
 ![NationalParks](/static/img/home_page_v3.PNG)
 
+## Team Members
+  * Melissa Diep
+  * Dasa Simo
+  * Shuchi Khandelwal 
+  * Megan Butler
 
 ## Project Objective
 Our aim was to provide useful information for prospective travelers to National Parks. You can find information on all 464 National Public Service Parks in US,  including 63 with 'National Park' designation, as displayed  on the map with a link to an individual page for each park. We also wanted to include top parks visited and top activities to do in the parks.
 
 
 ## Table of Content
+* [Team Members](#team-members)
 * [Data Sources](#data-sources)
 * [Technologies and Libraries](#technologies-and-libraries)
 * [Data Processing and Cleanup](#data-processing-and-cleanup)
@@ -14,7 +20,6 @@ Our aim was to provide useful information for prospective travelers to National 
 * [Visualization](#visualization) 
 * [Heroku Website Deployment](#heroku-website-deployment)
 * [Future Development](#future-development)
-* [Team Members](#team-members)
 
  ## Data Sources     
  * Data on each park: https://www.nps.gov/subjects/developer/api-documentation.htm 
@@ -107,8 +112,4 @@ Included the same gray background and navbar for same look and feel as other pag
    We would like to add into our database information about nearby accomodations (hotels,..) and add visualization about its location into our interactive map to offer one site with most helpful data for the prospective travelers.   
    
    
-## Team Members
-  * Melissa Diep
-  * Dasa Simo
-  * Shuchi Khandelwal 
-  * Megan Butler
+
