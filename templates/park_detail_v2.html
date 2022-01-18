@@ -68,19 +68,18 @@
             <div class="row">
                 <div class="col-md-4">
                   <h5><strong>Hours of operation:</strong></h5>
-                  <!-- Expolore the way how to fix sorting of the days coming from our database -->
+                  <!-- sorting days in hours -->
                   
-                    {% for days, hours in park.standardHours[0].items()%}
-                    <h6>{{days}}:{{hours}}</h6> 
+                    {% for days, hours in hours%}
+                    <h6>{{days}}:&nbsp;{{hours}}</h6> 
                     {% endfor %} 
                 </div>
                 
                 <div class="col-md-8">
                   <h5><strong>Things To Do: </strong></h5>
-                  {% for name in park.activity_names %}
-                  {{name}}, 
-                  {% endfor %}
+                  {{ park.activity_names|join(', ') }}
                   </h5>
+                  
                 </div>
               </div>
             <div class="row">

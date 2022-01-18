@@ -43,6 +43,10 @@ def p_name():
 
    return render_template("name.html", names = names_from_db)
 
+# getting day and hours of operation from standardHours in park_info_from_db
+def addHours(day, db):
+    return [day,db["standardHours"][0][day.lower()]]
+
 
 @app.route("/parks/<pCode>")
 def park_detail(pCode):
@@ -50,10 +54,22 @@ def park_detail(pCode):
     collection = db[parks_collection]
 
     park_info_from_db = collection.find({"parkCode": pCode})[0]
-        
+         
     # string_to_list(park_info_from_db,"images_url") 
-    
-    return render_template("park_detail_v2.html", park = park_info_from_db)
+   
+# hours of operation, corrected, in order
+    hrs =[]
+     
+    hrs.append(addHours("Sunday", park_info_from_db))
+    hrs.append(addHours("Monday", park_info_from_db))
+    hrs.append(addHours("Tuesday", park_info_from_db))
+    hrs.append(addHours("Wednesday", park_info_from_db))
+    hrs.append(addHours("Thursday", park_info_from_db))
+    hrs.append(addHours("Friday", park_info_from_db))
+    hrs.append(addHours("Saturday", park_info_from_db))
+
+
+    return render_template("park_detail_v2.html", park = park_info_from_db, hours = hrs)
 
 
 @app.route("/api/v1/markers")
@@ -63,7 +79,9 @@ def markers_api():
 
     results = collection.find()
   
-    data = [ {"latitude": result["latitude"], "longitude": result["longitude"], "parkCode" :result["parkCode"], "fullName" :result["fullName"], "designation" :result["designation"] , "states" :result["states"] } for result in results]
+    data = [ {"latitude": result["latitude"], "longitude": result["longitude"],\
+         "parkCode" :result["parkCode"], "fullName" :result["fullName"],\
+         "designation" :result["designation"] , "states" :result["states"] } for result in results]
     
     return jsonify(data)
 
