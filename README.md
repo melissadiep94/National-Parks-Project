@@ -48,7 +48,7 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
  
  ## Coding files
    *  Jupyter Notebook - [Cleaning_national_park_data.ipynb](https://github.com/melissadiep94/travel-project/blob/main/Coding%20files%20for%20data%20cleaning/Cleaning_national_park_data.ipynb)
-   *  Activities cleaning file - [activities.py](activities.py) 
+   *  Activities cleaning file - [activities.py](https://github.com/melissadiep94/travel-project/blob/main/Coding%20files%20for%20data%20cleaning/activities.py) 
    *  Javascript
         *  [plots.js](static/js/plots.js) - for charts
         *  [logic.js](https://github.com/melissadiep94/travel-project/blob/main/static/js/logic.js) - for map functionality (layers, markers)
