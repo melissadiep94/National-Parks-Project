@@ -2,6 +2,7 @@ from flask import Flask, render_template, redirect,jsonify
 from pymongo import MongoClient
 import socket
 import os
+import random
 
 app = Flask(__name__)
 
@@ -67,9 +68,11 @@ def park_detail(pCode):
     hrs.append(addHours("Thursday", park_info_from_db))
     hrs.append(addHours("Friday", park_info_from_db))
     hrs.append(addHours("Saturday", park_info_from_db))
+# choosing random picture from all available iamges_url associated with a park
+    random_pic = random.choice(park_info_from_db["images_url"])
+ 
+    return render_template("park_detail_v2.html", park = park_info_from_db, hours = hrs, random_pic=random_pic)
 
-
-    return render_template("park_detail_v2.html", park = park_info_from_db, hours = hrs)
 
 
 @app.route("/api/v1/markers")
@@ -118,7 +121,7 @@ def visit_api():
 
         park[f'y{result["Year"]}'] = result["Value"]      
 
-    print(data)
+    #print(data)
     return jsonify(data)
 
 @app.route("/api/v1/activities")
@@ -130,7 +133,7 @@ def activites_api():
   
     data = [ {"count": result["Value"], "type": result["Type"]} for result in results]
 
-    print(data)
+    #print(data)
     return jsonify(data)
 
 
