@@ -12,7 +12,6 @@ parks_collection = "parks"
 visits_collection = "visits"
 activities_collection = "activities"
 
-#print(db.parks.find_one())
 
 #check if we're running in heroku and my environment variable exist
 
@@ -121,7 +120,6 @@ def visit_api():
 
         park[f'y{result["Year"]}'] = result["Value"]      
 
-    #print(data)
     return jsonify(data)
 
 @app.route("/api/v1/activities")
@@ -133,7 +131,7 @@ def activites_api():
   
     data = [ {"count": result["Value"], "type": result["Type"]} for result in results]
 
-    #print(data)
+
     return jsonify(data)
 
 
