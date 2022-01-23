@@ -1,4 +1,4 @@
-# travel-project
+# National Parks Project
 ![NationalParks](/static/img/home_page_v3.PNG)
 
 ## Team Members
