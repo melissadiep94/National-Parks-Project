@@ -47,7 +47,7 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
   * We wanted to take a closer look at the activities data, which we retrieved from our clean data for parks and transformed it into file as in [activities.py](activities.py) The file was uploaded into our MongoDB database to create collection activities.
  
  ## Coding files
-   *  Jupyter Notebook - [Cleaning_national_park_data.ipynb](https://github.com/melissadiep94/travel-project/blob/main/jupyter%20notebook/Cleaning_national_park_data.ipynb)
+   *  Jupyter Notebook - [Cleaning_national_park_data.ipynb](https://github.com/melissadiep94/travel-project/blob/main/Coding%20files%20for%20data%20cleaning/Cleaning_national_park_data.ipynb)
    *  Activities cleaning file - [activities.py](activities.py) 
    *  Javascript
         *  [plots.js](static/js/plots.js) - for charts
