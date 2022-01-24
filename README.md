@@ -50,8 +50,8 @@ We retrieved our data for national parks from API https://www.nps.gov/subjects/d
    *  Jupyter Notebook - [Cleaning_national_park_data.ipynb](https://github.com/melissadiep94/travel-project/blob/main/Coding%20files%20for%20data%20cleaning/Cleaning_national_park_data.ipynb)
    *  Activities cleaning file - [activities.py](https://github.com/melissadiep94/travel-project/blob/main/Coding%20files%20for%20data%20cleaning/activities.py) 
    *  Javascript
-        *  [plots.js](static/js/plots.js) - for charts
         *  [logic.js](https://github.com/melissadiep94/travel-project/blob/main/static/js/logic.js) - for map functionality (layers, markers)
+        *  [plots.js](static/js/plots.js) - for charts 
    *  [HTML pages](https://github.com/melissadiep94/travel-project/tree/main/templates) - We designed our website National Parks using Bootstrap and css formatting. For the enjoyable adventure we prepared for the user of this website  easy to navigate bar and sites with a background with a little peek into his future trip to help him decide easier (and faster). 
         *   index.html 
         *   name.html 
