@@ -20,10 +20,6 @@ Our aim was to provide useful information for prospective travelers to National 
 * [Heroku Website Deployment](#heroku-website-deployment)
 * [Future Development](#future-development)
 
- ## Data Sources     
- * Data on each park: https://www.nps.gov/subjects/developer/api-documentation.htm 
- * Public information about recreational visits from https://irma.nps.gov/STATS
-
 ## Technologies and libraries
 * Python
   * Flask
