@@ -1,7 +1,17 @@
 var myMap;
 var parkData;
 var redMarker;
+var hotelMarker;
+var hotParksLayer;
 var marker = 0;
+
+var HotAcad = [{coord:[44.38763151750132, -68.20553326710981 ],"name":"Acadia Hotel - Downtown" },
+{coord:[44.38721889394144, -68.21044114796977], "name":"The Inn on Mount Desert"},
+{coord:[44.39815243550061, -68.22494826639411], "name":"Atlantic Oceanside Hotel & Event Center"}];
+
+var HotIndu = [{coord:[41.618670601276726, -87.04224098918274 ],"name":"WaterBird Lakeside Inn" },
+{coord:[41.62175046937392, -87.08378304256094], "name":"Spring House Inn"},
+{coord:[41.6125466486599, -87.1047592161781], "name":"Comfort Inn & Suites Near Indiana Dunes State Park"}];
 
 function createMap(data) {
   parkData = data;
@@ -22,15 +32,25 @@ function createMap(data) {
  
   var allParks =[];
   var natParks = [];
- 
+
+
+
   blueMarker = L.ExtraMarkers.icon({
-    icon: 'fa-coffee',
+    icon: 'fa-compass', 
     markerColor: '#0066CC',
     shape: 'circle',
     prefix: 'fa',
     svg :true 
   });
 
+
+  hotelMarker =   L.ExtraMarkers.icon({
+    icon: 'fa-bed',
+    markerColor: '#008000',
+    shape: 'penta',
+    prefix: 'fa',
+    svg :true 
+  }); 
 
   // Looping through the parks, adding marker
   for (var i = 0; i < data.length; i++) {
@@ -48,9 +68,11 @@ function createMap(data) {
 
   var allParksLayer = L.layerGroup(allParks);
   var natParksLayer = L.layerGroup(natParks);
+  hotParksLayer = L.layerGroup([]);
   var overlayMaps = {
       "Parks Location": allParksLayer,
       "National Parks": natParksLayer,
+      "Hotels to Stay": hotParksLayer,
    };
   
   /// Create a map object.
@@ -73,6 +95,14 @@ function createMap(data) {
       
     });
 }
+  
+function fillHotels(hotels)  {
+  for (var i = 0; i < hotels.length; i++) {
+    var hotel = hotels[i];
+      L.marker(hotel.coord, {icon: hotelMarker})
+      .bindPopup(`<h6>${hotel.name}</h6> <hr> <b> </b>`).addTo(hotParksLayer);
+    } 
+}
 
 
   function getPark(name1) {
@@ -83,11 +113,15 @@ function createMap(data) {
     for (var i = 0; i < parkData.length; i++) {
       var area = parkData[i];
       if (name1 == area.fullName) {
+        if (area.parkCode == "acad") 
+          fillHotels(HotAcad);
+        if (area.parkCode == "indu")
+          fillHotels(HotIndu);
           marker = new L.marker([area.latitude, area.longitude],  {icon: redMarker, zIndexOffset:1000})
         .bindPopup(`<h6><a href= "parks/${area.parkCode}">${area.fullName}</a></h6> <hr><b>${area.designation}, ${area.states}</b>`).addTo(myMap).openPopup();
       }
     }
-    myMap.setView(marker.getLatLng(),5);
+    myMap.setView(marker.getLatLng(),myMap.hasLayer(hotParksLayer)?10:5);
     
   }
 
